@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Discover useful AI tools, software, gadgets and accessories with simple comparisons and practical recommendations." />
+  <title>AI Gear Hub — AI Tools, Gear & Deals</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="AI Gear Hub home">
+        <span class="brand-mark">AI</span>
+        <span>Gear Hub</span>
+      </a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+      <nav class="nav" id="nav">
+        <a href="#tools">AI Tools</a>
+        <a href="#gear">Accessories</a>
+        <a href="#compare">Comparisons</a>
+        <a href="#guides">Guides</a>
+        <a href="#about">About</a>
+      </nav>
+      <a class="nav-cta" href="#tools">Explore picks</a>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-glow one"></div>
+      <div class="hero-glow two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Curated AI tools + smart gear</span>
+          <h1>Find the right <span>AI tools</span> without the noise.</h1>
+          <p>Practical reviews, simple comparisons and useful accessories for creators, entrepreneurs, students and teams.</p>
+
+          <form class="search-box" id="searchForm">
+            <span>⌕</span>
+            <input id="searchInput" type="search" placeholder="Search AI writing, video, coding, microphones..." aria-label="Search products">
+            <button type="submit">Search</button>
+          </form>
+
+          <div class="trust-row">
+            <span>✓ Easy comparisons</span>
+            <span>✓ Beginner friendly</span>
+            <span>✓ Affiliate disclosure</span>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="hero-card-top">
+            <span class="live-dot"></span>
+            <span>Editor's shortlist</span>
+            <span class="pill">Updated picks</span>
+          </div>
+          <div class="mini-product">
+            <div class="mini-icon purple">✦</div>
+            <div><strong>AI Writing</strong><small>Content & productivity</small></div>
+            <span>→</span>
+          </div>
+          <div class="mini-product">
+            <div class="mini-icon blue">▶</div>
+            <div><strong>AI Video</strong><small>Create & edit faster</small></div>
+            <span>→</span>
+          </div>
+          <div class="mini-product">
+            <div class="mini-icon green">⌘</div>
+            <div><strong>AI Coding</strong><small>Build & debug</small></div>
+            <span>→</span>
+          </div>
+          <div class="mini-product">
+            <div class="mini-icon orange">◉</div>
+            <div><strong>Creator Gear</strong><small>Mics, webcams & more</small></div>
+            <span>→</span>
+          </div>
+          <a href="#tools" class="card-link">Browse all recommendations →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="category-strip">
+      <div class="container categories">
+        <button class="cat active" data-filter="all">All</button>
+        <button class="cat" data-filter="writing">Writing</button>
+        <button class="cat" data-filter="image">Images</button>
+        <button class="cat" data-filter="video">Video</button>
+        <button class="cat" data-filter="coding">Coding</button>
+        <button class="cat" data-filter="business">Business</button>
+        <button class="cat" data-filter="gear">Gear</button>
+      </div>
+    </section>
+
+    <section class="section" id="tools">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow">Popular right now</span>
+            <h2>Featured AI tools</h2>
+          </div>
+          <p>Practical recommendations selected for useful workflows, transparent terms and clear value.</p>
+        </div>
+
+        <div class="product-grid" id="productGrid">
+          <article class="product-card searchable" data-category="writing business" data-search="ai writing assistant content productivity">
+            <div class="product-badge">Best for writing</div>
+            <div class="product-icon purple">✦</div>
+            <h3>AI Writing Assistant</h3>
+            <p>Create drafts, summaries, outlines and marketing copy faster.</p>
+            <div class="rating">★★★★★ <span>Editor's pick</span></div>
+            <div class="tags"><span>Writing</span><span>Productivity</span></div>
+            <span class="affiliate-btn" style="opacity:.5;cursor:default;display:flex;justify-content:space-between;align-items:center">Affiliate link coming soon</span>
+            <a class="review-link" href="guides.html#writing">Read our writing tool guide →</a>
+          </article>
+
+          <article class="product-card searchable" data-category="video business" data-search="bluefx ai media machine video ads avatars voiceover templates creator">
+            <div class="product-badge">AI video suite</div>
+            <div class="product-icon blue">◈</div>
+            <h3>AI Media Machine by BlueFX</h3>
+            <p>Create and analyze video ads with AI-assisted scripts, avatars, voiceovers and reusable templates.</p>
+            <div class="rating"><span>Lifetime-access offer</span></div>
+            <div class="tags"><span>Video</span><span>Advertising</span></div>
+            <a class="affiliate-btn" href="https://27563y076tg58z53vkn93wipa6.hop.clickbank.net" rel="nofollow sponsored" target="_blank">Explore BlueFX <span>↗</span></a>
+            <small class="affiliate-note">Affiliate link: AI Gear Hub may earn a commission at no extra cost to you.</small>
+            <a class="review-link" href="bluefx-ai-media-machine-review.html">Read balanced overview →</a>
+          </article>
+
+          <article class="product-card searchable" data-category="video business" data-search="repurpose io content repurposing video podcast automation social media">
+            <div class="product-badge">Content repurposing</div>
+            <div class="product-icon green">▶</div>
+            <h3>Repurpose.io</h3>
+            <p>Distribute existing videos and podcasts across multiple social platforms from one workflow.</p>
+            <div class="rating"><span>Best for multi-platform creators</span></div>
+            <div class="tags"><span>Video</span><span>Automation</span></div>
+            <a class="affiliate-btn" href="https://repurpose.io/?fpr=736127" rel="nofollow sponsored" target="_blank">Try Repurpose.io <span>↗</span></a>
+            <small class="affiliate-note">Affiliate link: AI Gear Hub may earn a commission at no extra cost to you.</small>
+            <a class="review-link" href="#guides">See how it works →</a>
+          </article>
+
+          <article class="product-card searchable" data-category="coding business" data-search="ai coding developer code assistant programming">
+            <div class="product-badge">Developer pick</div>
+            <div class="product-icon orange">&lt;/&gt;</div>
+            <h3>AI Coding Assistant</h3>
+            <p>Write, explain, refactor and troubleshoot code with AI support.</p>
+            <div class="rating">★★★★★ <span>Developer choice</span></div>
+            <div class="tags"><span>Coding</span><span>Developer</span></div>
+            <span class="affiliate-btn" style="opacity:.5;cursor:default;display:flex;justify-content:space-between;align-items:center">Affiliate link coming soon</span>
+            <a class="review-link" href="guides.html#coding">Read our coding tool guide →</a>
+          </article>
+        </div>
+
+        <div class="empty-state" id="emptyState">
+          <strong>No matching picks yet.</strong>
+          <span>Try another search or category.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="gear">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow">Complete your setup</span>
+            <h2>AI & creator accessories</h2>
+          </div>
+          <p>Hardware can be monetized with retailer affiliate programs once you are approved.</p>
+        </div>
+
+        <div class="gear-grid">
+          <article class="gear-card searchable" data-category="gear" data-search="microphone usb mic creator streaming voice ai">
+            <div class="gear-visual">🎙️</div>
+            <div class="gear-info">
+              <span>Audio</span>
+              <h3>USB Microphones</h3>
+              <p>Clearer voice input for meetings, dictation, streaming and AI voice workflows.</p>
+              <span style="color:#98a2b3;font-weight:700;font-size:12px">Recommendations coming soon</span>
+            </div>
+          </article>
+          <article class="gear-card searchable" data-category="gear" data-search="webcam camera meetings creator video">
+            <div class="gear-visual">📷</div>
+            <div class="gear-info">
+              <span>Video</span>
+              <h3>Webcams</h3>
+              <p>Upgrade calls, courses, demos and AI-assisted content creation.</p>
+              <span style="color:#98a2b3;font-weight:700;font-size:12px">Recommendations coming soon</span>
+            </div>
+          </article>
+          <article class="gear-card searchable" data-category="gear" data-search="keyboard productivity desk accessories creator">
+            <div class="gear-visual">⌨️</div>
+            <div class="gear-info">
+              <span>Workspace</span>
+              <h3>Productivity Gear</h3>
+              <p>Keyboards, desk tools and peripherals for faster digital workflows.</p>
+              <span style="color:#98a2b3;font-weight:700;font-size:12px">Recommendations coming soon</span>
+            </div>
+          </article>
+          <article class="gear-card searchable" data-category="gear ai" data-search="plaud notepin ai voice recorder wearable transcription">
+            <div class="gear-visual">🎙️</div>
+            <div class="gear-info">
+              <span>AI Wearable</span>
+              <h3>Plaud NotePin</h3>
+              <p>Clip-on AI voice recorder that transcribes and summarizes meetings, lectures and calls automatically.</p>
+              <a href="plaud-notepin-review.html">Read full review →</a>
+            </div>
+          </article>
+          <article class="gear-card searchable" data-category="gear ai" data-search="roborock robot vacuum ai navigation lidar cleaning">
+            <div class="gear-visual">🤖</div>
+            <div class="gear-info">
+              <span>AI Home</span>
+              <h3>Roborock Robot Vacuum</h3>
+              <p>AI-powered LiDAR navigation and obstacle avoidance for thorough, hands-off cleaning.</p>
+              <a href="roborock-review.html">Read full review →</a>
+            </div>
+          </article>
+          <article class="gear-card searchable" data-category="gear ai" data-search="eufy security camera ai detection local storage smart home">
+            <div class="gear-visual">📹</div>
+            <div class="gear-info">
+              <span>AI Security</span>
+              <h3>eufy AI Security Camera</h3>
+              <p>Local AI person and package detection with no mandatory subscription.</p>
+              <a href="eufy-security-camera-review.html">Read full review →</a>
+            </div>
+          </article>
+          <article class="gear-card searchable" data-category="gear ai" data-search="translation earbuds ai real time language travel">
+            <div class="gear-visual">🎧</div>
+            <div class="gear-info">
+              <span>AI Travel</span>
+              <h3>AI Translation Earbuds</h3>
+              <p>Real-time bidirectional speech translation for everyday travel conversations.</p>
+              <a href="translation-earbuds-review.html">Read full review →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="compare">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow">Choose confidently</span>
+            <h2>Quick comparisons</h2>
+          </div>
+          <p>Comparison content is ideal for helping visitors decide which product fits their needs.</p>
+        </div>
+
+        <div class="compare-grid">
+          <article class="compare-card">
+            <span class="compare-kicker">Writing</span>
+            <h3>AI Writer A vs AI Writer B</h3>
+            <div class="compare-row"><span>Best for beginners</span><strong>Tool A</strong></div>
+            <div class="compare-row"><span>Advanced workflows</span><strong>Tool B</strong></div>
+            <div class="compare-row"><span>Value</span><strong>Compare plans</strong></div>
+            <a href="#guides">See full comparison →</a>
+          </article>
+          <article class="compare-card">
+            <span class="compare-kicker">Video</span>
+            <h3>Best AI video tools</h3>
+            <div class="compare-row"><span>Short-form content</span><strong>Pick #1</strong></div>
+            <div class="compare-row"><span>Business videos</span><strong>Pick #2</strong></div>
+            <div class="compare-row"><span>Easy editing</span><strong>Pick #3</strong></div>
+            <a href="#guides">See top picks →</a>
+          </article>
+          <article class="compare-card">
+            <span class="compare-kicker">Business</span>
+            <h3>Best AI tools for small business</h3>
+            <div class="compare-row"><span>Marketing</span><strong>Top pick</strong></div>
+            <div class="compare-row"><span>Operations</span><strong>Top pick</strong></div>
+            <div class="compare-row"><span>Customer support</span><strong>Top pick</strong></div>
+            <a href="#guides">View the guide →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark-section" id="guides">
+      <div class="container guide-wrap">
+        <div>
+          <span class="eyebrow light">Learn before you buy</span>
+          <h2>Build trust with useful guides.</h2>
+          <p>Your strongest affiliate pages answer real questions: what a tool does, who it is for, what it costs, its pros and cons, and what alternatives exist.</p>
+          <a class="light-btn" href="#newsletter">Get new picks</a>
+        </div>
+        <div class="guide-list">
+          <a href="guides.html#beginners"><span>01</span><strong>Best AI tools for beginners</strong><em>→</em></a>
+          <a href="guides.html#writing"><span>02</span><strong>How to choose an AI writing tool</strong><em>→</em></a>
+          <a href="guides.html#creator"><span>03</span><strong>Creator setup: AI + hardware</strong><em>→</em></a>
+          <a href="guides.html#free-paid"><span>04</span><strong>Free vs paid AI tools</strong><em>→</em></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="newsletter">
+      <div class="container newsletter">
+        <div>
+          <span class="eyebrow">Stay useful, not spammy</span>
+          <h2>Get the week's best AI picks.</h2>
+          <p>Use this section later with a free email service to build an audience you own.</p>
+        </div>
+        <form id="newsletterForm">
+          <input type="email" id="email" placeholder="you@example.com" required>
+          <button type="submit">Join free</button>
+          <small id="formMessage">No spam. Unsubscribe anytime.</small>
+        </form>
+      </div>
+    </section>
+
+    <section class="section alt" id="about">
+      <div class="container about-grid">
+        <div>
+          <span class="eyebrow">About AI Gear Hub</span>
+          <h2>Recommendations people can actually use.</h2>
+        </div>
+        <div>
+          <p>AI Gear Hub is an independent discovery site for AI software and technology accessories. The goal is to make product research simpler through practical explanations, comparisons and curated recommendations.</p>
+          <p class="disclosure"><strong>Affiliate disclosure:</strong> Some links on this website may be affiliate links. If a visitor purchases through one of those links, AI Gear Hub may earn a commission at no additional cost to the visitor. Recommendations remain editorially independent. BlueFX does not own or operate this website and is not responsible for its contents. AI Gear Hub is an independent marketing affiliate.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="#home"><span class="brand-mark">AI</span><span>Gear Hub</span></a>
+        <p>Discover smarter tools. Build a better workflow.</p>
+      </div>
+      <div><strong>Explore</strong><a href="#tools">AI Tools</a><a href="#gear">Accessories</a><a href="#compare">Comparisons</a></div>
+      <div><strong>Company</strong><a href="#about">About</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a></div>
+      <div><strong>Legal</strong><a href="#about">Affiliate disclosure</a><a href="terms.html">Terms</a></div>
+    </div>
+    <div class="container copyright">© <span id="year"></span> AI Gear Hub. All rights reserved.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
