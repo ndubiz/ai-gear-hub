@@ -50,7 +50,7 @@ if(newsletterForm){
   newsletterForm.addEventListener('submit',e=>{
     e.preventDefault();
     const msg=document.getElementById('formMessage');
-    if(msg) msg.textContent='Newsletter signup is coming soon. No email was stored.';
+    if(msg) msg.textContent='Thanks for your interest. Email updates are being prepared; no address was stored.';
     e.target.reset();
   });
 }
@@ -78,10 +78,82 @@ document.querySelectorAll('a').forEach(link=>{
   }
 });
 
-// Turn existing AI hardware review links into a simple funnel toward the Amazon shortlist.
-document.querySelectorAll('.gear-card a').forEach(link=>{
-  const text=(link.closest('.gear-card')?.textContent||'').toLowerCase();
-  if(text.includes('plaud')||text.includes('roborock')||text.includes('eufy')||text.includes('translation')){
-    link.insertAdjacentHTML('afterend',' <a href="amazon-ai-picks.html" style="margin-left:8px">Shop our Amazon picks →</a>');
+// Add a visible Amazon Picks destination to the main navigation.
+if(nav&&!nav.querySelector('a[href="amazon-ai-picks.html"]')){
+  const a=document.createElement('a');
+  a.href='amazon-ai-picks.html';
+  a.textContent='Amazon Picks';
+  const about=[...nav.querySelectorAll('a')].find(x=>x.textContent.trim().toLowerCase()==='about');
+  if(about) nav.insertBefore(a,about); else nav.appendChild(a);
+}
+
+// Make the header CTA point to the highest-converting live shopping page.
+const navCta=document.querySelector('.nav-cta');
+if(navCta){
+  navCta.href='amazon-ai-picks.html';
+  navCta.textContent='Shop AI gear';
+}
+
+// Add the required Amazon disclosure prominently on the homepage.
+const main=document.querySelector('main');
+if(main&&!document.getElementById('amazonDisclosure')){
+  const disclosure=document.createElement('div');
+  disclosure.id='amazonDisclosure';
+  disclosure.style.cssText='max-width:1180px;margin:18px auto 0;padding:0 24px;font-size:12px;line-height:1.55;color:#667085';
+  disclosure.innerHTML='<strong>Affiliate disclosure:</strong> As an Amazon Associate I earn from qualifying purchases. AI Gear Hub may also earn commissions from other approved affiliate partners at no extra cost to you.';
+  main.insertBefore(disclosure,main.firstChild.nextSibling);
+}
+
+// Remove unfinished affiliate placeholders from the AI-tool cards and send visitors to useful guides instead.
+document.querySelectorAll('.product-card').forEach(card=>{
+  const text=(card.textContent||'').toLowerCase();
+  const placeholder=[...card.querySelectorAll('span,a')].find(el=>el.textContent.toLowerCase().includes('affiliate link coming soon'));
+  if(placeholder){
+    const replacement=document.createElement('a');
+    replacement.className='affiliate-btn';
+    replacement.href=text.includes('coding')?'guides.html#coding':'guides.html#writing';
+    replacement.textContent=text.includes('coding')?'See coding recommendations →':'See writing recommendations →';
+    placeholder.replaceWith(replacement);
+  }
+  // Avoid presenting unsupported star ratings on generic placeholder products.
+  const rating=card.querySelector('.rating');
+  if(rating&&rating.textContent.includes('★★★★★')&&(text.includes('ai writing assistant')||text.includes('ai coding assistant'))){
+    rating.innerHTML='<span>Buyer guide</span>';
   }
 });
+
+// Update hardware section language now that active affiliate shopping pages exist.
+const gear=document.getElementById('gear');
+if(gear){
+  const sectionCopy=gear.querySelector('.section-head p');
+  if(sectionCopy) sectionCopy.textContent='Practical AI hardware and creator gear with buyer guides, product comparisons and affiliate-supported shopping links.';
+
+  gear.querySelectorAll('.gear-card').forEach(card=>{
+    const body=(card.textContent||'').toLowerCase();
+    const pending=[...card.querySelectorAll('span')].find(s=>s.textContent.toLowerCase().includes('recommendations coming soon'));
+    if(pending){
+      const a=document.createElement('a');
+      a.href='amazon-ai-picks.html';
+      a.textContent='Browse current gear picks →';
+      pending.replaceWith(a);
+    }
+    const review=card.querySelector('a');
+    if(review&&(body.includes('plaud')||body.includes('roborock')||body.includes('eufy')||body.includes('translation'))&&!card.querySelector('.shop-picks-link')){
+      const shop=document.createElement('a');
+      shop.className='shop-picks-link';
+      shop.href='amazon-ai-picks.html';
+      shop.style.marginLeft='8px';
+      shop.textContent='Shop picks →';
+      review.insertAdjacentElement('afterend',shop);
+    }
+  });
+}
+
+// Replace generic comparison-template language with real destinations already available on the site.
+const compare=document.getElementById('compare');
+if(compare){
+  const cards=[...compare.querySelectorAll('.compare-card')];
+  if(cards[0]) cards[0].innerHTML='<span class="compare-kicker">AI Gear</span><h3>Which smart gadget fits your workflow?</h3><div class="compare-row"><span>Meetings & notes</span><strong>PLAUD NotePin</strong></div><div class="compare-row"><span>Home security</span><strong>eufy SoloCam</strong></div><div class="compare-row"><span>Hands-off cleaning</span><strong>Roborock</strong></div><a href="amazon-ai-picks.html">Compare our current picks →</a>';
+  if(cards[1]) cards[1].innerHTML='<span class="compare-kicker">Video</span><h3>Create once, publish everywhere</h3><div class="compare-row"><span>AI video creation</span><strong>BlueFX</strong></div><div class="compare-row"><span>Distribution</span><strong>Repurpose.io</strong></div><div class="compare-row"><span>Best starting point</span><strong>Read the workflow</strong></div><a href="#tools">See video tools →</a>';
+  if(cards[2]) cards[2].innerHTML='<span class="compare-kicker">Buying Guide</span><h3>Best AI gear for everyday use</h3><div class="compare-row"><span>Security</span><strong>AI cameras</strong></div><div class="compare-row"><span>Travel</span><strong>Translation earbuds</strong></div><div class="compare-row"><span>Productivity</span><strong>AI recorders</strong></div><a href="amazon-ai-picks.html">View the buyer guide →</a>';
+}
