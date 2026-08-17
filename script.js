@@ -58,15 +58,14 @@ if(newsletterForm){
 const year=document.getElementById('year');
 if(year) year.textContent=new Date().getFullYear();
 
-// Keep unfinished template links from sending visitors to GitHub Pages 404s.
-// Until real affiliate/product URLs are supplied, route them to useful on-site guides.
+// Route unfinished template links to useful live content.
 document.querySelectorAll('a').forEach(link=>{
   const href=link.getAttribute('href')||'';
   const label=link.textContent.trim().toLowerCase();
 
   if(href.startsWith('YOUR-AFFILIATE-LINK-1')) link.setAttribute('href','guides.html#writing');
   if(href.startsWith('YOUR-AFFILIATE-LINK-4')) link.setAttribute('href','guides.html#coding');
-  if(href.startsWith('YOUR-GEAR-AFFILIATE-LINK')) link.setAttribute('href','guides.html#creator');
+  if(href.startsWith('YOUR-GEAR-AFFILIATE-LINK')) link.setAttribute('href','amazon-ai-picks.html');
 
   if(href==='#'){
     if(label.includes('contact')) link.setAttribute('href','contact.html');
@@ -74,7 +73,15 @@ document.querySelectorAll('a').forEach(link=>{
     else if(label.includes('terms')) link.setAttribute('href','terms.html');
     else if(label.includes('best ai tools for beginners')) link.setAttribute('href','guides.html#beginners');
     else if(label.includes('choose an ai writing tool')) link.setAttribute('href','guides.html#writing');
-    else if(label.includes('creator setup')) link.setAttribute('href','guides.html#creator');
+    else if(label.includes('creator setup')) link.setAttribute('href','amazon-ai-picks.html');
     else if(label.includes('free vs paid ai tools')) link.setAttribute('href','guides.html#free-paid');
+  }
+});
+
+// Turn existing AI hardware review links into a simple funnel toward the Amazon shortlist.
+document.querySelectorAll('.gear-card a').forEach(link=>{
+  const text=(link.closest('.gear-card')?.textContent||'').toLowerCase();
+  if(text.includes('plaud')||text.includes('roborock')||text.includes('eufy')||text.includes('translation')){
+    link.insertAdjacentHTML('afterend',' <a href="amazon-ai-picks.html" style="margin-left:8px">Shop our Amazon picks →</a>');
   }
 });
