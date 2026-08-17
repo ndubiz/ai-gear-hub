@@ -115,7 +115,6 @@ document.querySelectorAll('.product-card').forEach(card=>{
     replacement.textContent=text.includes('coding')?'See coding recommendations →':'See writing recommendations →';
     placeholder.replaceWith(replacement);
   }
-  // Avoid presenting unsupported star ratings on generic placeholder products.
   const rating=card.querySelector('.rating');
   if(rating&&rating.textContent.includes('★★★★★')&&(text.includes('ai writing assistant')||text.includes('ai coding assistant'))){
     rating.innerHTML='<span>Buyer guide</span>';
@@ -147,6 +146,31 @@ if(gear){
       review.insertAdjacentElement('afterend',shop);
     }
   });
+
+  // Add the two uploaded buying guides after the existing eufy card using the site's native card design.
+  const gearGrid=gear.querySelector('.gear-grid');
+  const eufyCard=[...gear.querySelectorAll('.gear-card')].find(card=>card.textContent.toLowerCase().includes('eufy ai security camera'));
+  if(gearGrid&&eufyCard&&!gear.querySelector('[data-search*="amazon ai picks"]')){
+    eufyCard.insertAdjacentHTML('afterend',`
+      <article class="gear-card searchable" data-category="gear ai" data-search="amazon ai picks tools security cameras gadgets">
+        <div class="gear-visual">🛠️</div>
+        <div class="gear-info">
+          <span>AI Gadgets</span>
+          <h3>5 AI Tools & Security Cameras</h3>
+          <p>Hand-picked AI accessories and security cameras worth buying right now.</p>
+          <a href="amazon-ai-picks.html">Read full review →</a>
+        </div>
+      </article>
+      <article class="gear-card searchable" data-category="gear ai" data-search="eufy picks s3 pro doorbell e340 cameras">
+        <div class="gear-visual">📹</div>
+        <div class="gear-info">
+          <span>AI Security</span>
+          <h3>More eufy Cameras Compared</h3>
+          <p>eufyCam S3 Pro and Video Doorbell E340 — two more eufy picks beyond the SoloCam S340.</p>
+          <a href="eufy-picks.html">Read full review →</a>
+        </div>
+      </article>`);
+  }
 }
 
 // Replace generic comparison-template language with real destinations already available on the site.
