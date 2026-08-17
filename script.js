@@ -58,15 +58,12 @@ if(newsletterForm){
 const year=document.getElementById('year');
 if(year) year.textContent=new Date().getFullYear();
 
-// Route unfinished template links to useful live content.
 document.querySelectorAll('a').forEach(link=>{
   const href=link.getAttribute('href')||'';
   const label=link.textContent.trim().toLowerCase();
-
   if(href.startsWith('YOUR-AFFILIATE-LINK-1')) link.setAttribute('href','guides.html#writing');
   if(href.startsWith('YOUR-AFFILIATE-LINK-4')) link.setAttribute('href','guides.html#coding');
   if(href.startsWith('YOUR-GEAR-AFFILIATE-LINK')) link.setAttribute('href','amazon-ai-picks.html');
-
   if(href==='#'){
     if(label.includes('contact')) link.setAttribute('href','contact.html');
     else if(label.includes('privacy')) link.setAttribute('href','privacy.html');
@@ -78,7 +75,6 @@ document.querySelectorAll('a').forEach(link=>{
   }
 });
 
-// Add a visible Amazon Picks destination to the main navigation.
 if(nav&&!nav.querySelector('a[href="amazon-ai-picks.html"]')){
   const a=document.createElement('a');
   a.href='amazon-ai-picks.html';
@@ -86,15 +82,20 @@ if(nav&&!nav.querySelector('a[href="amazon-ai-picks.html"]')){
   const about=[...nav.querySelectorAll('a')].find(x=>x.textContent.trim().toLowerCase()==='about');
   if(about) nav.insertBefore(a,about); else nav.appendChild(a);
 }
+if(nav&&!nav.querySelector('a[href="anthbot-de.html"]')){
+  const a=document.createElement('a');
+  a.href='anthbot-de.html';
+  a.textContent='ANTHBOT DE';
+  const about=[...nav.querySelectorAll('a')].find(x=>x.textContent.trim().toLowerCase()==='about');
+  if(about) nav.insertBefore(a,about); else nav.appendChild(a);
+}
 
-// Make the header CTA point to the highest-converting live shopping page.
 const navCta=document.querySelector('.nav-cta');
 if(navCta){
   navCta.href='amazon-ai-picks.html';
   navCta.textContent='Shop AI gear';
 }
 
-// Add the required Amazon disclosure prominently on the homepage.
 const main=document.querySelector('main');
 if(main&&!document.getElementById('amazonDisclosure')){
   const disclosure=document.createElement('div');
@@ -104,7 +105,6 @@ if(main&&!document.getElementById('amazonDisclosure')){
   main.insertBefore(disclosure,main.firstChild.nextSibling);
 }
 
-// Remove unfinished affiliate placeholders from the AI-tool cards and send visitors to useful guides instead.
 document.querySelectorAll('.product-card').forEach(card=>{
   const text=(card.textContent||'').toLowerCase();
   const placeholder=[...card.querySelectorAll('span,a')].find(el=>el.textContent.toLowerCase().includes('affiliate link coming soon'));
@@ -121,7 +121,6 @@ document.querySelectorAll('.product-card').forEach(card=>{
   }
 });
 
-// Update hardware section language now that active affiliate shopping pages exist.
 const gear=document.getElementById('gear');
 if(gear){
   const sectionCopy=gear.querySelector('.section-head p');
@@ -147,37 +146,32 @@ if(gear){
     }
   });
 
-  // Add the two uploaded buying guides after the existing eufy card using the site's native card design.
   const gearGrid=gear.querySelector('.gear-grid');
   const eufyCard=[...gear.querySelectorAll('.gear-card')].find(card=>card.textContent.toLowerCase().includes('eufy ai security camera'));
   if(gearGrid&&eufyCard&&!gear.querySelector('[data-search*="amazon ai picks"]')){
     eufyCard.insertAdjacentHTML('afterend',`
       <article class="gear-card searchable" data-category="gear ai" data-search="amazon ai picks tools security cameras gadgets">
-        <div class="gear-visual">🛠️</div>
-        <div class="gear-info">
-          <span>AI Gadgets</span>
-          <h3>5 AI Tools & Security Cameras</h3>
-          <p>Hand-picked AI accessories and security cameras worth buying right now.</p>
-          <a href="amazon-ai-picks.html">Read full review →</a>
-        </div>
+        <div class="gear-visual">🛠️</div><div class="gear-info"><span>AI Gadgets</span><h3>5 AI Tools & Security Cameras</h3><p>Hand-picked AI accessories and security cameras worth buying right now.</p><a href="amazon-ai-picks.html">Read full review →</a></div>
       </article>
       <article class="gear-card searchable" data-category="gear ai" data-search="eufy picks s3 pro doorbell e340 cameras">
-        <div class="gear-visual">📹</div>
-        <div class="gear-info">
-          <span>AI Security</span>
-          <h3>More eufy Cameras Compared</h3>
-          <p>eufyCam S3 Pro and Video Doorbell E340 — two more eufy picks beyond the SoloCam S340.</p>
-          <a href="eufy-picks.html">Read full review →</a>
-        </div>
+        <div class="gear-visual">📹</div><div class="gear-info"><span>AI Security</span><h3>More eufy Cameras Compared</h3><p>eufyCam S3 Pro and Video Doorbell E340 — two more eufy picks beyond the SoloCam S340.</p><a href="eufy-picks.html">Read full review →</a></div>
+      </article>`);
+  }
+  if(gearGrid&&!gear.querySelector('[data-search*="anthbot"]')){
+    gearGrid.insertAdjacentHTML('beforeend',`
+      <article class="gear-card searchable" data-category="gear ai" data-search="anthbot robot lawn mower smart garden n8 germany de">
+        <div class="gear-visual">🌱</div><div class="gear-info"><span>AI Garden · Germany</span><h3>ANTHBOT Smart Lawn Robots</h3><p>Robot lawn mowers and smart outdoor automation, with a dedicated German partner page and tracked ANTHBOT DE buying links.</p><a href="anthbot-de.html">German buying guide →</a></div>
+      </article>
+      <article class="gear-card searchable" data-category="gear ai" data-search="anthbot international global robot lawn mower smart garden">
+        <div class="gear-visual">🌍</div><div class="gear-info"><span>AI Garden · International</span><h3>ANTHBOT International Guide</h3><p>English-language buyer guidance for international visitors, kept separate from the ANTHBOT DE affiliate funnel.</p><a href="anthbot-global.html">International guide →</a></div>
       </article>`);
   }
 }
 
-// Replace generic comparison-template language with real destinations already available on the site.
 const compare=document.getElementById('compare');
 if(compare){
   const cards=[...compare.querySelectorAll('.compare-card')];
-  if(cards[0]) cards[0].innerHTML='<span class="compare-kicker">AI Gear</span><h3>Which smart gadget fits your workflow?</h3><div class="compare-row"><span>Meetings & notes</span><strong>PLAUD NotePin</strong></div><div class="compare-row"><span>Home security</span><strong>eufy SoloCam</strong></div><div class="compare-row"><span>Hands-off cleaning</span><strong>Roborock</strong></div><a href="amazon-ai-picks.html">Compare our current picks →</a>';
+  if(cards[0]) cards[0].innerHTML='<span class="compare-kicker">AI Gear</span><h3>Which smart gadget fits your workflow?</h3><div class="compare-row"><span>Meetings & notes</span><strong>PLAUD NotePin</strong></div><div class="compare-row"><span>Home security</span><strong>eufy SoloCam</strong></div><div class="compare-row"><span>Smart garden</span><strong>ANTHBOT</strong></div><a href="amazon-ai-picks.html">Compare our current picks →</a>';
   if(cards[1]) cards[1].innerHTML='<span class="compare-kicker">Video</span><h3>Create once, publish everywhere</h3><div class="compare-row"><span>AI video creation</span><strong>BlueFX</strong></div><div class="compare-row"><span>Distribution</span><strong>Repurpose.io</strong></div><div class="compare-row"><span>Best starting point</span><strong>Read the workflow</strong></div><a href="#tools">See video tools →</a>';
-  if(cards[2]) cards[2].innerHTML='<span class="compare-kicker">Buying Guide</span><h3>Best AI gear for everyday use</h3><div class="compare-row"><span>Security</span><strong>AI cameras</strong></div><div class="compare-row"><span>Travel</span><strong>Translation earbuds</strong></div><div class="compare-row"><span>Productivity</span><strong>AI recorders</strong></div><a href="amazon-ai-picks.html">View the buyer guide →</a>';
+  if(cards[2]) cards[2].innerHTML='<span class="compare-kicker">Buying Guide</span><h3>Best AI gear for everyday use</h3><div class="compare-row"><span>Security</span><strong>AI cameras</strong></div><div class="compare-row"><span>Garden</span><strong>ANTHBOT robots</strong></div><div class="compare-row"><span>Productivity</span><strong>AI recorders</strong></div><a href="anthbot-de.html">See ANTHBOT DE →</a>';
 }
