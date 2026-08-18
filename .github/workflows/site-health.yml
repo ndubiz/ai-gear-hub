@@ -68,18 +68,22 @@ jobs:
                       self.links.append(href.strip())
 
           ids_by_file = {}
+          links_by_file = {}
           for page in html_files:
               text = page.read_text(encoding='utf-8')
               parser = LinkParser(); parser.feed(text)
+              links_by_file[page.name] = parser.links
               ids = set()
               class IdParser(HTMLParser):
                   def handle_starttag(self, tag, attrs):
                       value = dict(attrs).get('id')
-                      if value: ids.add(value)
+                      if value:
+                          ids.add(value)
               ip = IdParser(); ip.feed(text)
               ids_by_file[page.name] = ids
 
-              for href in parser.links:
+          for page in html_files:
+              for href in links_by_file[page.name]:
                   if href.startswith(('http://','https://','mailto:','tel:','javascript:')):
                       continue
                   parts = urlsplit(href)
@@ -94,9 +98,7 @@ jobs:
                   if fragment:
                       target_name = target.name if target_path else page.name
                       if target_name.endswith('.html') and fragment not in ids_by_file.get(target_name, set()):
-                          target_text = target.read_text(encoding='utf-8') if target.exists() else ''
-                          if f'id="{fragment}"' not in target_text and f"id='{fragment}'" not in target_text:
-                              errors.append(f'{page}: missing fragment -> {href}')
+                          errors.append(f'{page}: missing fragment -> {href}')
 
           if errors:
               print('\n'.join(errors))
@@ -135,7 +137,7 @@ jobs:
             url="${base}${page}"
             code=$(curl -L -sS -o /dev/null -w '%{http_code}' --retry 3 --retry-delay 3 --connect-timeout 15 --max-time 45 "$url" || true)
             echo "$code  $url"
-            if [[ ! "$code" =~ ^2|3 ]]; then
+            if [[ ! "$code" =~ ^[23][0-9][0-9]$ ]]; then
               failed=1
             fi
           done
