@@ -1,0 +1,142 @@
+name: Site Health
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-source-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify required site files
+        shell: bash
+        run: |
+          set -euo pipefail
+          required=(
+            index.html
+            amazon-ai-picks.html
+            anthbot-de.html
+            anthbot-global.html
+            bluefx-ai-media-machine-review.html
+            contact.html
+            eufy-picks.html
+            eufy-security-camera-review.html
+            guides.html
+            insta360-link-2-review.html
+            plaud-notepin-review.html
+            privacy.html
+            reels.html
+            roborock-review.html
+            terms.html
+            translation-earbuds-review.html
+            styles.css
+            script.js
+            404.html
+          )
+          for file in "${required[@]}"; do
+            test -s "$file" || { echo "Missing or empty: $file"; exit 1; }
+          done
+      - name: Verify internal HTML links exist
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from html.parser import HTMLParser
+          from pathlib import Path
+          from urllib.parse import urlsplit, unquote
+
+          root = Path('.')
+          html_files = list(root.glob('*.html'))
+          errors = []
+
+          class LinkParser(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.links = []
+              def handle_starttag(self, tag, attrs):
+                  if tag != 'a':
+                      return
+                  href = dict(attrs).get('href')
+                  if href:
+                      self.links.append(href.strip())
+
+          ids_by_file = {}
+          for page in html_files:
+              text = page.read_text(encoding='utf-8')
+              parser = LinkParser(); parser.feed(text)
+              ids = set()
+              class IdParser(HTMLParser):
+                  def handle_starttag(self, tag, attrs):
+                      value = dict(attrs).get('id')
+                      if value: ids.add(value)
+              ip = IdParser(); ip.feed(text)
+              ids_by_file[page.name] = ids
+
+              for href in parser.links:
+                  if href.startswith(('http://','https://','mailto:','tel:','javascript:')):
+                      continue
+                  parts = urlsplit(href)
+                  target_path = unquote(parts.path)
+                  fragment = unquote(parts.fragment)
+                  target = page if not target_path else (page.parent / target_path)
+                  if target_path.endswith('/'):
+                      target = target / 'index.html'
+                  if target_path and not target.exists():
+                      errors.append(f'{page}: broken local link -> {href}')
+                      continue
+                  if fragment:
+                      target_name = target.name if target_path else page.name
+                      if target_name.endswith('.html') and fragment not in ids_by_file.get(target_name, set()):
+                          target_text = target.read_text(encoding='utf-8') if target.exists() else ''
+                          if f'id="{fragment}"' not in target_text and f"id='{fragment}'" not in target_text:
+                              errors.append(f'{page}: missing fragment -> {href}')
+
+          if errors:
+              print('\n'.join(errors))
+              raise SystemExit(1)
+          print(f'Checked {len(html_files)} HTML files: internal links OK')
+          PY
+
+  verify-live-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check published GitHub Pages URLs
+        shell: bash
+        run: |
+          set -euo pipefail
+          base='https://ndubiz.github.io/ai-gear-hub'
+          pages=(
+            '/'
+            '/amazon-ai-picks.html'
+            '/anthbot-de.html'
+            '/anthbot-global.html'
+            '/bluefx-ai-media-machine-review.html'
+            '/contact.html'
+            '/eufy-picks.html'
+            '/eufy-security-camera-review.html'
+            '/guides.html'
+            '/insta360-link-2-review.html'
+            '/plaud-notepin-review.html'
+            '/privacy.html'
+            '/reels.html'
+            '/roborock-review.html'
+            '/terms.html'
+            '/translation-earbuds-review.html'
+          )
+          failed=0
+          for page in "${pages[@]}"; do
+            url="${base}${page}"
+            code=$(curl -L -sS -o /dev/null -w '%{http_code}' --retry 3 --retry-delay 3 --connect-timeout 15 --max-time 45 "$url" || true)
+            echo "$code  $url"
+            if [[ ! "$code" =~ ^2|3 ]]; then
+              failed=1
+            fi
+          done
+          exit "$failed"
