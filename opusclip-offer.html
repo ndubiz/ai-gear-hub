@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="GearHUB overview of OpusClip and Agent Opus for AI-assisted video creation and repurposing.">
+  <title>OpusClip AI Video Tools | GearHUB</title>
+  <style>
+    :root { --ink:#101018; --paper:#f8f7ff; --card:#fff; --accent:#5b4fe0; --accent2:#9c7cff; --muted:#626272; --line:#e4e1f3; }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background:linear-gradient(145deg,#f8f7ff 0%,#fff 52%,#efedfd 100%); font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    a { color:inherit; }
+    .shell { width:min(1080px,calc(100% - 36px)); margin:auto; }
+    header { display:flex; justify-content:space-between; align-items:center; padding:24px 0; }
+    .brand { font-size:1.15rem; font-weight:800; letter-spacing:-.02em; text-decoration:none; }
+    .back { color:var(--muted); font-weight:700; text-decoration:none; }
+    .hero { display:grid; grid-template-columns:1.12fr .88fr; gap:44px; align-items:center; padding:76px 0 64px; }
+    .eyebrow { color:var(--accent); font-size:.78rem; font-weight:800; letter-spacing:.11em; text-transform:uppercase; }
+    h1 { margin:14px 0 20px; font-size:clamp(2.6rem,7vw,5.8rem); line-height:.94; letter-spacing:-.065em; }
+    .lead { max-width:680px; color:var(--muted); font-size:1.18rem; line-height:1.7; }
+    .actions { display:flex; flex-wrap:wrap; gap:12px; margin-top:30px; }
+    .button { display:inline-flex; justify-content:center; align-items:center; min-height:52px; padding:0 23px; border:1px solid var(--ink); border-radius:999px; font-weight:800; text-decoration:none; transition:.18s ease; }
+    .button.primary { color:#fff; background:var(--ink); }
+    .button.secondary { color:var(--accent); border-color:var(--line); background:#fff; }
+    .button:hover { transform:translateY(-2px); box-shadow:0 12px 28px rgba(16,16,24,.12); }
+    .visual { position:relative; min-height:430px; overflow:hidden; border:1px solid var(--line); border-radius:32px; background:#12121a; box-shadow:0 25px 70px rgba(26,20,67,.2); }
+    .orb { position:absolute; border-radius:50%; filter:blur(2px); }
+    .orb.one { width:300px; height:300px; top:-70px; right:-45px; background:linear-gradient(135deg,var(--accent2),#44d9ff); }
+    .orb.two { width:230px; height:230px; bottom:-70px; left:-45px; background:linear-gradient(135deg,#ff7ac6,#ffb251); }
+    .screen { position:absolute; inset:75px 38px; padding:25px; border:1px solid rgba(255,255,255,.2); border-radius:22px; color:#fff; background:rgba(255,255,255,.09); backdrop-filter:blur(20px); }
+    .screen strong { display:block; font-size:1.6rem; margin:15px 0 8px; }
+    .timeline { display:grid; grid-template-columns:1.4fr .8fr 1fr; gap:8px; margin-top:45px; }
+    .timeline span { height:74px; border-radius:10px; background:rgba(255,255,255,.18); }
+    .timeline span:nth-child(2) { background:var(--accent2); }
+    .disclosure { margin:0 0 46px; padding:16px 18px; border:1px solid var(--line); border-radius:14px; color:var(--muted); background:rgba(255,255,255,.75); font-size:.92rem; }
+    .features { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; padding-bottom:70px; }
+    .feature { padding:27px; border:1px solid var(--line); border-radius:20px; background:var(--card); }
+    .feature b { display:block; margin-bottom:9px; font-size:1.08rem; }
+    .feature p { margin:0; color:var(--muted); line-height:1.6; }
+    .agent { margin-bottom:70px; padding:38px; border-radius:28px; color:#fff; background:linear-gradient(120deg,#171622,#4031b8); }
+    .agent h2 { margin:0 0 12px; font-size:clamp(1.8rem,4vw,3rem); }
+    .agent p { max-width:740px; color:#dcdaef; line-height:1.65; }
+    footer { padding:25px 0 38px; border-top:1px solid var(--line); color:var(--muted); font-size:.9rem; }
+    @media (max-width:780px) { .hero { grid-template-columns:1fr; padding-top:42px; } .visual { min-height:340px; } .features { grid-template-columns:1fr; } .agent { padding:28px; } }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <a class="brand" href="./gearhub/">GearHUB</a>
+      <a class="back" href="./">Main site →</a>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div>
+          <div class="eyebrow">Featured creator tool</div>
+          <h1>One long video. More content.</h1>
+          <p class="lead">OpusClip uses AI to find useful moments in long videos and turn them into short, social-ready clips. It can help with clipping, captions and reframing for platforms such as Shorts, Reels and TikTok.</p>
+          <div class="actions">
+            <a class="button primary" href="https://opus.pro/?via=ndubuisi" target="_blank" rel="sponsored noopener">Explore OpusClip</a>
+            <a class="button secondary" href="https://agent.opus.pro/?via=ndubuisi" target="_blank" rel="sponsored noopener">Explore Agent Opus</a>
+          </div>
+        </div>
+        <div class="visual" aria-label="Abstract video editing illustration">
+          <div class="orb one"></div><div class="orb two"></div>
+          <div class="screen">
+            <small>AI VIDEO WORKFLOW</small>
+            <strong>Long-form → short clips</strong>
+            <span>Find moments, reframe and prepare content for social platforms.</span>
+            <div class="timeline"><span></span><span></span><span></span></div>
+          </div>
+        </div>
+      </section>
+
+      <p class="disclosure"><strong>Affiliate disclosure:</strong> GearHUB may earn a commission if you sign up or purchase through the links on this page. This does not increase your price.</p>
+
+      <section class="features" aria-label="OpusClip highlights">
+        <article class="feature"><b>AI-assisted clipping</b><p>Repurpose longer videos by identifying moments that can work as standalone short clips.</p></article>
+        <article class="feature"><b>Social-ready formats</b><p>Reframe video for vertical and other platform-friendly layouts, with caption tools available.</p></article>
+        <article class="feature"><b>Faster repurposing</b><p>Create more usable content from interviews, podcasts, webinars and recorded presentations.</p></article>
+      </section>
+
+      <section class="agent">
+        <div class="eyebrow" style="color:#c8bfff">Also available</div>
+        <h2>Start from an idea with Agent Opus</h2>
+        <p>Agent Opus is designed to turn scripts, voice and brand assets into publish-ready videos. It is a separate option for creators who want to generate a video rather than clip an existing recording.</p>
+        <div class="actions"><a class="button primary" style="background:#fff;color:#171622;border-color:#fff" href="https://agent.opus.pro/?via=ndubuisi" target="_blank" rel="sponsored noopener">Visit Agent Opus</a></div>
+      </section>
+    </main>
+
+    <footer>© <span id="year"></span> GearHUB · Independent product information and affiliate promotion.</footer>
+  </div>
+  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
