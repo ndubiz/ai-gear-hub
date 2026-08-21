@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GearHUB — Start Here</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0B0B12;
+    --paper:#FFFFFF;
+    --accent:#5B4FE0;
+    --accent-soft:#EFEDFD;
+    --muted:#6B7280;
+    --line:#E7E5F0;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Inter',sans-serif;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    padding:32px 20px;
+  }
+  .wrap{width:100%;max-width:480px;}
+
+  .brand{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    justify-content:center;
+    margin-bottom:36px;
+  }
+  .brand-mark{
+    width:36px;height:36px;
+    background:var(--ink);
+    border-radius:9px;
+    display:flex;align-items:center;justify-content:center;
+    color:#fff;
+    font-family:'Space Grotesk',sans-serif;
+    font-weight:700;
+    font-size:14px;
+    letter-spacing:0.02em;
+  }
+  .brand-name{
+    font-family:'Space Grotesk',sans-serif;
+    font-weight:600;
+    font-size:18px;
+  }
+
+  h1{
+    font-family:'Space Grotesk',sans-serif;
+    font-weight:700;
+    font-size:clamp(28px,6vw,36px);
+    line-height:1.15;
+    text-align:center;
+    letter-spacing:-0.01em;
+  }
+  .sub{
+    text-align:center;
+    color:var(--muted);
+    font-size:15px;
+    margin-top:12px;
+    margin-bottom:34px;
+    line-height:1.5;
+  }
+
+  /* Fork signature: one live path, one pending path, splitting from a single origin */
+  .fork{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    gap:14px;
+    padding-top:20px;
+  }
+  .fork::before{
+    content:"";
+    position:absolute;
+    top:-8px;left:50%;
+    width:1px;height:20px;
+    background:var(--line);
+    transform:translateX(-50%);
+  }
+
+  .path{
+    display:flex;
+    align-items:center;
+    gap:16px;
+    padding:20px 20px;
+    border-radius:14px;
+    border:1px solid var(--line);
+    text-decoration:none;
+    color:inherit;
+    transition:transform .15s ease, border-color .15s ease, box-shadow .15s ease;
+  }
+  .path.live{
+    border-color:var(--ink);
+    box-shadow:0 1px 0 rgba(11,11,18,0.04);
+  }
+  .path.live:hover{
+    transform:translateY(-2px);
+    box-shadow:0 10px 24px rgba(11,11,18,0.10);
+  }
+  .path.pending{
+    opacity:0.55;
+    cursor:default;
+  }
+
+  .path-icon{
+    width:44px;height:44px;
+    border-radius:10px;
+    flex-shrink:0;
+    display:flex;align-items:center;justify-content:center;
+    font-family:'Space Grotesk',sans-serif;
+    font-weight:600;
+    font-size:14px;
+  }
+  .path.live .path-icon{background:var(--ink);color:#fff;}
+  .path.pending .path-icon{background:var(--accent-soft);color:var(--accent);}
+
+  .path-text{flex:1;}
+  .path-eyebrow{
+    font-size:11px;
+    font-weight:600;
+    letter-spacing:0.06em;
+    text-transform:uppercase;
+    color:var(--accent);
+    margin-bottom:3px;
+  }
+  .path.pending .path-eyebrow{color:var(--muted);}
+  .path-title{
+    font-family:'Space Grotesk',sans-serif;
+    font-weight:600;
+    font-size:17px;
+  }
+  .path-desc{
+    font-size:13px;
+    color:var(--muted);
+    margin-top:2px;
+  }
+  .path-arrow{
+    font-size:18px;
+    color:var(--muted);
+  }
+  .path.live .path-arrow{color:var(--ink);}
+
+  footer{
+    margin-top:40px;
+    text-align:center;
+    font-size:12px;
+    color:var(--muted);
+  }
+  footer a{color:var(--muted);}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="brand">
+      <div class="brand-mark">AI</div>
+      <div class="brand-name">GearHUB</div>
+    </div>
+
+    <h1>Start here</h1>
+    <p class="sub">One link for everywhere we show up online — pick where you want to go.</p>
+
+    <div class="fork">
+      <a class="path live" href="https://ndubiz.github.io/ai-gear-hub/" target="_blank" rel="noopener">
+        <div class="path-icon">GH</div>
+        <div class="path-text">
+          <div class="path-eyebrow">Live now</div>
+          <div class="path-title">GearHUB</div>
+          <div class="path-desc">Reviews & picks for AI tools and smart home gear</div>
+        </div>
+        <div class="path-arrow">→</div>
+      </a>
+
+      <div class="path pending">
+        <div class="path-icon">ND</div>
+        <div class="path-text">
+          <div class="path-eyebrow">Coming back soon</div>
+          <div class="path-title">Ndubiz Marketplace</div>
+          <div class="path-desc">Currently offline while we restore the connection</div>
+        </div>
+        <div class="path-arrow">—</div>
+      </div>
+    </div>
+
+    <footer>
+      © <span id="year"></span> GearHUB
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
