@@ -1,0 +1,1502 @@
+[
+  {
+    "name": "Amazon Echo Dot (5th Gen)",
+    "slug": "amazon-echo-dot-5th-gen",
+    "category": "Smart Home",
+    "best_for": "voice control and simple Alexa routines",
+    "strengths": [
+      "compact design",
+      "motion and temperature sensors",
+      "wide Alexa compatibility"
+    ],
+    "cautions": [
+      "small-room audio",
+      "review privacy settings"
+    ]
+  },
+  {
+    "name": "Google Nest Mini (2nd Gen)",
+    "slug": "google-nest-mini-2nd-gen",
+    "category": "Smart Home",
+    "best_for": "Google Assistant voice control in smaller rooms",
+    "strengths": [
+      "compact speaker",
+      "multi-room audio support",
+      "Google Home integration"
+    ],
+    "cautions": [
+      "limited bass",
+      "requires a Google account"
+    ]
+  },
+  {
+    "name": "Philips Hue White and Color Ambiance Starter Kit",
+    "slug": "philips-hue-white-and-color-ambiance-starter-kit",
+    "category": "Smart Home",
+    "best_for": "flexible room lighting scenes and automations",
+    "strengths": [
+      "rich color scenes",
+      "mature app",
+      "broad smart-home support"
+    ],
+    "cautions": [
+      "higher upfront cost",
+      "bridge setup"
+    ]
+  },
+  {
+    "name": "TP-Link Tapo P110 Smart Plug",
+    "slug": "tp-link-tapo-p110-smart-plug",
+    "category": "Smart Home",
+    "best_for": "energy-aware appliance scheduling",
+    "strengths": [
+      "energy monitoring",
+      "compact plug",
+      "simple schedules"
+    ],
+    "cautions": [
+      "indoor use",
+      "check regional plug type"
+    ]
+  },
+  {
+    "name": "Meross Smart Wi-Fi Plug Mini",
+    "slug": "meross-smart-wi-fi-plug-mini",
+    "category": "Smart Home",
+    "best_for": "affordable app and voice-controlled outlets",
+    "strengths": [
+      "compact body",
+      "schedules and timers",
+      "popular voice platforms"
+    ],
+    "cautions": [
+      "2.4 GHz Wi-Fi",
+      "platform support varies by version"
+    ]
+  },
+  {
+    "name": "SwitchBot Bot",
+    "slug": "switchbot-bot",
+    "category": "Smart Home",
+    "best_for": "adding remote control to a physical switch",
+    "strengths": [
+      "retrofit design",
+      "simple app control",
+      "automation options"
+    ],
+    "cautions": [
+      "needs suitable switch surface",
+      "hub needed for remote features"
+    ]
+  },
+  {
+    "name": "Aqara Temperature and Humidity Sensor",
+    "slug": "aqara-temperature-and-humidity-sensor",
+    "category": "Smart Home",
+    "best_for": "room climate monitoring for automations",
+    "strengths": [
+      "small sensor",
+      "historical readings",
+      "automation triggers"
+    ],
+    "cautions": [
+      "requires compatible hub",
+      "placement affects readings"
+    ]
+  },
+  {
+    "name": "BroadLink RM4 Mini",
+    "slug": "broadlink-rm4-mini",
+    "category": "Smart Home",
+    "best_for": "controlling infrared remotes from one app",
+    "strengths": [
+      "large IR device library",
+      "routines",
+      "compact design"
+    ],
+    "cautions": [
+      "infrared only",
+      "line-of-sight matters"
+    ]
+  },
+  {
+    "name": "Govee Smart LED Light Bars",
+    "slug": "govee-smart-led-light-bars",
+    "category": "Smart Home",
+    "best_for": "desk and TV accent lighting",
+    "strengths": [
+      "color effects",
+      "app scenes",
+      "music modes"
+    ],
+    "cautions": [
+      "not primary room lighting",
+      "ecosystem compatibility varies"
+    ]
+  },
+  {
+    "name": "Sonoff SNZB-03P Motion Sensor",
+    "slug": "sonoff-snzb-03p-motion-sensor",
+    "category": "Smart Home",
+    "best_for": "low-cost motion-triggered routines",
+    "strengths": [
+      "compact sensor",
+      "battery powered",
+      "Zigbee automation"
+    ],
+    "cautions": [
+      "requires Zigbee hub",
+      "positioning matters"
+    ]
+  },
+  {
+    "name": "TP-Link Tapo C100",
+    "slug": "tp-link-tapo-c100",
+    "category": "Home Security",
+    "best_for": "budget indoor monitoring for rooms, pets, and nurseries",
+    "strengths": [
+      "1080p video",
+      "night vision",
+      "local microSD option"
+    ],
+    "cautions": [
+      "indoor only",
+      "confirm current storage limits"
+    ]
+  },
+  {
+    "name": "Ring Video Doorbell Wired",
+    "slug": "ring-video-doorbell-wired",
+    "category": "Home Security",
+    "best_for": "fixed-power front-door alerts and video",
+    "strengths": [
+      "compact wired design",
+      "motion alerts",
+      "Alexa integration"
+    ],
+    "cautions": [
+      "existing wiring required",
+      "subscription affects cloud features"
+    ]
+  },
+  {
+    "name": "Blink Mini 2",
+    "slug": "blink-mini-2",
+    "category": "Home Security",
+    "best_for": "compact indoor monitoring with app alerts",
+    "strengths": [
+      "small footprint",
+      "two-way audio",
+      "Alexa support"
+    ],
+    "cautions": [
+      "cloud features may require a plan",
+      "power cable needed"
+    ]
+  },
+  {
+    "name": "eufy Security Indoor Cam C120",
+    "slug": "eufy-security-indoor-cam-c120",
+    "category": "Home Security",
+    "best_for": "indoor monitoring with local-storage options",
+    "strengths": [
+      "clear video",
+      "local recording options",
+      "smart detection features"
+    ],
+    "cautions": [
+      "indoor placement",
+      "feature support changes by region"
+    ]
+  },
+  {
+    "name": "Reolink E1 Pro",
+    "slug": "reolink-e1-pro",
+    "category": "Home Security",
+    "best_for": "pan-and-tilt indoor coverage",
+    "strengths": [
+      "pan and tilt",
+      "dual-band Wi-Fi",
+      "local storage option"
+    ],
+    "cautions": [
+      "not weatherproof",
+      "app setup required"
+    ]
+  },
+  {
+    "name": "Aqara Door and Window Sensor",
+    "slug": "aqara-door-and-window-sensor",
+    "category": "Home Security",
+    "best_for": "entry-status automations and alerts",
+    "strengths": [
+      "small contact sensor",
+      "fast routines",
+      "long battery potential"
+    ],
+    "cautions": [
+      "Aqara hub required",
+      "mounting alignment matters"
+    ]
+  },
+  {
+    "name": "Yale Linus Smart Lock",
+    "slug": "yale-linus-smart-lock",
+    "category": "Home Security",
+    "best_for": "keyless control for compatible European doors",
+    "strengths": [
+      "retrofit approach",
+      "temporary access",
+      "app control"
+    ],
+    "cautions": [
+      "door compatibility check essential",
+      "accessories may be required"
+    ]
+  },
+  {
+    "name": "Nuki Smart Lock Pro",
+    "slug": "nuki-smart-lock-pro",
+    "category": "Home Security",
+    "best_for": "connected access for compatible door cylinders",
+    "strengths": [
+      "retrofit installation",
+      "remote access options",
+      "automation support"
+    ],
+    "cautions": [
+      "verify cylinder fit",
+      "battery charging routine"
+    ]
+  },
+  {
+    "name": "Tapo T110 Contact Sensor",
+    "slug": "tapo-t110-contact-sensor",
+    "category": "Home Security",
+    "best_for": "Tapo-based door and window alerts",
+    "strengths": [
+      "compact sensor",
+      "automation triggers",
+      "simple ecosystem pairing"
+    ],
+    "cautions": [
+      "Tapo hub required",
+      "indoor use"
+    ]
+  },
+  {
+    "name": "Ring Alarm 5-Piece Kit",
+    "slug": "ring-alarm-5-piece-kit",
+    "category": "Home Security",
+    "best_for": "starter home-alarm coverage",
+    "strengths": [
+      "modular sensors",
+      "app alerts",
+      "expandable system"
+    ],
+    "cautions": [
+      "subscription changes features",
+      "regional availability"
+    ]
+  },
+  {
+    "name": "Blue Yeti USB Microphone",
+    "slug": "blue-yeti-usb-microphone",
+    "category": "Audio and Podcasting",
+    "best_for": "multi-pattern desktop recording and streaming",
+    "strengths": [
+      "multiple pickup modes",
+      "on-mic controls",
+      "USB setup"
+    ],
+    "cautions": [
+      "large desk footprint",
+      "room noise can be audible"
+    ]
+  },
+  {
+    "name": "Audio-Technica ATR2100x-USB",
+    "slug": "audio-technica-atr2100x-usb",
+    "category": "Audio and Podcasting",
+    "best_for": "spoken-word recording in untreated rooms",
+    "strengths": [
+      "USB and XLR outputs",
+      "dynamic capsule",
+      "headphone monitoring"
+    ],
+    "cautions": [
+      "requires close mic technique",
+      "stand is basic"
+    ]
+  },
+  {
+    "name": "Rode NT-USB Mini",
+    "slug": "rode-nt-usb-mini",
+    "category": "Audio and Podcasting",
+    "best_for": "compact voice recording and calls",
+    "strengths": [
+      "small footprint",
+      "clean USB workflow",
+      "headphone output"
+    ],
+    "cautions": [
+      "fixed pickup pattern",
+      "stand height may need adjustment"
+    ]
+  },
+  {
+    "name": "Elgato Wave 3",
+    "slug": "elgato-wave-3",
+    "category": "Audio and Podcasting",
+    "best_for": "streaming with software-based audio mixing",
+    "strengths": [
+      "clipguard feature",
+      "digital mixer workflow",
+      "capacitive mute"
+    ],
+    "cautions": [
+      "software learning curve",
+      "premium price tier"
+    ]
+  },
+  {
+    "name": "Shure MV7",
+    "slug": "shure-mv7",
+    "category": "Audio and Podcasting",
+    "best_for": "podcasting with USB and XLR flexibility",
+    "strengths": [
+      "voice-focused dynamic sound",
+      "USB and XLR",
+      "software controls"
+    ],
+    "cautions": [
+      "best with close placement",
+      "heavier mounting needs"
+    ]
+  },
+  {
+    "name": "Sony MDR-7506 Headphones",
+    "slug": "sony-mdr-7506-headphones",
+    "category": "Audio and Podcasting",
+    "best_for": "monitoring speech and edits",
+    "strengths": [
+      "detailed midrange",
+      "folding design",
+      "long studio track record"
+    ],
+    "cautions": [
+      "fixed cable",
+      "bright sound for some listeners"
+    ]
+  },
+  {
+    "name": "Audio-Technica ATH-M50x",
+    "slug": "audio-technica-ath-m50x",
+    "category": "Audio and Podcasting",
+    "best_for": "closed-back monitoring and everyday listening",
+    "strengths": [
+      "folding earcups",
+      "detachable cables",
+      "solid isolation"
+    ],
+    "cautions": [
+      "clamp and fit vary",
+      "not neutral for every mix"
+    ]
+  },
+  {
+    "name": "Focusrite Scarlett Solo 4th Gen",
+    "slug": "focusrite-scarlett-solo-4th-gen",
+    "category": "Audio and Podcasting",
+    "best_for": "one-microphone XLR recording setups",
+    "strengths": [
+      "simple controls",
+      "instrument input",
+      "USB-C connection"
+    ],
+    "cautions": [
+      "single mic preamp",
+      "needs XLR microphone"
+    ]
+  },
+  {
+    "name": "Rode PSA1 Plus Boom Arm",
+    "slug": "rode-psa1-plus-boom-arm",
+    "category": "Audio and Podcasting",
+    "best_for": "quiet microphone positioning at a desk",
+    "strengths": [
+      "smooth movement",
+      "covered springs",
+      "broad mic compatibility"
+    ],
+    "cautions": [
+      "desk space needed",
+      "weight limits matter"
+    ]
+  },
+  {
+    "name": "Zoom H1essential Recorder",
+    "slug": "zoom-h1essential-recorder",
+    "category": "Audio and Podcasting",
+    "best_for": "portable interviews and ambient recording",
+    "strengths": [
+      "32-bit float workflow",
+      "built-in stereo mics",
+      "compact body"
+    ],
+    "cautions": [
+      "handling noise possible",
+      "wind protection may be needed"
+    ]
+  },
+  {
+    "name": "Logitech C920s HD Pro Webcam",
+    "slug": "logitech-c920s-hd-pro-webcam",
+    "category": "Video and Streaming",
+    "best_for": "reliable 1080p calls and streaming",
+    "strengths": [
+      "widely supported",
+      "privacy shutter",
+      "autofocus"
+    ],
+    "cautions": [
+      "older image pipeline",
+      "lighting still matters"
+    ]
+  },
+  {
+    "name": "Logitech Brio 4K Webcam",
+    "slug": "logitech-brio-4k-webcam",
+    "category": "Video and Streaming",
+    "best_for": "high-resolution calls with flexible framing",
+    "strengths": [
+      "4K capture support",
+      "multiple fields of view",
+      "good app controls"
+    ],
+    "cautions": [
+      "4K needs bandwidth",
+      "premium cost"
+    ]
+  },
+  {
+    "name": "Elgato Facecam MK.2",
+    "slug": "elgato-facecam-mk-2",
+    "category": "Video and Streaming",
+    "best_for": "creator-focused 1080p streaming",
+    "strengths": [
+      "uncompressed video options",
+      "manual controls",
+      "streaming-oriented software"
+    ],
+    "cautions": [
+      "no built-in microphone focus",
+      "needs good lighting"
+    ]
+  },
+  {
+    "name": "Insta360 Link 2",
+    "slug": "insta360-link-2",
+    "category": "Video and Streaming",
+    "best_for": "AI-tracked presentations and desk video",
+    "strengths": [
+      "motorized tracking",
+      "gesture controls",
+      "high-resolution capture"
+    ],
+    "cautions": [
+      "moving parts add cost",
+      "software setup"
+    ]
+  },
+  {
+    "name": "Elgato Stream Deck MK.2",
+    "slug": "elgato-stream-deck-mk-2",
+    "category": "Video and Streaming",
+    "best_for": "one-touch shortcuts for live workflows",
+    "strengths": [
+      "custom keys",
+      "deep integrations",
+      "profiles and folders"
+    ],
+    "cautions": [
+      "setup time",
+      "not essential for simple streams"
+    ]
+  },
+  {
+    "name": "AVerMedia Live Gamer Mini",
+    "slug": "avermedia-live-gamer-mini",
+    "category": "Video and Streaming",
+    "best_for": "entry-level HDMI game capture",
+    "strengths": [
+      "compact capture",
+      "hardware encoding",
+      "simple USB connection"
+    ],
+    "cautions": [
+      "1080p-focused",
+      "check console passthrough needs"
+    ]
+  },
+  {
+    "name": "Elgato HD60 X",
+    "slug": "elgato-hd60-x",
+    "category": "Video and Streaming",
+    "best_for": "high-refresh HDMI game capture workflows",
+    "strengths": [
+      "VRR passthrough support",
+      "low-latency preview",
+      "broad console use"
+    ],
+    "cautions": [
+      "requires capable USB port",
+      "capture limits vary by format"
+    ]
+  },
+  {
+    "name": "Neewer X12 Teleprompter",
+    "slug": "neewer-x12-teleprompter",
+    "category": "Video and Streaming",
+    "best_for": "scripted desktop and camera presentations",
+    "strengths": [
+      "large text view",
+      "remote control options",
+      "camera and phone support"
+    ],
+    "cautions": [
+      "setup footprint",
+      "lens compatibility check"
+    ]
+  },
+  {
+    "name": "SmallRig Camera Desk Mount",
+    "slug": "smallrig-camera-desk-mount",
+    "category": "Video and Streaming",
+    "best_for": "overhead and desk-mounted camera angles",
+    "strengths": [
+      "adjustable mounting",
+      "desk clamp",
+      "accessory expansion"
+    ],
+    "cautions": [
+      "desk stability matters",
+      "observe weight rating"
+    ]
+  },
+  {
+    "name": "Ulanzi MT-44 Tripod",
+    "slug": "ulanzi-mt-44-tripod",
+    "category": "Video and Streaming",
+    "best_for": "portable phone and small-camera filming",
+    "strengths": [
+      "extendable body",
+      "phone holder",
+      "lightweight travel use"
+    ],
+    "cautions": [
+      "not for heavy rigs",
+      "wind stability"
+    ]
+  },
+  {
+    "name": "Elgato Key Light Air",
+    "slug": "elgato-key-light-air",
+    "category": "Creator Lighting",
+    "best_for": "app-controlled desk lighting for video",
+    "strengths": [
+      "adjustable brightness",
+      "color temperature control",
+      "desk stand"
+    ],
+    "cautions": [
+      "requires desk space",
+      "Wi-Fi setup"
+    ]
+  },
+  {
+    "name": "Godox LEDP260C Panel",
+    "slug": "godox-ledp260c-panel",
+    "category": "Creator Lighting",
+    "best_for": "affordable adjustable video lighting",
+    "strengths": [
+      "bi-color output",
+      "large panel",
+      "battery option"
+    ],
+    "cautions": [
+      "batteries often separate",
+      "controls are basic"
+    ]
+  },
+  {
+    "name": "Neewer 660 LED Video Light",
+    "slug": "neewer-660-led-video-light",
+    "category": "Creator Lighting",
+    "best_for": "versatile studio and interview lighting",
+    "strengths": [
+      "large panel",
+      "bi-color control",
+      "mounting options"
+    ],
+    "cautions": [
+      "bulky for travel",
+      "power accessories vary"
+    ]
+  },
+  {
+    "name": "Ulanzi VL49 RGB Light",
+    "slug": "ulanzi-vl49-rgb-light",
+    "category": "Creator Lighting",
+    "best_for": "pocket-size colored accent lighting",
+    "strengths": [
+      "compact body",
+      "RGB effects",
+      "cold-shoe mount"
+    ],
+    "cautions": [
+      "limited output",
+      "shorter runtime at full power"
+    ]
+  },
+  {
+    "name": "Aputure Amaran 100d S",
+    "slug": "aputure-amaran-100d-s",
+    "category": "Creator Lighting",
+    "best_for": "strong daylight-balanced creator lighting",
+    "strengths": [
+      "high output",
+      "Bowens mount",
+      "accurate color potential"
+    ],
+    "cautions": [
+      "modifier and stand needed",
+      "mains-focused setup"
+    ]
+  },
+  {
+    "name": "SmallRig RM120 RGB Light",
+    "slug": "smallrig-rm120-rgb-light",
+    "category": "Creator Lighting",
+    "best_for": "portable effects and fill lighting",
+    "strengths": [
+      "RGB control",
+      "compact battery design",
+      "magnetic mounting options"
+    ],
+    "cautions": [
+      "small source can look harsh",
+      "limited throw"
+    ]
+  },
+  {
+    "name": "Godox SL60IIBi",
+    "slug": "godox-sl60iibi",
+    "category": "Creator Lighting",
+    "best_for": "budget bi-color studio key light",
+    "strengths": [
+      "bi-color range",
+      "Bowens mount",
+      "app control options"
+    ],
+    "cautions": [
+      "fan noise should be checked",
+      "stand not included"
+    ]
+  },
+  {
+    "name": "Neewer Ring Light Kit 18-inch",
+    "slug": "neewer-ring-light-kit-18-inch",
+    "category": "Creator Lighting",
+    "best_for": "front-facing beauty and tutorial lighting",
+    "strengths": [
+      "large ring",
+      "phone mounting",
+      "simple brightness control"
+    ],
+    "cautions": [
+      "ring reflections",
+      "large storage footprint"
+    ]
+  },
+  {
+    "name": "Nanlite PavoTube II 6C",
+    "slug": "nanlite-pavotube-ii-6c",
+    "category": "Creator Lighting",
+    "best_for": "portable tube accent lighting",
+    "strengths": [
+      "RGB effects",
+      "magnetic mounting",
+      "battery powered"
+    ],
+    "cautions": [
+      "accent rather than key light",
+      "small battery capacity"
+    ]
+  },
+  {
+    "name": "Aputure MC RGBWW Light",
+    "slug": "aputure-mc-rgbww-light",
+    "category": "Creator Lighting",
+    "best_for": "compact premium accent light",
+    "strengths": [
+      "accurate color control",
+      "magnetic back",
+      "app ecosystem"
+    ],
+    "cautions": [
+      "premium for its size",
+      "limited key-light output"
+    ]
+  },
+  {
+    "name": "Samsung T7 Shield Portable SSD",
+    "slug": "samsung-t7-shield-portable-ssd",
+    "category": "Computers and Storage",
+    "best_for": "fast portable file backups",
+    "strengths": [
+      "rugged shell",
+      "USB-C connectivity",
+      "compact size"
+    ],
+    "cautions": [
+      "performance depends on host port",
+      "cable management"
+    ]
+  },
+  {
+    "name": "SanDisk Extreme Portable SSD V2",
+    "slug": "sandisk-extreme-portable-ssd-v2",
+    "category": "Computers and Storage",
+    "best_for": "portable creative-project storage",
+    "strengths": [
+      "compact body",
+      "fast USB interface",
+      "travel-friendly design"
+    ],
+    "cautions": [
+      "keep firmware current",
+      "backup redundancy still needed"
+    ]
+  },
+  {
+    "name": "Crucial X9 Pro Portable SSD",
+    "slug": "crucial-x9-pro-portable-ssd",
+    "category": "Computers and Storage",
+    "best_for": "small high-speed project storage",
+    "strengths": [
+      "compact metal build",
+      "USB-C workflow",
+      "broad device use"
+    ],
+    "cautions": [
+      "host speed limits apply",
+      "premium over basic drives"
+    ]
+  },
+  {
+    "name": "WD My Passport 5TB",
+    "slug": "wd-my-passport-5tb",
+    "category": "Computers and Storage",
+    "best_for": "high-capacity portable archive storage",
+    "strengths": [
+      "large capacity",
+      "bus powered",
+      "backup software options"
+    ],
+    "cautions": [
+      "slower than SSD",
+      "protect from drops"
+    ]
+  },
+  {
+    "name": "Seagate Expansion Desktop 8TB",
+    "slug": "seagate-expansion-desktop-8tb",
+    "category": "Computers and Storage",
+    "best_for": "cost-focused desktop archive storage",
+    "strengths": [
+      "high capacity",
+      "simple USB setup",
+      "good for cold storage"
+    ],
+    "cautions": [
+      "requires power adapter",
+      "mechanical-drive speed"
+    ]
+  },
+  {
+    "name": "Samsung 990 Pro NVMe SSD",
+    "slug": "samsung-990-pro-nvme-ssd",
+    "category": "Computers and Storage",
+    "best_for": "high-performance internal storage upgrades",
+    "strengths": [
+      "fast PCIe interface",
+      "mature management software",
+      "multiple capacities"
+    ],
+    "cautions": [
+      "requires compatible M.2 slot",
+      "heatsink needs vary"
+    ]
+  },
+  {
+    "name": "Crucial P3 Plus NVMe SSD",
+    "slug": "crucial-p3-plus-nvme-ssd",
+    "category": "Computers and Storage",
+    "best_for": "value-oriented internal SSD upgrades",
+    "strengths": [
+      "PCIe 4.0 support",
+      "multiple capacities",
+      "simple form factor"
+    ],
+    "cautions": [
+      "sustained write performance varies",
+      "compatibility check"
+    ]
+  },
+  {
+    "name": "Kingston DataTraveler Max USB-C",
+    "slug": "kingston-datatraveler-max-usb-c",
+    "category": "Computers and Storage",
+    "best_for": "fast pocket file transfers",
+    "strengths": [
+      "USB-C connector",
+      "strong sequential speeds",
+      "compact design"
+    ],
+    "cautions": [
+      "easy to misplace",
+      "device clearance"
+    ]
+  },
+  {
+    "name": "Anker 555 USB-C Hub",
+    "slug": "anker-555-usb-c-hub",
+    "category": "Computers and Storage",
+    "best_for": "multiport laptop expansion",
+    "strengths": [
+      "HDMI and card slots",
+      "power delivery passthrough",
+      "Ethernet"
+    ],
+    "cautions": [
+      "shared bandwidth",
+      "charger sold separately"
+    ]
+  },
+  {
+    "name": "UGREEN Revodok USB-C Hub 6-in-1",
+    "slug": "ugreen-revodok-usb-c-hub-6-in-1",
+    "category": "Computers and Storage",
+    "best_for": "basic ports for thin laptops",
+    "strengths": [
+      "compact hub",
+      "HDMI",
+      "SD card access"
+    ],
+    "cautions": [
+      "port mix varies by model",
+      "shared USB bandwidth"
+    ]
+  },
+  {
+    "name": "TP-Link Archer AX55 Router",
+    "slug": "tp-link-archer-ax55-router",
+    "category": "Networking",
+    "best_for": "mainstream Wi-Fi 6 home networking",
+    "strengths": [
+      "Wi-Fi 6",
+      "multiple Ethernet ports",
+      "app setup"
+    ],
+    "cautions": [
+      "coverage depends on layout",
+      "not a modem"
+    ]
+  },
+  {
+    "name": "ASUS RT-AX58U V2 Router",
+    "slug": "asus-rt-ax58u-v2-router",
+    "category": "Networking",
+    "best_for": "configurable Wi-Fi 6 networking",
+    "strengths": [
+      "strong settings menu",
+      "mesh support",
+      "security features"
+    ],
+    "cautions": [
+      "advanced interface",
+      "placement matters"
+    ]
+  },
+  {
+    "name": "Amazon eero 6+ Mesh System",
+    "slug": "amazon-eero-6-mesh-system",
+    "category": "Networking",
+    "best_for": "simple multi-room Wi-Fi coverage",
+    "strengths": [
+      "easy app setup",
+      "mesh expansion",
+      "compact nodes"
+    ],
+    "cautions": [
+      "some features subscription-based",
+      "limited advanced controls"
+    ]
+  },
+  {
+    "name": "TP-Link Deco X50 Mesh System",
+    "slug": "tp-link-deco-x50-mesh-system",
+    "category": "Networking",
+    "best_for": "whole-home Wi-Fi 6 coverage",
+    "strengths": [
+      "simple mesh app",
+      "Ethernet ports",
+      "scalable nodes"
+    ],
+    "cautions": [
+      "app-led administration",
+      "node placement matters"
+    ]
+  },
+  {
+    "name": "NETGEAR Nighthawk AX5400 Router",
+    "slug": "netgear-nighthawk-ax5400-router",
+    "category": "Networking",
+    "best_for": "higher-capacity Wi-Fi 6 households",
+    "strengths": [
+      "multi-device capacity",
+      "fast wireless tiers",
+      "app management"
+    ],
+    "cautions": [
+      "larger footprint",
+      "premium pricing"
+    ]
+  },
+  {
+    "name": "GL.iNet Beryl AX Travel Router",
+    "slug": "gl-inet-beryl-ax-travel-router",
+    "category": "Networking",
+    "best_for": "secure travel and hotel networking",
+    "strengths": [
+      "compact design",
+      "VPN features",
+      "Wi-Fi 6"
+    ],
+    "cautions": [
+      "technical setup for advanced use",
+      "not a full-size home router"
+    ]
+  },
+  {
+    "name": "TP-Link RE705X Wi-Fi Extender",
+    "slug": "tp-link-re705x-wi-fi-extender",
+    "category": "Networking",
+    "best_for": "filling a targeted Wi-Fi dead zone",
+    "strengths": [
+      "Wi-Fi 6 support",
+      "Ethernet port",
+      "mesh compatibility options"
+    ],
+    "cautions": [
+      "extenders reduce ideal throughput",
+      "placement is critical"
+    ]
+  },
+  {
+    "name": "NETGEAR GS308 Ethernet Switch",
+    "slug": "netgear-gs308-ethernet-switch",
+    "category": "Networking",
+    "best_for": "adding wired Ethernet ports",
+    "strengths": [
+      "eight gigabit ports",
+      "fanless design",
+      "plug and play"
+    ],
+    "cautions": [
+      "unmanaged features only",
+      "power outlet required"
+    ]
+  },
+  {
+    "name": "TP-Link TL-SG108 Ethernet Switch",
+    "slug": "tp-link-tl-sg108-ethernet-switch",
+    "category": "Networking",
+    "best_for": "small-office wired expansion",
+    "strengths": [
+      "eight gigabit ports",
+      "metal case",
+      "fanless operation"
+    ],
+    "cautions": [
+      "unmanaged switch",
+      "no PoE"
+    ]
+  },
+  {
+    "name": "Cable Matters Cat 6 Ethernet Cable",
+    "slug": "cable-matters-cat-6-ethernet-cable",
+    "category": "Networking",
+    "best_for": "reliable wired network connections",
+    "strengths": [
+      "gigabit-capable category",
+      "multiple lengths",
+      "simple upgrade"
+    ],
+    "cautions": [
+      "choose correct length",
+      "cable routing"
+    ]
+  },
+  {
+    "name": "Logitech MX Keys S Keyboard",
+    "slug": "logitech-mx-keys-s-keyboard",
+    "category": "Office and Productivity",
+    "best_for": "quiet multi-device office typing",
+    "strengths": [
+      "backlit keys",
+      "multi-device switching",
+      "USB-C charging"
+    ],
+    "cautions": [
+      "full-size footprint",
+      "premium price"
+    ]
+  },
+  {
+    "name": "Logitech MX Master 3S Mouse",
+    "slug": "logitech-mx-master-3s-mouse",
+    "category": "Office and Productivity",
+    "best_for": "productivity shortcuts and precise scrolling",
+    "strengths": [
+      "quiet clicks",
+      "electromagnetic scroll wheel",
+      "custom buttons"
+    ],
+    "cautions": [
+      "right-handed shape",
+      "software needed for customization"
+    ]
+  },
+  {
+    "name": "Keychron K8 Pro Keyboard",
+    "slug": "keychron-k8-pro-keyboard",
+    "category": "Office and Productivity",
+    "best_for": "wireless mechanical typing with customization",
+    "strengths": [
+      "hot-swappable options",
+      "Mac and Windows support",
+      "Bluetooth"
+    ],
+    "cautions": [
+      "taller profile",
+      "switch choice matters"
+    ]
+  },
+  {
+    "name": "Dell UltraSharp U2723QE Monitor",
+    "slug": "dell-ultrasharp-u2723qe-monitor",
+    "category": "Office and Productivity",
+    "best_for": "color-conscious USB-C office setups",
+    "strengths": [
+      "4K panel",
+      "USB-C hub",
+      "ergonomic stand"
+    ],
+    "cautions": [
+      "premium cost",
+      "60 Hz focus"
+    ]
+  },
+  {
+    "name": "BenQ GW2790 Monitor",
+    "slug": "benq-gw2790-monitor",
+    "category": "Office and Productivity",
+    "best_for": "affordable general office display",
+    "strengths": [
+      "27-inch workspace",
+      "eye-care modes",
+      "simple design"
+    ],
+    "cautions": [
+      "basic stand adjustments",
+      "not creator-grade color"
+    ]
+  },
+  {
+    "name": "Brother HL-L2400DW Printer",
+    "slug": "brother-hl-l2400dw-printer",
+    "category": "Office and Productivity",
+    "best_for": "low-maintenance monochrome document printing",
+    "strengths": [
+      "duplex printing",
+      "wireless support",
+      "laser efficiency"
+    ],
+    "cautions": [
+      "black-and-white only",
+      "toner cost"
+    ]
+  },
+  {
+    "name": "Fellowes Powershred 8C Shredder",
+    "slug": "fellowes-powershred-8c-shredder",
+    "category": "Office and Productivity",
+    "best_for": "home-office document disposal",
+    "strengths": [
+      "cross-cut shredding",
+      "compact bin",
+      "simple controls"
+    ],
+    "cautions": [
+      "limited continuous runtime",
+      "sheet capacity"
+    ]
+  },
+  {
+    "name": "HUANUO Dual Monitor Stand",
+    "slug": "huanuo-dual-monitor-stand",
+    "category": "Office and Productivity",
+    "best_for": "freeing desk space with two monitors",
+    "strengths": [
+      "adjustable arms",
+      "desk clamp",
+      "cable routing"
+    ],
+    "cautions": [
+      "monitor weight limits",
+      "installation required"
+    ]
+  },
+  {
+    "name": "Rain Design mStand Laptop Stand",
+    "slug": "rain-design-mstand-laptop-stand",
+    "category": "Office and Productivity",
+    "best_for": "fixed ergonomic laptop elevation",
+    "strengths": [
+      "solid aluminum",
+      "simple cable pass-through",
+      "stable platform"
+    ],
+    "cautions": [
+      "not height adjustable",
+      "external keyboard recommended"
+    ]
+  },
+  {
+    "name": "FlexiSpot E7 Standing Desk",
+    "slug": "flexispot-e7-standing-desk",
+    "category": "Office and Productivity",
+    "best_for": "adjustable sit-stand work routines",
+    "strengths": [
+      "dual-motor frame",
+      "height presets",
+      "stable design"
+    ],
+    "cautions": [
+      "assembly required",
+      "desktop options affect price"
+    ]
+  },
+  {
+    "name": "Anker 737 Power Bank",
+    "slug": "anker-737-power-bank",
+    "category": "Power and Charging",
+    "best_for": "high-output charging for laptops and phones",
+    "strengths": [
+      "large battery",
+      "USB-C power delivery",
+      "status display"
+    ],
+    "cautions": [
+      "heavy for pockets",
+      "airline limits matter"
+    ]
+  },
+  {
+    "name": "UGREEN Nexode 100W GaN Charger",
+    "slug": "ugreen-nexode-100w-gan-charger",
+    "category": "Power and Charging",
+    "best_for": "charging several USB devices from one adapter",
+    "strengths": [
+      "multiple ports",
+      "GaN design",
+      "laptop-capable output"
+    ],
+    "cautions": [
+      "power is shared",
+      "cables may be separate"
+    ]
+  },
+  {
+    "name": "Anker Prime 100W GaN Charger",
+    "slug": "anker-prime-100w-gan-charger",
+    "category": "Power and Charging",
+    "best_for": "compact multi-device travel charging",
+    "strengths": [
+      "three ports",
+      "high USB-C output",
+      "compact design"
+    ],
+    "cautions": [
+      "premium price",
+      "shared-output rules"
+    ]
+  },
+  {
+    "name": "Belkin BoostCharge Pro 3-in-1",
+    "slug": "belkin-boostcharge-pro-3-in-1",
+    "category": "Power and Charging",
+    "best_for": "Apple-device bedside charging",
+    "strengths": [
+      "phone watch and earbuds charging",
+      "tidy stand",
+      "MagSafe/Qi2 options"
+    ],
+    "cautions": [
+      "Apple-focused",
+      "adapter inclusion varies"
+    ]
+  },
+  {
+    "name": "Baseus Blade Laptop Power Bank",
+    "slug": "baseus-blade-laptop-power-bank",
+    "category": "Power and Charging",
+    "best_for": "flat high-capacity laptop charging",
+    "strengths": [
+      "slim shape",
+      "USB-C output",
+      "power display"
+    ],
+    "cautions": [
+      "large bag footprint",
+      "not pocket-light"
+    ]
+  },
+  {
+    "name": "APC Back-UPS BX950MI",
+    "slug": "apc-back-ups-bx950mi",
+    "category": "Power and Charging",
+    "best_for": "short backup power for networking and PCs",
+    "strengths": [
+      "battery backup",
+      "surge protection",
+      "multiple outlets"
+    ],
+    "cautions": [
+      "battery replacement over time",
+      "not for high-power appliances"
+    ]
+  },
+  {
+    "name": "EcoFlow RIVER 2 Portable Power Station",
+    "slug": "ecoflow-river-2-portable-power-station",
+    "category": "Power and Charging",
+    "best_for": "portable low-to-medium power needs",
+    "strengths": [
+      "fast recharge options",
+      "multiple outputs",
+      "app features"
+    ],
+    "cautions": [
+      "capacity limits runtime",
+      "not weatherproof"
+    ]
+  },
+  {
+    "name": "Anker 521 Portable Power Station",
+    "slug": "anker-521-portable-power-station",
+    "category": "Power and Charging",
+    "best_for": "quiet backup for small electronics",
+    "strengths": [
+      "LiFePO4 battery",
+      "multiple ports",
+      "portable handle"
+    ],
+    "cautions": [
+      "limited for heaters or kettles",
+      "recharge planning"
+    ]
+  },
+  {
+    "name": "Brennenstuhl Premium-Line Power Strip",
+    "slug": "brennenstuhl-premium-line-power-strip",
+    "category": "Power and Charging",
+    "best_for": "organized desk and equipment power",
+    "strengths": [
+      "multiple sockets",
+      "robust housing",
+      "switch control"
+    ],
+    "cautions": [
+      "region-specific plugs",
+      "surge features vary"
+    ]
+  },
+  {
+    "name": "UGREEN 240W USB-C Cable",
+    "slug": "ugreen-240w-usb-c-cable",
+    "category": "Power and Charging",
+    "best_for": "high-power USB-C charging connections",
+    "strengths": [
+      "high power rating",
+      "braided options",
+      "multiple lengths"
+    ],
+    "cautions": [
+      "data speed may differ by version",
+      "needs compatible charger"
+    ]
+  },
+  {
+    "name": "Apple AirTag",
+    "slug": "apple-airtag",
+    "category": "Mobile Accessories",
+    "best_for": "finding personal items in the Apple ecosystem",
+    "strengths": [
+      "large Find My network",
+      "replaceable battery",
+      "compact size"
+    ],
+    "cautions": [
+      "Apple-focused",
+      "accessory holder often needed"
+    ]
+  },
+  {
+    "name": "Samsung Galaxy SmartTag2",
+    "slug": "samsung-galaxy-smarttag2",
+    "category": "Mobile Accessories",
+    "best_for": "finding items with compatible Galaxy phones",
+    "strengths": [
+      "long battery potential",
+      "UWB on supported phones",
+      "rugged loop"
+    ],
+    "cautions": [
+      "Samsung ecosystem",
+      "coverage varies"
+    ]
+  },
+  {
+    "name": "Anker 622 Magnetic Battery",
+    "slug": "anker-622-magnetic-battery",
+    "category": "Mobile Accessories",
+    "best_for": "compact magnetic iPhone top-ups",
+    "strengths": [
+      "folding stand",
+      "portable size",
+      "wireless convenience"
+    ],
+    "cautions": [
+      "modest capacity",
+      "wireless charging is slower"
+    ]
+  },
+  {
+    "name": "Peak Design Mobile Tripod",
+    "slug": "peak-design-mobile-tripod",
+    "category": "Mobile Accessories",
+    "best_for": "pocket phone support for filming and calls",
+    "strengths": [
+      "slim folded shape",
+      "strong magnetic attachment",
+      "adjustable angles"
+    ],
+    "cautions": [
+      "requires compatible case or adapter",
+      "premium price"
+    ]
+  },
+  {
+    "name": "DJI Osmo Mobile 6",
+    "slug": "dji-osmo-mobile-6",
+    "category": "Mobile Accessories",
+    "best_for": "stabilized smartphone video",
+    "strengths": [
+      "three-axis stabilization",
+      "extension rod",
+      "creator modes"
+    ],
+    "cautions": [
+      "balancing and app setup",
+      "device compatibility"
+    ]
+  },
+  {
+    "name": "Rode VideoMicro II",
+    "slug": "rode-videomicro-ii",
+    "category": "Mobile Accessories",
+    "best_for": "compact on-camera and phone audio",
+    "strengths": [
+      "directional pickup",
+      "no battery needed",
+      "small shock mount"
+    ],
+    "cautions": [
+      "adapter may be required",
+      "best at close range"
+    ]
+  },
+  {
+    "name": "UGREEN Foldable Phone Stand",
+    "slug": "ugreen-foldable-phone-stand",
+    "category": "Mobile Accessories",
+    "best_for": "simple desk viewing and calls",
+    "strengths": [
+      "folding design",
+      "angle adjustment",
+      "broad phone fit"
+    ],
+    "cautions": [
+      "not a charging stand",
+      "large cases may affect fit"
+    ]
+  },
+  {
+    "name": "Spigen Tough Armor Phone Case",
+    "slug": "spigen-tough-armor-phone-case",
+    "category": "Mobile Accessories",
+    "best_for": "protective everyday phone coverage",
+    "strengths": [
+      "reinforced corners",
+      "built-in kickstand on many models",
+      "screen lip"
+    ],
+    "cautions": [
+      "adds bulk",
+      "buy exact phone version"
+    ]
+  },
+  {
+    "name": "Joby GripTight ONE GorillaPod",
+    "slug": "joby-griptight-one-gorillapod",
+    "category": "Mobile Accessories",
+    "best_for": "flexible phone mounting",
+    "strengths": [
+      "wrappable legs",
+      "compact phone clamp",
+      "portable design"
+    ],
+    "cautions": [
+      "limited height",
+      "not for heavy rigs"
+    ]
+  },
+  {
+    "name": "Lexar Professional microSDXC 1066x",
+    "slug": "lexar-professional-microsdxc-1066x",
+    "category": "Mobile Accessories",
+    "best_for": "expandable storage for compatible devices",
+    "strengths": [
+      "fast application rating",
+      "multiple capacities",
+      "adapter often included"
+    ],
+    "cautions": [
+      "counterfeit risk from unknown sellers",
+      "device capacity limits"
+    ]
+  }
+]
