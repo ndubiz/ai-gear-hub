@@ -79,19 +79,12 @@ document.querySelectorAll('a').forEach(link=>{
   }
 });
 
-if(nav&&!nav.querySelector('a[href="amazon-ai-picks.html"]')){
+if(nav&&!nav.querySelector('a[href="switchbot-hub.html"]')){
   const a=document.createElement('a');
-  a.href='amazon-ai-picks.html';
-  a.textContent='Amazon Picks';
-  const about=[...nav.querySelectorAll('a')].find(x=>x.textContent.trim().toLowerCase()==='about');
-  if(about) nav.insertBefore(a,about); else nav.appendChild(a);
-}
-if(nav&&!nav.querySelector('a[href="anthbot-de.html"]')){
-  const a=document.createElement('a');
-  a.href='anthbot-de.html';
-  a.textContent='ANTHBOT DE';
-  const about=[...nav.querySelectorAll('a')].find(x=>x.textContent.trim().toLowerCase()==='about');
-  if(about) nav.insertBefore(a,about); else nav.appendChild(a);
+  a.href='switchbot-hub.html';
+  a.textContent='SwitchBot';
+  const guides=[...nav.querySelectorAll('a')].find(x=>x.textContent.trim().toLowerCase().includes('comparison'));
+  if(guides) nav.insertBefore(a,guides); else nav.appendChild(a);
 }
 
 const navCta=document.querySelector('.nav-cta');
@@ -179,3 +172,4 @@ if(compare){
   if(cards[1]) cards[1].innerHTML='<span class="compare-kicker">Video</span><h3>Create once, publish everywhere</h3><div class="compare-row"><span>AI video creation</span><strong>BlueFX</strong></div><div class="compare-row"><span>Distribution</span><strong>Repurpose.io</strong></div><div class="compare-row"><span>Best starting point</span><strong>Read the workflow</strong></div><a href="#tools">See video tools →</a>';
   if(cards[2]) cards[2].innerHTML='<span class="compare-kicker">Buying Guide</span><h3>Best AI gear for everyday use</h3><div class="compare-row"><span>Security</span><strong>AI cameras</strong></div><div class="compare-row"><span>Garden</span><strong>ANTHBOT robots</strong></div><div class="compare-row"><span>Productivity</span><strong>AI recorders</strong></div><a href="anthbot-de.html">See ANTHBOT DE →</a>';
 }
+
