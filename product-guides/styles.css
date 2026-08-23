@@ -2,3 +2,5 @@
 
 .catalog-section{margin:52px 0}.section-heading{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:18px}.section-heading h2,.section-heading p{margin:0}.section-heading>p{color:var(--muted)}
 @media(max-width:620px){.section-heading{align-items:flex-start;flex-direction:column}}
+
+.context-nav{background:#f7f9fc;border-bottom:1px solid var(--line);padding:12px 0}.context-nav .container{max-width:1160px;margin:auto;padding:0 24px;display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap}.breadcrumbs{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:.88rem;color:var(--muted)}.breadcrumbs a,.back-category{color:var(--blue);font-weight:700;text-decoration:none}.breadcrumbs span[aria-current]{color:var(--ink)}.back-category{border:1px solid var(--line);border-radius:999px;padding:8px 13px;background:white}@media(max-width:640px){.context-nav .container{align-items:flex-start;flex-direction:column}.back-category{width:100%;text-align:center}}
