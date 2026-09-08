@@ -1,0 +1,2644 @@
+[
+  {
+    "id": "product-guides/amazon-echo-dot-5th-gen.html",
+    "review": "product-guides/amazon-echo-dot-5th-gen.html",
+    "name": "Amazon Echo Dot (5th Gen)",
+    "category": "Smart Home",
+    "bestFor": "voice control and simple Alexa routines",
+    "strengths": [
+      "compact design",
+      "motion and temperature sensors",
+      "wide Alexa compatibility"
+    ],
+    "cautions": [
+      "small-room audio",
+      "review privacy settings"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/google-nest-mini-2nd-gen.html",
+    "review": "product-guides/google-nest-mini-2nd-gen.html",
+    "name": "Google Nest Mini (2nd Gen)",
+    "category": "Smart Home",
+    "bestFor": "Google Assistant voice control in smaller rooms",
+    "strengths": [
+      "compact speaker",
+      "multi-room audio support",
+      "Google Home integration"
+    ],
+    "cautions": [
+      "limited bass",
+      "requires a Google account"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/philips-hue-white-and-color-ambiance-starter-kit.html",
+    "review": "product-guides/philips-hue-white-and-color-ambiance-starter-kit.html",
+    "name": "Philips Hue White and Color Ambiance Starter Kit",
+    "category": "Smart Home",
+    "bestFor": "flexible room lighting scenes and automations",
+    "strengths": [
+      "rich color scenes",
+      "mature app",
+      "broad smart-home support"
+    ],
+    "cautions": [
+      "higher upfront cost",
+      "bridge setup"
+    ],
+    "badge": {
+      "label": "Editor's Pick",
+      "kind": "editor",
+      "reason": "For building a coordinated Hue lighting setup. Choose the correct fitting and check which Bridge and bulbs the kit includes; this is not a lowest-price award.",
+      "source": "https://www.philips-hue.com/en-us/products/smart-light-starter-kits",
+      "reviewed": "2026-09-09",
+      "reviewDue": "2026-11-09"
+    }
+  },
+  {
+    "id": "product-guides/tp-link-tapo-p110-smart-plug.html",
+    "review": "product-guides/tp-link-tapo-p110-smart-plug.html",
+    "name": "TP-Link Tapo P110 Smart Plug",
+    "category": "Smart Home",
+    "bestFor": "energy-aware appliance scheduling",
+    "strengths": [
+      "energy monitoring",
+      "compact plug",
+      "simple schedules"
+    ],
+    "cautions": [
+      "indoor use",
+      "check regional plug type"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/meross-smart-wi-fi-plug-mini.html",
+    "review": "product-guides/meross-smart-wi-fi-plug-mini.html",
+    "name": "Meross Smart Wi-Fi Plug Mini",
+    "category": "Smart Home",
+    "bestFor": "affordable app and voice-controlled outlets",
+    "strengths": [
+      "compact body",
+      "schedules and timers",
+      "popular voice platforms"
+    ],
+    "cautions": [
+      "2.4 GHz Wi-Fi",
+      "platform support varies by version"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/switchbot-bot.html",
+    "review": "product-guides/switchbot-bot.html",
+    "name": "SwitchBot Bot",
+    "category": "Smart Home",
+    "bestFor": "adding remote control to a physical switch",
+    "strengths": [
+      "retrofit design",
+      "simple app control",
+      "automation options"
+    ],
+    "cautions": [
+      "needs suitable switch surface",
+      "hub needed for remote features"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/aqara-temperature-and-humidity-sensor.html",
+    "review": "product-guides/aqara-temperature-and-humidity-sensor.html",
+    "name": "Aqara Temperature and Humidity Sensor",
+    "category": "Smart Home",
+    "bestFor": "room climate monitoring for automations",
+    "strengths": [
+      "small sensor",
+      "historical readings",
+      "automation triggers"
+    ],
+    "cautions": [
+      "requires compatible hub",
+      "placement affects readings"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/broadlink-rm4-mini.html",
+    "review": "product-guides/broadlink-rm4-mini.html",
+    "name": "BroadLink RM4 Mini",
+    "category": "Smart Home",
+    "bestFor": "controlling infrared remotes from one app",
+    "strengths": [
+      "large IR device library",
+      "routines",
+      "compact design"
+    ],
+    "cautions": [
+      "infrared only",
+      "line-of-sight matters"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/govee-smart-led-light-bars.html",
+    "review": "product-guides/govee-smart-led-light-bars.html",
+    "name": "Govee Smart LED Light Bars",
+    "category": "Smart Home",
+    "bestFor": "desk and TV accent lighting",
+    "strengths": [
+      "color effects",
+      "app scenes",
+      "music modes"
+    ],
+    "cautions": [
+      "not primary room lighting",
+      "ecosystem compatibility varies"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/sonoff-snzb-03p-motion-sensor.html",
+    "review": "product-guides/sonoff-snzb-03p-motion-sensor.html",
+    "name": "Sonoff SNZB-03P Motion Sensor",
+    "category": "Smart Home",
+    "bestFor": "low-cost motion-triggered routines",
+    "strengths": [
+      "compact sensor",
+      "battery powered",
+      "Zigbee automation"
+    ],
+    "cautions": [
+      "requires Zigbee hub",
+      "positioning matters"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/tp-link-tapo-c100.html",
+    "review": "product-guides/tp-link-tapo-c100.html",
+    "name": "TP-Link Tapo C100",
+    "category": "Home Security",
+    "bestFor": "budget indoor monitoring for rooms, pets, and nurseries",
+    "strengths": [
+      "1080p video",
+      "night vision",
+      "local microSD option"
+    ],
+    "cautions": [
+      "indoor only",
+      "confirm current storage limits"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/ring-video-doorbell-wired.html",
+    "review": "product-guides/ring-video-doorbell-wired.html",
+    "name": "Ring Video Doorbell Wired",
+    "category": "Home Security",
+    "bestFor": "fixed-power front-door alerts and video",
+    "strengths": [
+      "compact wired design",
+      "motion alerts",
+      "Alexa integration"
+    ],
+    "cautions": [
+      "existing wiring required",
+      "subscription affects cloud features"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/blink-mini-2.html",
+    "review": "product-guides/blink-mini-2.html",
+    "name": "Blink Mini 2",
+    "category": "Home Security",
+    "bestFor": "compact indoor monitoring with app alerts",
+    "strengths": [
+      "small footprint",
+      "two-way audio",
+      "Alexa support"
+    ],
+    "cautions": [
+      "cloud features may require a plan",
+      "power cable needed"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/eufy-security-indoor-cam-c120.html",
+    "review": "product-guides/eufy-security-indoor-cam-c120.html",
+    "name": "eufy Security Indoor Cam C120",
+    "category": "Home Security",
+    "bestFor": "indoor monitoring with local-storage options",
+    "strengths": [
+      "clear video",
+      "local recording options",
+      "smart detection features"
+    ],
+    "cautions": [
+      "indoor placement",
+      "feature support changes by region"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/reolink-e1-pro.html",
+    "review": "product-guides/reolink-e1-pro.html",
+    "name": "Reolink E1 Pro",
+    "category": "Home Security",
+    "bestFor": "pan-and-tilt indoor coverage",
+    "strengths": [
+      "pan and tilt",
+      "dual-band Wi-Fi",
+      "local storage option"
+    ],
+    "cautions": [
+      "not weatherproof",
+      "app setup required"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/aqara-door-and-window-sensor.html",
+    "review": "product-guides/aqara-door-and-window-sensor.html",
+    "name": "Aqara Door and Window Sensor",
+    "category": "Home Security",
+    "bestFor": "entry-status automations and alerts",
+    "strengths": [
+      "small contact sensor",
+      "fast routines",
+      "long battery potential"
+    ],
+    "cautions": [
+      "Aqara hub required",
+      "mounting alignment matters"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/yale-linus-smart-lock.html",
+    "review": "product-guides/yale-linus-smart-lock.html",
+    "name": "Yale Linus Smart Lock",
+    "category": "Home Security",
+    "bestFor": "keyless control for compatible European doors",
+    "strengths": [
+      "retrofit approach",
+      "temporary access",
+      "app control"
+    ],
+    "cautions": [
+      "door compatibility check essential",
+      "accessories may be required"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/nuki-smart-lock-pro.html",
+    "review": "product-guides/nuki-smart-lock-pro.html",
+    "name": "Nuki Smart Lock Pro",
+    "category": "Home Security",
+    "bestFor": "connected access for compatible door cylinders",
+    "strengths": [
+      "retrofit installation",
+      "remote access options",
+      "automation support"
+    ],
+    "cautions": [
+      "verify cylinder fit",
+      "battery charging routine"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/tapo-t110-contact-sensor.html",
+    "review": "product-guides/tapo-t110-contact-sensor.html",
+    "name": "Tapo T110 Contact Sensor",
+    "category": "Home Security",
+    "bestFor": "Tapo-based door and window alerts",
+    "strengths": [
+      "compact sensor",
+      "automation triggers",
+      "simple ecosystem pairing"
+    ],
+    "cautions": [
+      "Tapo hub required",
+      "indoor use"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/ring-alarm-5-piece-kit.html",
+    "review": "product-guides/ring-alarm-5-piece-kit.html",
+    "name": "Ring Alarm 5-Piece Kit",
+    "category": "Home Security",
+    "bestFor": "starter home-alarm coverage",
+    "strengths": [
+      "modular sensors",
+      "app alerts",
+      "expandable system"
+    ],
+    "cautions": [
+      "subscription changes features",
+      "regional availability"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/blue-yeti-usb-microphone.html",
+    "review": "product-guides/blue-yeti-usb-microphone.html",
+    "name": "Blue Yeti USB Microphone",
+    "category": "Audio and Podcasting",
+    "bestFor": "multi-pattern desktop recording and streaming",
+    "strengths": [
+      "multiple pickup modes",
+      "on-mic controls",
+      "USB setup"
+    ],
+    "cautions": [
+      "large desk footprint",
+      "room noise can be audible"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/audio-technica-atr2100x-usb.html",
+    "review": "product-guides/audio-technica-atr2100x-usb.html",
+    "name": "Audio-Technica ATR2100x-USB",
+    "category": "Audio and Podcasting",
+    "bestFor": "spoken-word recording in untreated rooms",
+    "strengths": [
+      "USB and XLR outputs",
+      "dynamic capsule",
+      "headphone monitoring"
+    ],
+    "cautions": [
+      "requires close mic technique",
+      "stand is basic"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/rode-nt-usb-mini.html",
+    "review": "product-guides/rode-nt-usb-mini.html",
+    "name": "Rode NT-USB Mini",
+    "category": "Audio and Podcasting",
+    "bestFor": "compact voice recording and calls",
+    "strengths": [
+      "small footprint",
+      "clean USB workflow",
+      "headphone output"
+    ],
+    "cautions": [
+      "fixed pickup pattern",
+      "stand height may need adjustment"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/elgato-wave-3.html",
+    "review": "product-guides/elgato-wave-3.html",
+    "name": "Elgato Wave 3",
+    "category": "Audio and Podcasting",
+    "bestFor": "streaming with software-based audio mixing",
+    "strengths": [
+      "clipguard feature",
+      "digital mixer workflow",
+      "capacitive mute"
+    ],
+    "cautions": [
+      "software learning curve",
+      "premium price tier"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/shure-mv7.html",
+    "review": "product-guides/shure-mv7.html",
+    "name": "Shure MV7",
+    "category": "Audio and Podcasting",
+    "bestFor": "podcasting with USB and XLR flexibility",
+    "strengths": [
+      "voice-focused dynamic sound",
+      "USB and XLR",
+      "software controls"
+    ],
+    "cautions": [
+      "best with close placement",
+      "heavier mounting needs"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/sony-mdr-7506-headphones.html",
+    "review": "product-guides/sony-mdr-7506-headphones.html",
+    "name": "Sony MDR-7506 Headphones",
+    "category": "Audio and Podcasting",
+    "bestFor": "monitoring speech and edits",
+    "strengths": [
+      "detailed midrange",
+      "folding design",
+      "long studio track record"
+    ],
+    "cautions": [
+      "fixed cable",
+      "bright sound for some listeners"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/audio-technica-ath-m50x.html",
+    "review": "product-guides/audio-technica-ath-m50x.html",
+    "name": "Audio-Technica ATH-M50x",
+    "category": "Audio and Podcasting",
+    "bestFor": "closed-back monitoring and everyday listening",
+    "strengths": [
+      "folding earcups",
+      "detachable cables",
+      "solid isolation"
+    ],
+    "cautions": [
+      "clamp and fit vary",
+      "not neutral for every mix"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/focusrite-scarlett-solo-4th-gen.html",
+    "review": "product-guides/focusrite-scarlett-solo-4th-gen.html",
+    "name": "Focusrite Scarlett Solo 4th Gen",
+    "category": "Audio and Podcasting",
+    "bestFor": "one-microphone XLR recording setups",
+    "strengths": [
+      "simple controls",
+      "instrument input",
+      "USB-C connection"
+    ],
+    "cautions": [
+      "single mic preamp",
+      "needs XLR microphone"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/rode-psa1-plus-boom-arm.html",
+    "review": "product-guides/rode-psa1-plus-boom-arm.html",
+    "name": "Rode PSA1 Plus Boom Arm",
+    "category": "Audio and Podcasting",
+    "bestFor": "quiet microphone positioning at a desk",
+    "strengths": [
+      "smooth movement",
+      "covered springs",
+      "broad mic compatibility"
+    ],
+    "cautions": [
+      "desk space needed",
+      "weight limits matter"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/zoom-h1essential-recorder.html",
+    "review": "product-guides/zoom-h1essential-recorder.html",
+    "name": "Zoom H1essential Recorder",
+    "category": "Audio and Podcasting",
+    "bestFor": "portable interviews and ambient recording",
+    "strengths": [
+      "32-bit float workflow",
+      "built-in stereo mics",
+      "compact body"
+    ],
+    "cautions": [
+      "handling noise possible",
+      "wind protection may be needed"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/logitech-c920s-hd-pro-webcam.html",
+    "review": "product-guides/logitech-c920s-hd-pro-webcam.html",
+    "name": "Logitech C920s HD Pro Webcam",
+    "category": "Video and Streaming",
+    "bestFor": "reliable 1080p calls and streaming",
+    "strengths": [
+      "widely supported",
+      "privacy shutter",
+      "autofocus"
+    ],
+    "cautions": [
+      "older image pipeline",
+      "lighting still matters"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/logitech-brio-4k-webcam.html",
+    "review": "product-guides/logitech-brio-4k-webcam.html",
+    "name": "Logitech Brio 4K Webcam",
+    "category": "Video and Streaming",
+    "bestFor": "high-resolution calls with flexible framing",
+    "strengths": [
+      "4K capture support",
+      "multiple fields of view",
+      "good app controls"
+    ],
+    "cautions": [
+      "4K needs bandwidth",
+      "premium cost"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/elgato-facecam-mk-2.html",
+    "review": "product-guides/elgato-facecam-mk-2.html",
+    "name": "Elgato Facecam MK.2",
+    "category": "Video and Streaming",
+    "bestFor": "creator-focused 1080p streaming",
+    "strengths": [
+      "uncompressed video options",
+      "manual controls",
+      "streaming-oriented software"
+    ],
+    "cautions": [
+      "no built-in microphone focus",
+      "needs good lighting"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/insta360-link-2.html",
+    "review": "product-guides/insta360-link-2.html",
+    "name": "Insta360 Link 2",
+    "category": "Video and Streaming",
+    "bestFor": "AI-tracked presentations and desk video",
+    "strengths": [
+      "motorized tracking",
+      "gesture controls",
+      "high-resolution capture"
+    ],
+    "cautions": [
+      "moving parts add cost",
+      "software setup"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/elgato-stream-deck-mk-2.html",
+    "review": "product-guides/elgato-stream-deck-mk-2.html",
+    "name": "Elgato Stream Deck MK.2",
+    "category": "Video and Streaming",
+    "bestFor": "one-touch shortcuts for live workflows",
+    "strengths": [
+      "custom keys",
+      "deep integrations",
+      "profiles and folders"
+    ],
+    "cautions": [
+      "setup time",
+      "not essential for simple streams"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/avermedia-live-gamer-mini.html",
+    "review": "product-guides/avermedia-live-gamer-mini.html",
+    "name": "AVerMedia Live Gamer Mini",
+    "category": "Video and Streaming",
+    "bestFor": "entry-level HDMI game capture",
+    "strengths": [
+      "compact capture",
+      "hardware encoding",
+      "simple USB connection"
+    ],
+    "cautions": [
+      "1080p-focused",
+      "check console passthrough needs"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/elgato-hd60-x.html",
+    "review": "product-guides/elgato-hd60-x.html",
+    "name": "Elgato HD60 X",
+    "category": "Video and Streaming",
+    "bestFor": "high-refresh HDMI game capture workflows",
+    "strengths": [
+      "VRR passthrough support",
+      "low-latency preview",
+      "broad console use"
+    ],
+    "cautions": [
+      "requires capable USB port",
+      "capture limits vary by format"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/neewer-x12-teleprompter.html",
+    "review": "product-guides/neewer-x12-teleprompter.html",
+    "name": "Neewer X12 Teleprompter",
+    "category": "Video and Streaming",
+    "bestFor": "scripted desktop and camera presentations",
+    "strengths": [
+      "large text view",
+      "remote control options",
+      "camera and phone support"
+    ],
+    "cautions": [
+      "setup footprint",
+      "lens compatibility check"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/smallrig-camera-desk-mount.html",
+    "review": "product-guides/smallrig-camera-desk-mount.html",
+    "name": "SmallRig Camera Desk Mount",
+    "category": "Video and Streaming",
+    "bestFor": "overhead and desk-mounted camera angles",
+    "strengths": [
+      "adjustable mounting",
+      "desk clamp",
+      "accessory expansion"
+    ],
+    "cautions": [
+      "desk stability matters",
+      "observe weight rating"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/ulanzi-mt-44-tripod.html",
+    "review": "product-guides/ulanzi-mt-44-tripod.html",
+    "name": "Ulanzi MT-44 Tripod",
+    "category": "Video and Streaming",
+    "bestFor": "portable phone and small-camera filming",
+    "strengths": [
+      "extendable body",
+      "phone holder",
+      "lightweight travel use"
+    ],
+    "cautions": [
+      "not for heavy rigs",
+      "wind stability"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/elgato-key-light-air.html",
+    "review": "product-guides/elgato-key-light-air.html",
+    "name": "Elgato Key Light Air",
+    "category": "Creator Lighting",
+    "bestFor": "app-controlled desk lighting for video",
+    "strengths": [
+      "adjustable brightness",
+      "color temperature control",
+      "desk stand"
+    ],
+    "cautions": [
+      "requires desk space",
+      "Wi-Fi setup"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/godox-ledp260c-panel.html",
+    "review": "product-guides/godox-ledp260c-panel.html",
+    "name": "Godox LEDP260C Panel",
+    "category": "Creator Lighting",
+    "bestFor": "affordable adjustable video lighting",
+    "strengths": [
+      "bi-color output",
+      "large panel",
+      "battery option"
+    ],
+    "cautions": [
+      "batteries often separate",
+      "controls are basic"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/neewer-660-led-video-light.html",
+    "review": "product-guides/neewer-660-led-video-light.html",
+    "name": "Neewer 660 LED Video Light",
+    "category": "Creator Lighting",
+    "bestFor": "versatile studio and interview lighting",
+    "strengths": [
+      "large panel",
+      "bi-color control",
+      "mounting options"
+    ],
+    "cautions": [
+      "bulky for travel",
+      "power accessories vary"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/ulanzi-vl49-rgb-light.html",
+    "review": "product-guides/ulanzi-vl49-rgb-light.html",
+    "name": "Ulanzi VL49 RGB Light",
+    "category": "Creator Lighting",
+    "bestFor": "pocket-size colored accent lighting",
+    "strengths": [
+      "compact body",
+      "RGB effects",
+      "cold-shoe mount"
+    ],
+    "cautions": [
+      "limited output",
+      "shorter runtime at full power"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/aputure-amaran-100d-s.html",
+    "review": "product-guides/aputure-amaran-100d-s.html",
+    "name": "Aputure Amaran 100d S",
+    "category": "Creator Lighting",
+    "bestFor": "strong daylight-balanced creator lighting",
+    "strengths": [
+      "high output",
+      "Bowens mount",
+      "accurate color potential"
+    ],
+    "cautions": [
+      "modifier and stand needed",
+      "mains-focused setup"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/smallrig-rm120-rgb-light.html",
+    "review": "product-guides/smallrig-rm120-rgb-light.html",
+    "name": "SmallRig RM120 RGB Light",
+    "category": "Creator Lighting",
+    "bestFor": "portable effects and fill lighting",
+    "strengths": [
+      "RGB control",
+      "compact battery design",
+      "magnetic mounting options"
+    ],
+    "cautions": [
+      "small source can look harsh",
+      "limited throw"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/godox-sl60iibi.html",
+    "review": "product-guides/godox-sl60iibi.html",
+    "name": "Godox SL60IIBi",
+    "category": "Creator Lighting",
+    "bestFor": "budget bi-color studio key light",
+    "strengths": [
+      "bi-color range",
+      "Bowens mount",
+      "app control options"
+    ],
+    "cautions": [
+      "fan noise should be checked",
+      "stand not included"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/neewer-ring-light-kit-18-inch.html",
+    "review": "product-guides/neewer-ring-light-kit-18-inch.html",
+    "name": "Neewer Ring Light Kit 18-inch",
+    "category": "Creator Lighting",
+    "bestFor": "front-facing beauty and tutorial lighting",
+    "strengths": [
+      "large ring",
+      "phone mounting",
+      "simple brightness control"
+    ],
+    "cautions": [
+      "ring reflections",
+      "large storage footprint"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/nanlite-pavotube-ii-6c.html",
+    "review": "product-guides/nanlite-pavotube-ii-6c.html",
+    "name": "Nanlite PavoTube II 6C",
+    "category": "Creator Lighting",
+    "bestFor": "portable tube accent lighting",
+    "strengths": [
+      "RGB effects",
+      "magnetic mounting",
+      "battery powered"
+    ],
+    "cautions": [
+      "accent rather than key light",
+      "small battery capacity"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/aputure-mc-rgbww-light.html",
+    "review": "product-guides/aputure-mc-rgbww-light.html",
+    "name": "Aputure MC RGBWW Light",
+    "category": "Creator Lighting",
+    "bestFor": "compact premium accent light",
+    "strengths": [
+      "accurate color control",
+      "magnetic back",
+      "app ecosystem"
+    ],
+    "cautions": [
+      "premium for its size",
+      "limited key-light output"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/samsung-t7-shield-portable-ssd.html",
+    "review": "product-guides/samsung-t7-shield-portable-ssd.html",
+    "name": "Samsung T7 Shield Portable SSD",
+    "category": "Computers and Storage",
+    "bestFor": "fast portable file backups",
+    "strengths": [
+      "rugged shell",
+      "USB-C connectivity",
+      "compact size"
+    ],
+    "cautions": [
+      "performance depends on host port",
+      "cable management"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/sandisk-extreme-portable-ssd-v2.html",
+    "review": "product-guides/sandisk-extreme-portable-ssd-v2.html",
+    "name": "SanDisk Extreme Portable SSD V2",
+    "category": "Computers and Storage",
+    "bestFor": "portable creative-project storage",
+    "strengths": [
+      "compact body",
+      "fast USB interface",
+      "travel-friendly design"
+    ],
+    "cautions": [
+      "keep firmware current",
+      "backup redundancy still needed"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/crucial-x9-pro-portable-ssd.html",
+    "review": "product-guides/crucial-x9-pro-portable-ssd.html",
+    "name": "Crucial X9 Pro Portable SSD",
+    "category": "Computers and Storage",
+    "bestFor": "small high-speed project storage",
+    "strengths": [
+      "compact metal build",
+      "USB-C workflow",
+      "broad device use"
+    ],
+    "cautions": [
+      "host speed limits apply",
+      "premium over basic drives"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/wd-my-passport-5tb.html",
+    "review": "product-guides/wd-my-passport-5tb.html",
+    "name": "WD My Passport 5TB",
+    "category": "Computers and Storage",
+    "bestFor": "high-capacity portable archive storage",
+    "strengths": [
+      "large capacity",
+      "bus powered",
+      "backup software options"
+    ],
+    "cautions": [
+      "slower than SSD",
+      "protect from drops"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/seagate-expansion-desktop-8tb.html",
+    "review": "product-guides/seagate-expansion-desktop-8tb.html",
+    "name": "Seagate Expansion Desktop 8TB",
+    "category": "Computers and Storage",
+    "bestFor": "cost-focused desktop archive storage",
+    "strengths": [
+      "high capacity",
+      "simple USB setup",
+      "good for cold storage"
+    ],
+    "cautions": [
+      "requires power adapter",
+      "mechanical-drive speed"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/samsung-990-pro-nvme-ssd.html",
+    "review": "product-guides/samsung-990-pro-nvme-ssd.html",
+    "name": "Samsung 990 Pro NVMe SSD",
+    "category": "Computers and Storage",
+    "bestFor": "high-performance internal storage upgrades",
+    "strengths": [
+      "fast PCIe interface",
+      "mature management software",
+      "multiple capacities"
+    ],
+    "cautions": [
+      "requires compatible M.2 slot",
+      "heatsink needs vary"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/crucial-p3-plus-nvme-ssd.html",
+    "review": "product-guides/crucial-p3-plus-nvme-ssd.html",
+    "name": "Crucial P3 Plus NVMe SSD",
+    "category": "Computers and Storage",
+    "bestFor": "value-oriented internal SSD upgrades",
+    "strengths": [
+      "PCIe 4.0 support",
+      "multiple capacities",
+      "simple form factor"
+    ],
+    "cautions": [
+      "sustained write performance varies",
+      "compatibility check"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/kingston-datatraveler-max-usb-c.html",
+    "review": "product-guides/kingston-datatraveler-max-usb-c.html",
+    "name": "Kingston DataTraveler Max USB-C",
+    "category": "Computers and Storage",
+    "bestFor": "fast pocket file transfers",
+    "strengths": [
+      "USB-C connector",
+      "strong sequential speeds",
+      "compact design"
+    ],
+    "cautions": [
+      "easy to misplace",
+      "device clearance"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/anker-555-usb-c-hub.html",
+    "review": "product-guides/anker-555-usb-c-hub.html",
+    "name": "Anker 555 USB-C Hub",
+    "category": "Computers and Storage",
+    "bestFor": "multiport laptop expansion",
+    "strengths": [
+      "HDMI and card slots",
+      "power delivery passthrough",
+      "Ethernet"
+    ],
+    "cautions": [
+      "shared bandwidth",
+      "charger sold separately"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/ugreen-revodok-usb-c-hub-6-in-1.html",
+    "review": "product-guides/ugreen-revodok-usb-c-hub-6-in-1.html",
+    "name": "UGREEN Revodok USB-C Hub 6-in-1",
+    "category": "Computers and Storage",
+    "bestFor": "basic ports for thin laptops",
+    "strengths": [
+      "compact hub",
+      "HDMI",
+      "SD card access"
+    ],
+    "cautions": [
+      "port mix varies by model",
+      "shared USB bandwidth"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/tp-link-archer-ax55-router.html",
+    "review": "product-guides/tp-link-archer-ax55-router.html",
+    "name": "TP-Link Archer AX55 Router",
+    "category": "Networking",
+    "bestFor": "mainstream Wi-Fi 6 home networking",
+    "strengths": [
+      "Wi-Fi 6",
+      "multiple Ethernet ports",
+      "app setup"
+    ],
+    "cautions": [
+      "coverage depends on layout",
+      "not a modem"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/asus-rt-ax58u-v2-router.html",
+    "review": "product-guides/asus-rt-ax58u-v2-router.html",
+    "name": "ASUS RT-AX58U V2 Router",
+    "category": "Networking",
+    "bestFor": "configurable Wi-Fi 6 networking",
+    "strengths": [
+      "strong settings menu",
+      "mesh support",
+      "security features"
+    ],
+    "cautions": [
+      "advanced interface",
+      "placement matters"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/amazon-eero-6-mesh-system.html",
+    "review": "product-guides/amazon-eero-6-mesh-system.html",
+    "name": "Amazon eero 6+ Mesh System",
+    "category": "Networking",
+    "bestFor": "simple multi-room Wi-Fi coverage",
+    "strengths": [
+      "easy app setup",
+      "mesh expansion",
+      "compact nodes"
+    ],
+    "cautions": [
+      "some features subscription-based",
+      "limited advanced controls"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/tp-link-deco-x50-mesh-system.html",
+    "review": "product-guides/tp-link-deco-x50-mesh-system.html",
+    "name": "TP-Link Deco X50 Mesh System",
+    "category": "Networking",
+    "bestFor": "whole-home Wi-Fi 6 coverage",
+    "strengths": [
+      "simple mesh app",
+      "Ethernet ports",
+      "scalable nodes"
+    ],
+    "cautions": [
+      "app-led administration",
+      "node placement matters"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/netgear-nighthawk-ax5400-router.html",
+    "review": "product-guides/netgear-nighthawk-ax5400-router.html",
+    "name": "NETGEAR Nighthawk AX5400 Router",
+    "category": "Networking",
+    "bestFor": "higher-capacity Wi-Fi 6 households",
+    "strengths": [
+      "multi-device capacity",
+      "fast wireless tiers",
+      "app management"
+    ],
+    "cautions": [
+      "larger footprint",
+      "premium pricing"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/gl-inet-beryl-ax-travel-router.html",
+    "review": "product-guides/gl-inet-beryl-ax-travel-router.html",
+    "name": "GL.iNet Beryl AX Travel Router",
+    "category": "Networking",
+    "bestFor": "secure travel and hotel networking",
+    "strengths": [
+      "compact design",
+      "VPN features",
+      "Wi-Fi 6"
+    ],
+    "cautions": [
+      "technical setup for advanced use",
+      "not a full-size home router"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/tp-link-re705x-wi-fi-extender.html",
+    "review": "product-guides/tp-link-re705x-wi-fi-extender.html",
+    "name": "TP-Link RE705X Wi-Fi Extender",
+    "category": "Networking",
+    "bestFor": "filling a targeted Wi-Fi dead zone",
+    "strengths": [
+      "Wi-Fi 6 support",
+      "Ethernet port",
+      "mesh compatibility options"
+    ],
+    "cautions": [
+      "extenders reduce ideal throughput",
+      "placement is critical"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/netgear-gs308-ethernet-switch.html",
+    "review": "product-guides/netgear-gs308-ethernet-switch.html",
+    "name": "NETGEAR GS308 Ethernet Switch",
+    "category": "Networking",
+    "bestFor": "adding wired Ethernet ports",
+    "strengths": [
+      "eight gigabit ports",
+      "fanless design",
+      "plug and play"
+    ],
+    "cautions": [
+      "unmanaged features only",
+      "power outlet required"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/tp-link-tl-sg108-ethernet-switch.html",
+    "review": "product-guides/tp-link-tl-sg108-ethernet-switch.html",
+    "name": "TP-Link TL-SG108 Ethernet Switch",
+    "category": "Networking",
+    "bestFor": "small-office wired expansion",
+    "strengths": [
+      "eight gigabit ports",
+      "metal case",
+      "fanless operation"
+    ],
+    "cautions": [
+      "unmanaged switch",
+      "no PoE"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/cable-matters-cat-6-ethernet-cable.html",
+    "review": "product-guides/cable-matters-cat-6-ethernet-cable.html",
+    "name": "Cable Matters Cat 6 Ethernet Cable",
+    "category": "Networking",
+    "bestFor": "reliable wired network connections",
+    "strengths": [
+      "gigabit-capable category",
+      "multiple lengths",
+      "simple upgrade"
+    ],
+    "cautions": [
+      "choose correct length",
+      "cable routing"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/logitech-mx-keys-s-keyboard.html",
+    "review": "product-guides/logitech-mx-keys-s-keyboard.html",
+    "name": "Logitech MX Keys S Keyboard",
+    "category": "Office and Productivity",
+    "bestFor": "quiet multi-device office typing",
+    "strengths": [
+      "backlit keys",
+      "multi-device switching",
+      "USB-C charging"
+    ],
+    "cautions": [
+      "full-size footprint",
+      "premium price"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/logitech-mx-master-3s-mouse.html",
+    "review": "product-guides/logitech-mx-master-3s-mouse.html",
+    "name": "Logitech MX Master 3S Mouse",
+    "category": "Office and Productivity",
+    "bestFor": "productivity shortcuts and precise scrolling",
+    "strengths": [
+      "quiet clicks",
+      "electromagnetic scroll wheel",
+      "custom buttons"
+    ],
+    "cautions": [
+      "right-handed shape",
+      "software needed for customization"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/keychron-k8-pro-keyboard.html",
+    "review": "product-guides/keychron-k8-pro-keyboard.html",
+    "name": "Keychron K8 Pro Keyboard",
+    "category": "Office and Productivity",
+    "bestFor": "wireless mechanical typing with customization",
+    "strengths": [
+      "hot-swappable options",
+      "Mac and Windows support",
+      "Bluetooth"
+    ],
+    "cautions": [
+      "taller profile",
+      "switch choice matters"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/dell-ultrasharp-u2723qe-monitor.html",
+    "review": "product-guides/dell-ultrasharp-u2723qe-monitor.html",
+    "name": "Dell UltraSharp U2723QE Monitor",
+    "category": "Office and Productivity",
+    "bestFor": "color-conscious USB-C office setups",
+    "strengths": [
+      "4K panel",
+      "USB-C hub",
+      "ergonomic stand"
+    ],
+    "cautions": [
+      "premium cost",
+      "60 Hz focus"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/benq-gw2790-monitor.html",
+    "review": "product-guides/benq-gw2790-monitor.html",
+    "name": "BenQ GW2790 Monitor",
+    "category": "Office and Productivity",
+    "bestFor": "affordable general office display",
+    "strengths": [
+      "27-inch workspace",
+      "eye-care modes",
+      "simple design"
+    ],
+    "cautions": [
+      "basic stand adjustments",
+      "not creator-grade color"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/brother-hl-l2400dw-printer.html",
+    "review": "product-guides/brother-hl-l2400dw-printer.html",
+    "name": "Brother HL-L2400DW Printer",
+    "category": "Office and Productivity",
+    "bestFor": "low-maintenance monochrome document printing",
+    "strengths": [
+      "duplex printing",
+      "wireless support",
+      "laser efficiency"
+    ],
+    "cautions": [
+      "black-and-white only",
+      "toner cost"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/fellowes-powershred-8c-shredder.html",
+    "review": "product-guides/fellowes-powershred-8c-shredder.html",
+    "name": "Fellowes Powershred 8C Shredder",
+    "category": "Office and Productivity",
+    "bestFor": "home-office document disposal",
+    "strengths": [
+      "cross-cut shredding",
+      "compact bin",
+      "simple controls"
+    ],
+    "cautions": [
+      "limited continuous runtime",
+      "sheet capacity"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/huanuo-dual-monitor-stand.html",
+    "review": "product-guides/huanuo-dual-monitor-stand.html",
+    "name": "HUANUO Dual Monitor Stand",
+    "category": "Office and Productivity",
+    "bestFor": "freeing desk space with two monitors",
+    "strengths": [
+      "adjustable arms",
+      "desk clamp",
+      "cable routing"
+    ],
+    "cautions": [
+      "monitor weight limits",
+      "installation required"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/rain-design-mstand-laptop-stand.html",
+    "review": "product-guides/rain-design-mstand-laptop-stand.html",
+    "name": "Rain Design mStand Laptop Stand",
+    "category": "Office and Productivity",
+    "bestFor": "fixed ergonomic laptop elevation",
+    "strengths": [
+      "solid aluminum",
+      "simple cable pass-through",
+      "stable platform"
+    ],
+    "cautions": [
+      "not height adjustable",
+      "external keyboard recommended"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/flexispot-e7-standing-desk.html",
+    "review": "product-guides/flexispot-e7-standing-desk.html",
+    "name": "FlexiSpot E7 Standing Desk",
+    "category": "Office and Productivity",
+    "bestFor": "adjustable sit-stand work routines",
+    "strengths": [
+      "dual-motor frame",
+      "height presets",
+      "stable design"
+    ],
+    "cautions": [
+      "assembly required",
+      "desktop options affect price"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/anker-737-power-bank.html",
+    "review": "product-guides/anker-737-power-bank.html",
+    "name": "Anker 737 Power Bank",
+    "category": "Power and Charging",
+    "bestFor": "high-output charging for laptops and phones",
+    "strengths": [
+      "large battery",
+      "USB-C power delivery",
+      "status display"
+    ],
+    "cautions": [
+      "heavy for pockets",
+      "airline limits matter"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/ugreen-nexode-100w-gan-charger.html",
+    "review": "product-guides/ugreen-nexode-100w-gan-charger.html",
+    "name": "UGREEN Nexode 100W GaN Charger",
+    "category": "Power and Charging",
+    "bestFor": "charging several USB devices from one adapter",
+    "strengths": [
+      "multiple ports",
+      "GaN design",
+      "laptop-capable output"
+    ],
+    "cautions": [
+      "power is shared",
+      "cables may be separate"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/anker-prime-100w-gan-charger.html",
+    "review": "product-guides/anker-prime-100w-gan-charger.html",
+    "name": "Anker Prime 100W GaN Charger",
+    "category": "Power and Charging",
+    "bestFor": "compact multi-device travel charging",
+    "strengths": [
+      "three ports",
+      "high USB-C output",
+      "compact design"
+    ],
+    "cautions": [
+      "premium price",
+      "shared-output rules"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/belkin-boostcharge-pro-3-in-1.html",
+    "review": "product-guides/belkin-boostcharge-pro-3-in-1.html",
+    "name": "Belkin BoostCharge Pro 3-in-1",
+    "category": "Power and Charging",
+    "bestFor": "Apple-device bedside charging",
+    "strengths": [
+      "phone watch and earbuds charging",
+      "tidy stand",
+      "MagSafe/Qi2 options"
+    ],
+    "cautions": [
+      "Apple-focused",
+      "adapter inclusion varies"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/baseus-blade-laptop-power-bank.html",
+    "review": "product-guides/baseus-blade-laptop-power-bank.html",
+    "name": "Baseus Blade Laptop Power Bank",
+    "category": "Power and Charging",
+    "bestFor": "flat high-capacity laptop charging",
+    "strengths": [
+      "slim shape",
+      "USB-C output",
+      "power display"
+    ],
+    "cautions": [
+      "large bag footprint",
+      "not pocket-light"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/apc-back-ups-bx950mi.html",
+    "review": "product-guides/apc-back-ups-bx950mi.html",
+    "name": "APC Back-UPS BX950MI",
+    "category": "Power and Charging",
+    "bestFor": "short backup power for networking and PCs",
+    "strengths": [
+      "battery backup",
+      "surge protection",
+      "multiple outlets"
+    ],
+    "cautions": [
+      "battery replacement over time",
+      "not for high-power appliances"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/ecoflow-river-2-portable-power-station.html",
+    "review": "product-guides/ecoflow-river-2-portable-power-station.html",
+    "name": "EcoFlow RIVER 2 Portable Power Station",
+    "category": "Power and Charging",
+    "bestFor": "portable low-to-medium power needs",
+    "strengths": [
+      "fast recharge options",
+      "multiple outputs",
+      "app features"
+    ],
+    "cautions": [
+      "capacity limits runtime",
+      "not weatherproof"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/anker-521-portable-power-station.html",
+    "review": "product-guides/anker-521-portable-power-station.html",
+    "name": "Anker 521 Portable Power Station",
+    "category": "Power and Charging",
+    "bestFor": "quiet backup for small electronics",
+    "strengths": [
+      "LiFePO4 battery",
+      "multiple ports",
+      "portable handle"
+    ],
+    "cautions": [
+      "limited for heaters or kettles",
+      "recharge planning"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/brennenstuhl-premium-line-power-strip.html",
+    "review": "product-guides/brennenstuhl-premium-line-power-strip.html",
+    "name": "Brennenstuhl Premium-Line Power Strip",
+    "category": "Power and Charging",
+    "bestFor": "organized desk and equipment power",
+    "strengths": [
+      "multiple sockets",
+      "robust housing",
+      "switch control"
+    ],
+    "cautions": [
+      "region-specific plugs",
+      "surge features vary"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/ugreen-240w-usb-c-cable.html",
+    "review": "product-guides/ugreen-240w-usb-c-cable.html",
+    "name": "UGREEN 240W USB-C Cable",
+    "category": "Power and Charging",
+    "bestFor": "high-power USB-C charging connections",
+    "strengths": [
+      "high power rating",
+      "braided options",
+      "multiple lengths"
+    ],
+    "cautions": [
+      "data speed may differ by version",
+      "needs compatible charger"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/apple-airtag.html",
+    "review": "product-guides/apple-airtag.html",
+    "name": "Apple AirTag",
+    "category": "Mobile Accessories",
+    "bestFor": "finding personal items in the Apple ecosystem",
+    "strengths": [
+      "large Find My network",
+      "replaceable battery",
+      "compact size"
+    ],
+    "cautions": [
+      "Apple-focused",
+      "accessory holder often needed"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/samsung-galaxy-smarttag2.html",
+    "review": "product-guides/samsung-galaxy-smarttag2.html",
+    "name": "Samsung Galaxy SmartTag2",
+    "category": "Mobile Accessories",
+    "bestFor": "finding items with compatible Galaxy phones",
+    "strengths": [
+      "long battery potential",
+      "UWB on supported phones",
+      "rugged loop"
+    ],
+    "cautions": [
+      "Samsung ecosystem",
+      "coverage varies"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/anker-622-magnetic-battery.html",
+    "review": "product-guides/anker-622-magnetic-battery.html",
+    "name": "Anker 622 Magnetic Battery",
+    "category": "Mobile Accessories",
+    "bestFor": "compact magnetic iPhone top-ups",
+    "strengths": [
+      "folding stand",
+      "portable size",
+      "wireless convenience"
+    ],
+    "cautions": [
+      "modest capacity",
+      "wireless charging is slower"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/peak-design-mobile-tripod.html",
+    "review": "product-guides/peak-design-mobile-tripod.html",
+    "name": "Peak Design Mobile Tripod",
+    "category": "Mobile Accessories",
+    "bestFor": "pocket phone support for filming and calls",
+    "strengths": [
+      "slim folded shape",
+      "strong magnetic attachment",
+      "adjustable angles"
+    ],
+    "cautions": [
+      "requires compatible case or adapter",
+      "premium price"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/dji-osmo-mobile-6.html",
+    "review": "product-guides/dji-osmo-mobile-6.html",
+    "name": "DJI Osmo Mobile 6",
+    "category": "Mobile Accessories",
+    "bestFor": "stabilized smartphone video",
+    "strengths": [
+      "three-axis stabilization",
+      "extension rod",
+      "creator modes"
+    ],
+    "cautions": [
+      "balancing and app setup",
+      "device compatibility"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/rode-videomicro-ii.html",
+    "review": "product-guides/rode-videomicro-ii.html",
+    "name": "Rode VideoMicro II",
+    "category": "Mobile Accessories",
+    "bestFor": "compact on-camera and phone audio",
+    "strengths": [
+      "directional pickup",
+      "no battery needed",
+      "small shock mount"
+    ],
+    "cautions": [
+      "adapter may be required",
+      "best at close range"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/ugreen-foldable-phone-stand.html",
+    "review": "product-guides/ugreen-foldable-phone-stand.html",
+    "name": "UGREEN Foldable Phone Stand",
+    "category": "Mobile Accessories",
+    "bestFor": "simple desk viewing and calls",
+    "strengths": [
+      "folding design",
+      "angle adjustment",
+      "broad phone fit"
+    ],
+    "cautions": [
+      "not a charging stand",
+      "large cases may affect fit"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/spigen-tough-armor-phone-case.html",
+    "review": "product-guides/spigen-tough-armor-phone-case.html",
+    "name": "Spigen Tough Armor Phone Case",
+    "category": "Mobile Accessories",
+    "bestFor": "protective everyday phone coverage",
+    "strengths": [
+      "reinforced corners",
+      "built-in kickstand on many models",
+      "screen lip"
+    ],
+    "cautions": [
+      "adds bulk",
+      "buy exact phone version"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/joby-griptight-one-gorillapod.html",
+    "review": "product-guides/joby-griptight-one-gorillapod.html",
+    "name": "Joby GripTight ONE GorillaPod",
+    "category": "Mobile Accessories",
+    "bestFor": "flexible phone mounting",
+    "strengths": [
+      "wrappable legs",
+      "compact phone clamp",
+      "portable design"
+    ],
+    "cautions": [
+      "limited height",
+      "not for heavy rigs"
+    ],
+    "badge": null
+  },
+  {
+    "id": "product-guides/lexar-professional-microsdxc-1066x.html",
+    "review": "product-guides/lexar-professional-microsdxc-1066x.html",
+    "name": "Lexar Professional microSDXC 1066x",
+    "category": "Mobile Accessories",
+    "bestFor": "expandable storage for compatible devices",
+    "strengths": [
+      "fast application rating",
+      "multiple capacities",
+      "adapter often included"
+    ],
+    "cautions": [
+      "counterfeit risk from unknown sellers",
+      "device capacity limits"
+    ],
+    "badge": null
+  },
+  {
+    "id": "switchbot-ai-art-frame-review.html",
+    "review": "switchbot-ai-art-frame-review.html",
+    "name": "SwitchBot AI Art Frame",
+    "category": "AI / Smart Displays",
+    "bestFor": "Design-conscious AI and smart-home enthusiasts",
+    "strengths": [
+      "AI-oriented digital art display"
+    ],
+    "cautions": [
+      "Compatibility depends on your exact home setup",
+      "Some features may require a compatible hub or app account",
+      "Specifications, bundles and availability can change"
+    ],
+    "badge": null
+  },
+  {
+    "id": "switchbot-ai-hub-review.html",
+    "review": "switchbot-ai-hub-review.html",
+    "name": "SwitchBot AI Hub",
+    "category": "Smart Hubs",
+    "bestFor": "Early adopters who want advanced automation",
+    "strengths": [
+      "AI-focused automation hub"
+    ],
+    "cautions": [
+      "Compatibility depends on your exact home setup",
+      "Some features may require a compatible hub or app account",
+      "Specifications, bundles and availability can change"
+    ],
+    "badge": null
+  },
+  {
+    "id": "switchbot-air-purifier-table-review.html",
+    "review": "switchbot-air-purifier-table-review.html",
+    "name": "SwitchBot Air Purifier Table",
+    "category": "Home Appliances",
+    "bestFor": "Living spaces where footprint and function both matter",
+    "strengths": [
+      "Air purification with table-style design"
+    ],
+    "cautions": [
+      "Compatibility depends on your exact home setup",
+      "Some features may require a compatible hub or app account",
+      "Specifications, bundles and availability can change"
+    ],
+    "badge": null
+  },
+  {
+    "id": "switchbot-battery-circulator-fan-2-pro-review.html",
+    "review": "switchbot-battery-circulator-fan-2-pro-review.html",
+    "name": "SwitchBot Battery Circulator Fan 2 Pro",
+    "category": "Home Appliances",
+    "bestFor": "Rooms needing flexible, cordless airflow",
+    "strengths": [
+      "Portable smart air circulation"
+    ],
+    "cautions": [
+      "Compatibility depends on your exact home setup",
+      "Some features may require a compatible hub or app account",
+      "Specifications, bundles and availability can change"
+    ],
+    "badge": null
+  },
+  {
+    "id": "switchbot-blind-tilt-review.html",
+    "review": "switchbot-blind-tilt-review.html",
+    "name": "SwitchBot Blind Tilt",
+    "category": "Curtains & Blinds",
+    "bestFor": "Homes with compatible horizontal blinds",
+    "strengths": [
+      "Retrofit blind-angle control"
+    ],
+    "cautions": [
+      "Compatibility depends on your exact home setup",
+      "Some features may require a compatible hub or app account",
+      "Specifications, bundles and availability can change"
+    ],
+    "badge": null
+  },
+  {
+    "id": "switchbot-bot-review.html",
+    "review": "switchbot-bot-review.html",
+    "name": "SwitchBot Bot",
+    "category": "Power & Access",
+    "bestFor": "Making a simple existing appliance smart",
+    "strengths": [
+      "Physical button-pushing automation"
+    ],
+    "cautions": [
+      "Compatibility depends on your exact home setup",
+      "Some features may require a compatible hub or app account",
+      "Specifications, bundles and availability can change"
+    ],
+    "badge": null
+  },
+  {
+    "id": "switchbot-candle-warmer-lamp-review.html",
+    "review": "switchbot-candle-warmer-lamp-review.html",
+    "name": "SwitchBot Candle Warmer Lamp",
+    "category": "Lighting",
+    "bestFor": "Candle lovers seeking flame-free fragrance",
+    "strengths": [
+      "Smart candle warming and ambient light"
+    ],
+    "cautions": [
+      "Compatibility depends on your exact home setup",
+      "Some features may require a compatible hub or app account",
+      "Specifications, bundles and availability can change"
+    ],
+    "badge": null
+  },
+  {
+    "id": "switchbot-curtain-3-review.html",
+    "review": "switchbot-curtain-3-review.html",
+    "name": "SwitchBot Curtain 3",
+    "category": "Curtains & Blinds",
+    "bestFor": "Renters and homeowners automating existing curtains",
+    "strengths": [
+      "Retrofit smart-curtain motor"
+    ],
+    "cautions": [
+      "Compatibility depends on your exact home setup",
+      "Some features may require a compatible hub or app account",
+      "Specifications, bundles and availability can change"
+    ],
+    "badge": null
+  },
+  {
+    "id": "switchbot-curtain-3-rod-type-1-review.html",
+    "review": "switchbot-curtain-3-rod-type-1-review.html",
+    "name": "SwitchBot Curtain 3 Rod Type 1",
+    "category": "Curtains & Blinds",
+    "bestFor": "Homes with compatible curtain rods",
+    "strengths": [
+      "Rod-style curtain automation"
+    ],
+    "cautions": [
+      "Compatibility depends on your exact home setup",
+      "Some features may require a compatible hub or app account",
+      "Specifications, bundles and availability can change"
+    ],
+    "badge": null
+  },
+  {
+    "id": "switchbot-curtain-review.html",
+    "review": "switchbot-curtain-review.html",
+    "name": "SwitchBot Curtain 2",
+    "category": "Curtains & Blinds",
+    "bestFor": "Buyers comparing price with newer Curtain models",
+    "strengths": [
+      "Budget smart-curtain motor"
+    ],
+    "cautions": [
+      "Compatibility depends on your exact home setup",
+      "Some features may require a compatible hub or app account",
+      "Specifications, bundles and availability can change"
+    ],
+    "badge": null
+  },
+  {
+    "id": "switchbot-evaporative-humidifier-auto-refill-review.html",
+    "review": "switchbot-evaporative-humidifier-auto-refill-review.html",
+    "name": "SwitchBot Evaporative Humidifier",
+    "category": "Home Appliances",
+    "bestFor": "Dry rooms and low-maintenance routines",
+    "strengths": [
+      "Connected evaporative humidification"
+    ],
+    "cautions": [
+      "Compatibility depends on your exact home setup",
+      "Some features may require a compatible hub or app account",
+      "Specifications, bundles and availability can change"
+    ],
+    "badge": null
+  },
+  {
+    "id": "switchbot-floor-cleaning-robot-s20-review.html",
+    "review": "switchbot-floor-cleaning-robot-s20-review.html",
+    "name": "SwitchBot S20",
+    "category": "Robot Vacuums",
+    "bestFor": "Homes prioritizing low-maintenance floor care",
+    "strengths": [
+      "Automated vacuuming and mopping"
+    ],
+    "cautions": [
+      "Compatibility depends on your exact home setup",
+      "Some features may require a compatible hub or app account",
+      "Specifications, bundles and availability can change"
+    ],
+    "badge": null
+  },
+  {
+    "id": "switchbot-garage-door-opener-review.html",
+    "review": "switchbot-garage-door-opener-review.html",
+    "name": "SwitchBot Garage Door Opener",
+    "category": "Power & Access",
+    "bestFor": "Drivers upgrading a compatible garage door",
+    "strengths": [
+      "Smart garage-door control"
+    ],
+    "cautions": [
+      "Compatibility depends on your exact home setup",
+      "Some features may require a compatible hub or app account",
+      "Specifications, bundles and availability can change"
+    ],
+    "badge": null
+  },
+  {
+    "id": "switchbot-hub-2-review.html",
+    "review": "switchbot-hub-2-review.html",
+    "name": "SwitchBot Hub 2",
+    "category": "Smart Hubs",
+    "bestFor": "Users building a connected SwitchBot setup",
+    "strengths": [
+      "Established hub for everyday smart-home routines"
+    ],
+    "cautions": [
+      "Compatibility depends on your exact home setup",
+      "Some features may require a compatible hub or app account",
+      "Specifications, bundles and availability can change"
+    ],
+    "badge": null
+  },
+  {
+    "id": "switchbot-hub-3-review.html",
+    "review": "switchbot-hub-3-review.html",
+    "name": "SwitchBot Hub 3",
+    "category": "Smart Hubs",
+    "bestFor": "Homes that want a current, expandable hub",
+    "strengths": [
+      "Matter-focused hub with broader control options"
+    ],
+    "cautions": [
+      "Compatibility depends on your exact home setup",
+      "Some features may require a compatible hub or app account",
+      "Specifications, bundles and availability can change"
+    ],
+    "badge": null
+  },
+  {
+    "id": "switchbot-hub-mini-matter-enabled-review.html",
+    "review": "switchbot-hub-mini-matter-enabled-review.html",
+    "name": "SwitchBot Hub Mini Matter Enabled",
+    "category": "Smart Hubs",
+    "bestFor": "Budget-conscious Matter users",
+    "strengths": [
+      "Compact Matter-enabled hub"
+    ],
+    "cautions": [
+      "Compatibility depends on your exact home setup",
+      "Some features may require a compatible hub or app account",
+      "Specifications, bundles and availability can change"
+    ],
+    "badge": null
+  },
+  {
+    "id": "switchbot-hub-mini-review.html",
+    "review": "switchbot-hub-mini-review.html",
+    "name": "SwitchBot Hub Mini",
+    "category": "Smart Hubs",
+    "bestFor": "First-time SwitchBot buyers",
+    "strengths": [
+      "Compact, lower-cost hub"
+    ],
+    "cautions": [
+      "Compatibility depends on your exact home setup",
+      "Some features may require a compatible hub or app account",
+      "Specifications, bundles and availability can change"
+    ],
+    "badge": null
+  },
+  {
+    "id": "switchbot-indoor-outdoor-thermo-hygrometer-review.html",
+    "review": "switchbot-indoor-outdoor-thermo-hygrometer-review.html",
+    "name": "SwitchBot Indoor/Outdoor Thermo-Hygrometer",
+    "category": "Sensors & Meters",
+    "bestFor": "Budget-friendly environmental tracking",
+    "strengths": [
+      "Temperature and humidity monitoring"
+    ],
+    "cautions": [
+      "Compatibility depends on your exact home setup",
+      "Some features may require a compatible hub or app account",
+      "Specifications, bundles and availability can change"
+    ],
+    "badge": null
+  },
+  {
+    "id": "switchbot-lock-pro-review.html",
+    "review": "switchbot-lock-pro-review.html",
+    "name": "SwitchBot Lock Pro",
+    "category": "Smart Locks",
+    "bestFor": "Most households comparing smart-lock options",
+    "strengths": [
+      "Value-focused retrofit smart lock"
+    ],
+    "cautions": [
+      "Compatibility depends on your exact home setup",
+      "Some features may require a compatible hub or app account",
+      "Specifications, bundles and availability can change"
+    ],
+    "badge": null
+  },
+  {
+    "id": "switchbot-lock-ultra-review.html",
+    "review": "switchbot-lock-ultra-review.html",
+    "name": "SwitchBot Lock Ultra",
+    "category": "Smart Locks",
+    "bestFor": "Homes wanting SwitchBot's newest lock platform",
+    "strengths": [
+      "Flagship retrofit smart lock"
+    ],
+    "cautions": [
+      "Compatibility depends on your exact home setup",
+      "Some features may require a compatible hub or app account",
+      "Specifications, bundles and availability can change"
+    ],
+    "badge": null
+  },
+  {
+    "id": "switchbot-lock-vision-pro-review.html",
+    "review": "switchbot-lock-vision-pro-review.html",
+    "name": "SwitchBot Lock Vision Pro",
+    "category": "Smart Locks",
+    "bestFor": "Buyers seeking the top Vision configuration",
+    "strengths": [
+      "Premium facial-recognition entry"
+    ],
+    "cautions": [
+      "Compatibility depends on your exact home setup",
+      "Some features may require a compatible hub or app account",
+      "Specifications, bundles and availability can change"
+    ],
+    "badge": null
+  },
+  {
+    "id": "switchbot-lock-vision-review.html",
+    "review": "switchbot-lock-vision-review.html",
+    "name": "SwitchBot Lock Vision",
+    "category": "Smart Locks",
+    "bestFor": "Households prioritizing hands-free access",
+    "strengths": [
+      "Facial-recognition smart entry"
+    ],
+    "cautions": [
+      "Compatibility depends on your exact home setup",
+      "Some features may require a compatible hub or app account",
+      "Specifications, bundles and availability can change"
+    ],
+    "badge": null
+  },
+  {
+    "id": "switchbot-meter-pro-co2-monitor-review.html",
+    "review": "switchbot-meter-pro-co2-monitor-review.html",
+    "name": "SwitchBot Meter Pro CO2 Monitor",
+    "category": "Sensors & Meters",
+    "bestFor": "Offices, bedrooms and shared indoor spaces",
+    "strengths": [
+      "Indoor air and CO2 monitoring"
+    ],
+    "cautions": [
+      "Compatibility depends on your exact home setup",
+      "Some features may require a compatible hub or app account",
+      "Specifications, bundles and availability can change"
+    ],
+    "badge": null
+  },
+  {
+    "id": "switchbot-mini-robot-vacuum-k10-pro-review.html",
+    "review": "switchbot-mini-robot-vacuum-k10-pro-review.html",
+    "name": "SwitchBot K10+ Pro",
+    "category": "Robot Vacuums",
+    "bestFor": "Apartments and pet-owning households",
+    "strengths": [
+      "Compact automated cleaning"
+    ],
+    "cautions": [
+      "Compatibility depends on your exact home setup",
+      "Some features may require a compatible hub or app account",
+      "Specifications, bundles and availability can change"
+    ],
+    "badge": null
+  },
+  {
+    "id": "switchbot-multitasking-household-robot-k20-pro-review.html",
+    "review": "switchbot-multitasking-household-robot-k20-pro-review.html",
+    "name": "SwitchBot K20+ Pro",
+    "category": "Robot Vacuums",
+    "bestFor": "Early adopters seeking an advanced home robot",
+    "strengths": [
+      "Multitasking household robotics"
+    ],
+    "cautions": [
+      "Compatibility depends on your exact home setup",
+      "Some features may require a compatible hub or app account",
+      "Specifications, bundles and availability can change"
+    ],
+    "badge": null
+  },
+  {
+    "id": "switchbot-outdoor-spotlight-cam-review.html",
+    "review": "switchbot-outdoor-spotlight-cam-review.html",
+    "name": "SwitchBot Outdoor Spotlight Cam 2K",
+    "category": "Cameras & Doorbells",
+    "bestFor": "Entrances, gardens and outdoor areas",
+    "strengths": [
+      "Outdoor video monitoring"
+    ],
+    "cautions": [
+      "Compatibility depends on your exact home setup",
+      "Some features may require a compatible hub or app account",
+      "Specifications, bundles and availability can change"
+    ],
+    "badge": null
+  },
+  {
+    "id": "switchbot-pan-tilt-cam-plus-3k-review.html",
+    "review": "switchbot-pan-tilt-cam-plus-3k-review.html",
+    "name": "SwitchBot Pan/Tilt Cam Plus 3K",
+    "category": "Cameras & Doorbells",
+    "bestFor": "Rooms where a wider adjustable view matters",
+    "strengths": [
+      "Indoor pan-and-tilt monitoring"
+    ],
+    "cautions": [
+      "Compatibility depends on your exact home setup",
+      "Some features may require a compatible hub or app account",
+      "Specifications, bundles and availability can change"
+    ],
+    "badge": null
+  },
+  {
+    "id": "switchbot-plug-mini-review.html",
+    "review": "switchbot-plug-mini-review.html",
+    "name": "SwitchBot Plug Mini",
+    "category": "Power & Access",
+    "bestFor": "Lamps and small appliances",
+    "strengths": [
+      "Compact smart power control"
+    ],
+    "cautions": [
+      "Compatibility depends on your exact home setup",
+      "Some features may require a compatible hub or app account",
+      "Specifications, bundles and availability can change"
+    ],
+    "badge": null
+  },
+  {
+    "id": "switchbot-presence-sensor-review.html",
+    "review": "switchbot-presence-sensor-review.html",
+    "name": "SwitchBot Presence Sensor",
+    "category": "Sensors & Meters",
+    "bestFor": "Automations that need reliable occupancy awareness",
+    "strengths": [
+      "mmWave room-presence detection"
+    ],
+    "cautions": [
+      "Compatibility depends on your exact home setup",
+      "Some features may require a compatible hub or app account",
+      "Specifications, bundles and availability can change"
+    ],
+    "badge": null
+  },
+  {
+    "id": "switchbot-rgbicww-floor-lamp-review.html",
+    "review": "switchbot-rgbicww-floor-lamp-review.html",
+    "name": "SwitchBot RGBICWW Floor Lamp",
+    "category": "Lighting",
+    "bestFor": "Gaming, entertainment and ambient room lighting",
+    "strengths": [
+      "Smart RGB and white floor lamp"
+    ],
+    "cautions": [
+      "Compatibility depends on your exact home setup",
+      "Some features may require a compatible hub or app account",
+      "Specifications, bundles and availability can change"
+    ],
+    "badge": null
+  },
+  {
+    "id": "switchbot-robot-vacuum-k11-review.html",
+    "review": "switchbot-robot-vacuum-k11-review.html",
+    "name": "SwitchBot K11+",
+    "category": "Robot Vacuums",
+    "bestFor": "Apartments and space-conscious homes",
+    "strengths": [
+      "Compact robot vacuum"
+    ],
+    "cautions": [
+      "Compatibility depends on your exact home setup",
+      "Some features may require a compatible hub or app account",
+      "Specifications, bundles and availability can change"
+    ],
+    "badge": null
+  },
+  {
+    "id": "switchbot-roller-shade-review.html",
+    "review": "switchbot-roller-shade-review.html",
+    "name": "SwitchBot Roller Shade",
+    "category": "Curtains & Blinds",
+    "bestFor": "Rooms needing a complete smart shade",
+    "strengths": [
+      "Automated roller shade"
+    ],
+    "cautions": [
+      "Compatibility depends on your exact home setup",
+      "Some features may require a compatible hub or app account",
+      "Specifications, bundles and availability can change"
+    ],
+    "badge": null
+  },
+  {
+    "id": "switchbot-safety-alarm-review.html",
+    "review": "switchbot-safety-alarm-review.html",
+    "name": "SwitchBot Safety Alarm",
+    "category": "Trackers",
+    "bestFor": "Commuters, travelers and students",
+    "strengths": [
+      "Portable personal alarm"
+    ],
+    "cautions": [
+      "Compatibility depends on your exact home setup",
+      "Some features may require a compatible hub or app account",
+      "Specifications, bundles and availability can change"
+    ],
+    "badge": null
+  },
+  {
+    "id": "switchbot-universal-remote-review.html",
+    "review": "switchbot-universal-remote-review.html",
+    "name": "SwitchBot Universal Remote",
+    "category": "Power & Access",
+    "bestFor": "Living rooms with several remotes and devices",
+    "strengths": [
+      "Multi-device smart remote"
+    ],
+    "cautions": [
+      "Compatibility depends on your exact home setup",
+      "Some features may require a compatible hub or app account",
+      "Specifications, bundles and availability can change"
+    ],
+    "badge": null
+  },
+  {
+    "id": "switchbot-video-doorbell-review.html",
+    "review": "switchbot-video-doorbell-review.html",
+    "name": "SwitchBot Smart Video Doorbell",
+    "category": "Cameras & Doorbells",
+    "bestFor": "Households upgrading front-door awareness",
+    "strengths": [
+      "Smart video doorbell"
+    ],
+    "cautions": [
+      "Compatibility depends on your exact home setup",
+      "Some features may require a compatible hub or app account",
+      "Specifications, bundles and availability can change"
+    ],
+    "badge": null
+  },
+  {
+    "id": "switchbot-wallet-finder-card-review.html",
+    "review": "switchbot-wallet-finder-card-review.html",
+    "name": "SwitchBot Wallet Finder Card",
+    "category": "Trackers",
+    "bestFor": "People who frequently misplace a wallet",
+    "strengths": [
+      "Wallet-friendly item tracking"
+    ],
+    "cautions": [
+      "Compatibility depends on your exact home setup",
+      "Some features may require a compatible hub or app account",
+      "Specifications, bundles and availability can change"
+    ],
+    "badge": null
+  },
+  {
+    "id": "switchbot-water-leak-detector-review.html",
+    "review": "switchbot-water-leak-detector-review.html",
+    "name": "SwitchBot Water Leak Detector",
+    "category": "Sensors & Meters",
+    "bestFor": "Kitchens, bathrooms, basements and utility areas",
+    "strengths": [
+      "Water-leak alerts"
+    ],
+    "cautions": [
+      "Compatibility depends on your exact home setup",
+      "Some features may require a compatible hub or app account",
+      "Specifications, bundles and availability can change"
+    ],
+    "badge": null
+  },
+  {
+    "id": "switchbot-weather-station-review.html",
+    "review": "switchbot-weather-station-review.html",
+    "name": "SwitchBot E-Ink Home Dashboard",
+    "category": "AI / Smart Displays",
+    "bestFor": "People who want calm, glanceable information",
+    "strengths": [
+      "Low-power home information dashboard"
+    ],
+    "cautions": [
+      "Compatibility depends on your exact home setup",
+      "Some features may require a compatible hub or app account",
+      "Specifications, bundles and availability can change"
+    ],
+    "badge": null
+  },
+  {
+    "id": "bluefx-ai-media-machine-review.html",
+    "review": "bluefx-ai-media-machine-review.html",
+    "name": "BlueFX AI Media Machine: what is included, and who is it for?",
+    "category": "Review / buying guide",
+    "bestFor": "A practical look at BlueFX's lifetime-access AI video offer for creators and marketers.",
+    "strengths": [
+      "Multiple AI-video functions in one workflow",
+      "Tools for ads, tutorials and short-form content",
+      "Templates and AI-assisted production"
+    ],
+    "cautions": [
+      "Generation features can have credit limits",
+      "Output quality has not been independently tested",
+      "Fact-checking, editing and brand review remain necessary"
+    ],
+    "badge": null
+  },
+  {
+    "id": "contact-sensor-review.html",
+    "review": "contact-sensor-review.html",
+    "name": "SwitchBot Contact Sensor Review: Is It Right for Your Smart Home?",
+    "category": "Review / buying guide",
+    "bestFor": "See the full guide for the intended use.",
+    "strengths": [
+      "Fits into the broader SwitchBot ecosystem",
+      "Designed to automate a clear everyday task",
+      "Can be expanded with compatible SwitchBot devices"
+    ],
+    "cautions": [
+      "Compatibility depends on your exact home setup",
+      "Some features may require a compatible hub or app account",
+      "Specifications, bundles and availability can change"
+    ],
+    "badge": null
+  },
+  {
+    "id": "dreame-l40-ultra-a-review.html",
+    "review": "dreame-l40-ultra-a-review.html",
+    "name": "Dreame L40 Ultra A: Is This Amazon.de Offer Worth Checking?",
+    "category": "Review / buying guide",
+    "bestFor": "See the full guide for the intended use.",
+    "strengths": [
+      "Vacuuming and rotating-mop cleaning",
+      "Mop self-cleaning base station",
+      "App-based routines and room control"
+    ],
+    "cautions": [
+      "Loose cables and small objects can interrupt cleaning",
+      "Dock needs space and ongoing consumables",
+      "Maintenance mopping does not replace every deep clean"
+    ],
+    "badge": null
+  },
+  {
+    "id": "eufy-security-camera-review.html",
+    "review": "eufy-security-camera-review.html",
+    "name": "Stop watching your security camera. Let AI watch what matters.",
+    "category": "Review / buying guide",
+    "bestFor": "See the full guide for the intended use.",
+    "strengths": [
+      "Wide-angle and telephoto views in one camera",
+      "Pan-and-tilt subject tracking",
+      "Built-in local storage",
+      "Solar panel can reduce manual charging"
+    ],
+    "cautions": [
+      "Not designed for continuous 24/7 recording",
+      "Solar charging depends on sunlight and usage",
+      "Requires 2.4 GHz Wi-Fi",
+      "Some ecosystem capabilities need HomeBase S380"
+    ],
+    "badge": null
+  },
+  {
+    "id": "insta360-link-2-pro-review.html",
+    "review": "insta360-link-2-pro-review.html",
+    "name": "Insta360 Link 2 Pro: Is the 2026 AI Webcam Worth the Upgrade?",
+    "category": "Review / buying guide",
+    "bestFor": "See the full guide for the intended use.",
+    "strengths": [
+      "Larger sensor than the standard Link 2",
+      "Dual microphones",
+      "AI tracking with customizable areas",
+      "Whiteboard and desk-view tools"
+    ],
+    "cautions": [
+      "Higher price than the older Link 2",
+      "Desk-only users may not need motorized tracking",
+      "Advanced features depend on compatible hardware and software",
+      "Existing Link 2 owners may see limited reason to upgrade"
+    ],
+    "badge": null
+  },
+  {
+    "id": "insta360-link-2-review.html",
+    "review": "insta360-link-2-review.html",
+    "name": "Insta360 Link 2 Review: Is the AI Webcam Worth It?",
+    "category": "Review / buying guide",
+    "bestFor": "See the full guide for the intended use.",
+    "strengths": [
+      "Motorized tracking is useful when you move during calls or presentations",
+      "Gesture controls can reduce mid-call software interaction",
+      "4K-class capture is aimed at higher-detail video workflows",
+      "Presentation-oriented framing can suit teaching and demonstrations"
+    ],
+    "cautions": [
+      "It may be unnecessary if you always sit still at a desk",
+      "Tracking quality depends on scene conditions and setup",
+      "It costs more than a basic static webcam",
+      "Full functionality depends on compatible hardware and companion software"
+    ],
+    "badge": null
+  },
+  {
+    "id": "meross-garage-door-opener-review.html",
+    "review": "meross-garage-door-opener-review.html",
+    "name": "Meross Smart Garage Door Opener Review: Is the MSG200HK Worth It?",
+    "category": "Review / buying guide",
+    "bestFor": "See the full guide for the intended use.",
+    "strengths": [
+      "No hub required, no monthly subscription fee",
+      "Works with your existing opener — no replacement needed",
+      "Compatible with 200+ brands and 1600+ models, including openers from the 1990s",
+      "Supports up to 3 garage doors from one unit (with extra sensor cables)",
+      "Native Apple HomeKit support alongside Alexa and Google Assistant"
+    ],
+    "cautions": [
+      "Some openers need a free compatibility accessory — worth checking before ordering",
+      "2.4GHz WiFi only — no 5GHz support",
+      "Requires AC power near the opener for installation",
+      "Enterprise WiFi networks aren't supported"
+    ],
+    "badge": null
+  },
+  {
+    "id": "plaud-notepin-review.html",
+    "review": "plaud-notepin-review.html",
+    "name": "Plaud NotePin S vs NotePin — plus the new Plaud One AI earbuds",
+    "category": "Review / buying guide",
+    "bestFor": "See the full guide for the intended use.",
+    "strengths": [
+      "Physical start/stop control is easy to understand.",
+      "Press-to-highlight marks important moments during a conversation.",
+      "Wearable form factor suits meetings, interviews, lectures and field notes.",
+      "It is an established shipping product rather than an Explorer preorder."
+    ],
+    "cautions": [
+      "AI transcription and summaries depend on Plaud services rather than a completely offline workflow.",
+      "Heavy use can exceed included transcription or credit allowances.",
+      "NotePin S is aimed at in-person recording; Plaud One is the model designed to span more call scenarios.",
+      "Recording and consent laws vary by country and situation."
+    ],
+    "badge": null
+  },
+  {
+    "id": "ray-ban-meta-gen-2-review.html",
+    "review": "ray-ban-meta-gen-2-review.html",
+    "name": "Ray-Ban Meta Gen 2: one of the most complete consumer AI-glasses options right now",
+    "category": "Review / buying guide",
+    "bestFor": "See the full guide for the intended use.",
+    "strengths": [
+      "Hands-free point-of-view capture",
+      "Open-ear audio",
+      "Voice-based Meta AI functions",
+      "Longer rated battery life than Gen 1"
+    ],
+    "cautions": [
+      "AI features and languages vary by country",
+      "Less filming control than dedicated cameras",
+      "Frame and prescription choices affect fit and price",
+      "Camera wearables require care around other people’s privacy"
+    ],
+    "badge": null
+  },
+  {
+    "id": "roborock-review.html",
+    "review": "roborock-review.html",
+    "name": "Roborock Robot Vacuum Review: Is AI Cleaning Worth It?",
+    "category": "Review / buying guide",
+    "bestFor": "See the full guide for the intended use.",
+    "strengths": [
+      "Genuinely thorough, methodical cleaning vs. older random-path robots",
+      "Obstacle avoidance meaningfully reduces getting stuck or damaging items",
+      "App-based room selection and no-go zones are easy to set up",
+      "Self-emptying models cut hands-on maintenance to occasional bag changes"
+    ],
+    "cautions": [
+      "Higher-end self-emptying models are a significant investment",
+      "Mopping function is a light pass, not a substitute for hand-mopping stains",
+      "Thick, high-pile rugs can still trip up navigation or reduce suction efficiency",
+      "Requires clear floors on the first mapping run to build an accurate map"
+    ],
+    "badge": null
+  },
+  {
+    "id": "search-atlas-review.html",
+    "review": "search-atlas-review.html",
+    "name": "Five practical ways Search Atlas may help grow a website",
+    "category": "Review / buying guide",
+    "bestFor": "Search Atlas combines SEO research, optimization, content tools, local visibility and AI-search tracking. It is designed mainly for website owners, marketers, consultants and agencies—not people who only need a basic writing app.",
+    "strengths": [
+      "SEO research and optimization in one service",
+      "Content planning and briefing tools",
+      "Competitor and backlink research",
+      "Local-business visibility workflows"
+    ],
+    "cautions": [
+      "Plan, project and usage limits need checking",
+      "Automated changes still need human review",
+      "May overlap tools you already pay for",
+      "Cannot guarantee rankings or AI citations"
+    ],
+    "badge": null
+  },
+  {
+    "id": "switchbot-ai-mindclip-review.html",
+    "review": "switchbot-ai-mindclip-review.html",
+    "name": "SwitchBot AI MindClip review: promising wearable memory, but budget for the cloud",
+    "category": "Review / buying guide",
+    "bestFor": "See the full guide for the intended use.",
+    "strengths": [
+      "Very light wearable format.",
+      "20-hour claimed recording time and 64 GB local storage.",
+      "Turns recordings into summaries, tasks and reminders instead of only transcripts.",
+      "Launch price is lower than several premium AI-recording wearables.",
+      "Clear recording indicator and documented privacy controls."
+    ],
+    "cautions": [
+      "Newly launched, so independent evidence is still limited.",
+      "Ongoing AI usage can add subscription cost.",
+      "Cloud processing means this is not a fully offline workflow.",
+      "Accuracy will vary with noise, accents, distance and overlapping speakers.",
+      "Recording consent requirements vary by region."
+    ],
+    "badge": null
+  },
+  {
+    "id": "translation-earbuds-review.html",
+    "review": "translation-earbuds-review.html",
+    "name": "AI Translation Earbuds Review: Do They Actually Work?",
+    "category": "Review / buying guide",
+    "bestFor": "See the full guide for the intended use.",
+    "strengths": [
+      "Genuinely useful for basic travel conversations — directions, ordering food, simple exchanges",
+      "Hands-free after setup — no passing a phone back and forth",
+      "Offline modes cover common travel scenarios without needing data roaming",
+      "Two-way earbud modes make face-to-face conversation feel more natural than app-only translators"
+    ],
+    "cautions": [
+      "Accuracy drops noticeably with background noise, slang, or fast speech",
+      "A few seconds of lag makes rapid back-and-forth conversation feel stilted",
+      "Best language pairs are usually major ones (English, Spanish, Mandarin, etc.) — rarer languages are less reliable",
+      "Full accuracy and language count often depend on an internet connection"
+    ],
+    "badge": null
+  },
+  {
+    "id": "https://ndubizmarketechcomstart.com/wyze-cam-v4-review",
+    "review": "https://ndubizmarketechcomstart.com/wyze-cam-v4-review",
+    "name": "Wyze Cam v4",
+    "category": "Cameras",
+    "bestFor": "Fixed home monitoring",
+    "strengths": [
+      "Fixed home monitoring"
+    ],
+    "cautions": [
+      "Requires a power source; check storage and subscription needs"
+    ],
+    "badge": null
+  },
+  {
+    "id": "https://ndubizmarketechcomstart.com/logitech-c920-webcam-review",
+    "review": "https://ndubizmarketechcomstart.com/logitech-c920-webcam-review",
+    "name": "Logitech C920 HD Pro Webcam",
+    "category": "Cameras",
+    "bestFor": "Desktop calls and streaming",
+    "strengths": [
+      "Desktop calls and streaming"
+    ],
+    "cautions": [
+      "USB webcam; not a stand-alone home security system"
+    ],
+    "badge": null
+  },
+  {
+    "id": "https://ndubizmarketechcomstart.com/govee-neon-rope-light-review",
+    "review": "https://ndubizmarketechcomstart.com/govee-neon-rope-light-review",
+    "name": "Govee RGBIC Neon Rope Light 2",
+    "category": "Lighting",
+    "bestFor": "Decorative wall and desk effects",
+    "strengths": [
+      "Decorative wall and desk effects"
+    ],
+    "cautions": [
+      "Accent lighting rather than a replacement for the main room light"
+    ],
+    "badge": null
+  },
+  {
+    "id": "https://ndubizmarketechcomstart.com/meross-smart-bulb-review",
+    "review": "https://ndubizmarketechcomstart.com/meross-smart-bulb-review",
+    "name": "Meross Smart Light Bulb",
+    "category": "Lighting",
+    "bestFor": "Simple everyday smart-bulb upgrades",
+    "strengths": [
+      "Simple everyday smart-bulb upgrades"
+    ],
+    "cautions": [
+      "Confirm the exact model’s platform support and regional electrical fitting"
+    ],
+    "badge": null
+  },
+  {
+    "id": "https://ndubizmarketechcomstart.com/wyze-lock-bolt-review",
+    "review": "https://ndubizmarketechcomstart.com/wyze-lock-bolt-review",
+    "name": "Wyze Lock Bolt",
+    "category": "Locks",
+    "bestFor": "Fingerprint and keypad access",
+    "strengths": [
+      "Fingerprint and keypad access"
+    ],
+    "cautions": [
+      "Replaces the deadbolt; check door measurements and connectivity"
+    ],
+    "badge": null
+  }
+]
