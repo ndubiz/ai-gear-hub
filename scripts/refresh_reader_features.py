@@ -99,6 +99,7 @@ def badge_markup(b):
 
 for path, original in pages.items():
     soup = parse(original)
+    if soup.html and soup.html.has_attr('data-campaign-landing'): continue
     if not soup.body or not soup.h1 or soup.find('meta',attrs={'http-equiv':re.compile('refresh',re.I)}): continue
     # Repeatable: remove only our own generated additions.
     for el in soup.select('[data-reader-generated], link[href$="reader-features.css"], script[src$="reader-features.js"]'): el.decompose()

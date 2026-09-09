@@ -99,6 +99,7 @@ for path in sorted(ROOT.rglob('*.html')):
     if '.git' in path.parts: continue
     rel = path.relative_to(ROOT).as_posix(); prefix = '../' * rel.count('/')
     soup = parse(path.read_text(encoding='utf8'))
+    if soup.html and soup.html.has_attr('data-campaign-landing'): continue
     if not soup.head or not soup.body or not soup.h1 or soup.find('meta',attrs={'http-equiv':re.compile('refresh',re.I)}): continue
     for x in soup.select('[data-shopping-generated], link[href$="shopping-features.css"], script[src$="shopping-features.js"]'): x.decompose()
     paid_links = [a for a in soup.select('a[href]') if paid(a)]

@@ -57,11 +57,13 @@
   document.addEventListener("click", function (event) {
     const link = event.target.closest && event.target.closest("a[href]");
     if (!link || !isAffiliateLink(link) || typeof window.gtag !== "function") return;
+    if (link.dataset.ctaPosition && !document.querySelector('script[data-ndubiz-ga4]')) return;
     window.gtag("event", "affiliate_click", {
       product_name: (link.dataset.product || link.textContent || "Affiliate product").replace(/\s+/g, " ").trim().slice(0, 120),
       link_url: link.href,
       link_domain: new URL(link.href, location.href).hostname,
       page_path: location.pathname,
+      ...(link.dataset.ctaPosition ? {cta_position:link.dataset.ctaPosition, campaign_source:link.dataset.campaignSource, campaign_medium:link.dataset.campaignMedium, campaign_name:link.dataset.campaignName} : {}),
       transport_type: "beacon"
     });
   }, true);
