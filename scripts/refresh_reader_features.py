@@ -22,6 +22,11 @@ previous = json.loads(MANIFEST.read_text()) if MANIFEST.exists() else {}
 records = {}
 
 def parse(text): return BeautifulSoup(text, 'html.parser')
+def research_parse(html):
+    soup = parse(html)
+    for el in soup.select('[data-shopping-generated]'): el.decompose()
+    soup.smooth()
+    return soup
 def text(el): return el.get_text(' ', strip=True) if el else ''
 def key(href, page='index.html'):
     u = urljoin(BASE + page, href)
@@ -45,7 +50,7 @@ for p in json.loads((ROOT/'product-guides/products.json').read_text(encoding='ut
 
 for path, html in pages.items():
     if not re.match(r'switchbot-.+-review\.html$', path): continue
-    soup = parse(html)
+    soup = research_parse(html)
     fields = {text(tr.find('th')):text(tr.find('td')) for tr in soup.select('table tr') if tr.find('th') and tr.find('td')}
     if not fields.get('Core purpose'): continue
     name = text(soup.h1).split(' Review')[0]
@@ -55,7 +60,7 @@ for path, html in pages.items():
 
 for path, html in pages.items():
     if '/' in path or not path.endswith('-review.html') or path in catalog: continue
-    soup = parse(html)
+    soup = research_parse(html)
     strengths = [text(li) for li in soup.select('.pros-box li')]
     cautions = [text(li) for li in soup.select('.cons-box li')]
     if not soup.h1 or not strengths or not cautions: continue
@@ -64,7 +69,7 @@ for path, html in pages.items():
 
 # Reuse the existing comparison rows rather than inventing specifications or prices.
 for path in ['best-smart-cameras-2026.html','best-smart-lighting-2026.html','best-smart-locks-2026.html']:
-    soup = parse(pages[path])
+    soup = research_parse(pages[path])
     for row in soup.select('.gear-table tbody tr'):
         cells = row.find_all(['th','td'],recursive=False)
         a = next((a for a in row.select('a[href]') if 'review' in text(a).lower()),None)
@@ -80,8 +85,9 @@ aliases = {a:p for p in catalog.values() for a in [p['review']]+p.get('aliases',
 
 def meaningful_hash(soup):
     clean = parse(str(soup.find('main') or soup.body or soup))
-    for el in clean.select('script, style, header, footer, nav, .reader-trust, .reader-freshness, .reader-badge, .reader-select, [data-reader-generated]'):
+    for el in clean.select('script, style, header, footer, nav, .reader-trust, .reader-freshness, .reader-badge, .reader-select, [data-reader-generated], [data-shopping-generated]'):
         el.decompose()
+    clean.smooth()
     return hashlib.sha256(text(clean).encode()).hexdigest()
 
 def badge_markup(b):

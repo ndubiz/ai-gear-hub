@@ -1,4 +1,14 @@
 # Product feature maintenance
+## Shopping clarity (Guides 14–17)
+
+Run `python scripts/refresh_shopping_features.py` and then `python scripts/refresh_reader_features.py` before publishing. The first builds the How We Pick page, disclosure strips, consistent rating states, manual price-history widgets and up to five relevant spec explanations per page. Both AI Gear Hub and Market Tech link to the shared methodology. Icons fall back to glossary links without JavaScript. Generated shopping UI is excluded from article freshness hashes.
+
+`shopping-evidence.json` deliberately begins with empty `ratings` and `priceHistory` maps. Do not insert example scores or claim unobserved discounts. Missing evidence displays `Not yet scored` / `Price history unavailable`. No live feed, automatic monitoring or email alerts are implied.
+
+Rating keys use the review path in `reader-catalog.json`. A record requires `reviewer`, `reviewed` and `reviewDue` ISO dates, HTTPS `sources`, and `criteria`: usefulness, compatibility, usability, limitations and value, each containing a 1–10 `score` and a nonempty `reason`. Scores are equally weighted. Publish evidence with the assessment, distinguish research from hands-on work, and never add an AggregateRating on the basis of an editorial score.
+
+Price history keys use the same review paths. Each observation contains `date` (ISO date), `amount` (positive number), `currency` (three-letter code), `retailer`, exact `variant`, and HTTPS `source`. A series must use a single currency, retailer and variant. Records show their dates and sources; percentage changes compare recorded observations only, not continuous lows. The current implementation intentionally never makes a 90-day-low claim.
+
 The feature data uses existing tracked retailer links. Preserve each partner tag and region; do not replace them with example tags.
 
 Add real product photos only when sourced and permitted. Category icons are intentionally labeled illustrations.
