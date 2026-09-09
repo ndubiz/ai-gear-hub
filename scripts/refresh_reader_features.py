@@ -132,6 +132,16 @@ for path, original in pages.items():
     date_text = datetime.strptime(record['date'],'%Y-%m-%d').strftime('%d %B %Y').lstrip('0')
     freshness = parse(f'<p class="reader-freshness" data-reader-generated="freshness">{record["label"]}: <time datetime="{record["date"]}">{date_text}</time> · <a href="{prefix}editorial-standards.html#dates">About these dates</a></p>').p
     soup.h1.insert_after(freshness)
+    if path in ('how-we-test.html', 'editorial-standards.html'):
+        freshness.insert_after(parse('<p class="reviewed-by" data-reader-generated="reviewer">Reviewed by: AI Gear Hub Editorial Team</p>').p)
+        for el in soup.select('script[data-trust-schema]'): el.decompose()
+        schema = soup.new_tag('script', type='application/ld+json')
+        schema['data-trust-schema'] = ''
+        schema.string = json.dumps({'@context':'https://schema.org','@type':'AboutPage',
+            'name':'How We Pick Products' if path=='how-we-test.html' else 'How we choose and update our guides',
+            'url':BASE+path, 'dateModified':record['date'],
+            'publisher':{'@type':'Organization','name':'AI Gear Hub / Ndubiz Market Tech' if path=='how-we-test.html' else 'AI Gear Hub'}})
+        soup.head.append(schema)
     for card in soup.select('article.card, article.product-card, .gear-card, .gear-table tbody tr'):
         product = next((aliases[key(a['href'],path)] for a in card.select('a[href]') if key(a['href'],path) in aliases),None)
         if not product or not product.get('badge'): continue
