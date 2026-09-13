@@ -1,4 +1,10 @@
 # Product feature maintenance
+## Search, shortlist and discovery
+
+After the shopping and reader refresh commands below, run `python scripts/refresh_discovery.py` (standard library only). It builds `discovery-index.json` from existing page titles, descriptions and the comparison catalog, and adds the shared section navigation and discovery assets. Re-run after adding or renaming pages. Marketplace and legacy gearhub pages remain separate. Keep the discovery assets separate from existing comparison, product-finder, analytics and affiliate scripts.
+
+Shortlists and the last 12 viewed guides are local to the browser, with in-memory fallback when storage is blocked. Related options require matching categories and overlapping product-purpose terms; no live prices, compatibility guarantees or new product claims are inferred. Check search/category/empty states, save/remove, cross-page restore, history clear and unavailable-storage behavior after changes.
+
 ## Shopping clarity (Guides 14–17)
 
 Run `python scripts/refresh_shopping_features.py` and then `python scripts/refresh_reader_features.py` before publishing. The first builds the How We Pick page, disclosure strips, consistent rating states, manual price-history widgets and up to five relevant spec explanations per page. Both AI Gear Hub and Market Tech link to the shared methodology. Icons fall back to glossary links without JavaScript. Generated shopping UI is excluded from article freshness hashes.

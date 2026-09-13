@@ -85,7 +85,7 @@ aliases = {a:p for p in catalog.values() for a in [p['review']]+p.get('aliases',
 
 def meaningful_hash(soup):
     clean = parse(str(soup.find('main') or soup.body or soup))
-    for el in clean.select('script, style, header, footer, nav, .reader-trust, .reader-freshness, .reader-badge, .reader-select, [data-reader-generated], [data-shopping-generated]'):
+    for el in clean.select('script, style, header, footer, nav, .discovery-bar, .discovery-related, .reader-trust, .reader-freshness, .reader-badge, .reader-select, [data-reader-generated], [data-shopping-generated]'):
         el.decompose()
     clean.smooth()
     return hashlib.sha256(text(clean).encode()).hexdigest()
