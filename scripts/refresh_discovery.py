@@ -27,6 +27,10 @@ for path in sorted(ROOT.rglob('*.html')):
     if rel.startswith(('marketplace/', 'gearhub/')): continue
     original = path.read_text(encoding='utf-8')
     if '<head' not in original or '<h1' not in original: continue
+    if 'data-campaign-landing' in original:
+        cleaned = re.sub(r'<!-- discovery:start -->.*?<!-- discovery:end -->', '', original, flags=re.S)
+        if cleaned != original: path.write_text(cleaned, encoding='utf-8')
+        continue
     page = Page(original)
     if rel not in ['404.html', 'checklist-download.html'] and not re.search(r'name=["\']robots["\'][^>]*noindex', original, re.I):
         p = by_path.get(rel, {})

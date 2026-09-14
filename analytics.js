@@ -3,6 +3,9 @@
 
   const MEASUREMENT_ID = "G-CSVVQ7F9EZ";
   const CONSENT_KEY = "ndubiz-analytics-consent";
+  const campaign = new URLSearchParams(location.search);
+  const testTraffic = campaign.get('utm_source') === 'codex_test';
+  let analyticsAllowed = false;
 
   window.dataLayer = window.dataLayer || [];
   window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
@@ -16,6 +19,7 @@
 
   function startAnalytics() {
     if (document.querySelector('script[data-ndubiz-ga4]')) return;
+    analyticsAllowed = true;
     window.gtag("consent", "update", { analytics_storage: "granted" });
     const script = document.createElement("script");
     script.async = true;
@@ -23,7 +27,7 @@
     script.src = "https://www.googletagmanager.com/gtag/js?id=" + MEASUREMENT_ID;
     document.head.appendChild(script);
     window.gtag("js", new Date());
-    window.gtag("config", MEASUREMENT_ID, { send_page_view: true });
+    window.gtag("config", MEASUREMENT_ID, { send_page_view: true, ...(testTraffic ? {debug_mode:true, traffic_type:'internal'} : {}) });
   }
 
   function saveChoice(choice) {
@@ -57,12 +61,16 @@
   document.addEventListener("click", function (event) {
     const link = event.target.closest && event.target.closest("a[href]");
     if (!link || !isAffiliateLink(link) || typeof window.gtag !== "function") return;
-    if (link.dataset.ctaPosition && !document.querySelector('script[data-ndubiz-ga4]')) return;
+    // Do not queue pre-consent clicks and send them later after acceptance.
+    if (!analyticsAllowed) return;
+    const heading = document.querySelector('h1');
+    const productName = link.dataset.product || (heading && heading.textContent) || link.textContent || 'Affiliate product';
     window.gtag("event", "affiliate_click", {
-      product_name: (link.dataset.product || link.textContent || "Affiliate product").replace(/\s+/g, " ").trim().slice(0, 120),
+      product_name: productName.replace(/\s+/g, " ").trim().slice(0, 120),
       link_url: link.href,
       link_domain: new URL(link.href, location.href).hostname,
       page_path: location.pathname,
+      ...(testTraffic ? {debug_mode:true, traffic_type:'internal'} : {}),
       ...(link.dataset.ctaPosition ? {cta_position:link.dataset.ctaPosition, campaign_source:link.dataset.campaignSource, campaign_medium:link.dataset.campaignMedium, campaign_name:link.dataset.campaignName} : {}),
       transport_type: "beacon"
     });
