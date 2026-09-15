@@ -150,9 +150,9 @@
     "contentHash": "68365b6408549d8296d25c2698d0f8a24970ae9d07f00635099b19d4191fc07c"
   },
   "reels.html": {
-    "date": "2026-09-14",
+    "date": "2026-09-15",
     "label": "Content updated",
-    "contentHash": "c0bac236f27e1b6bb3bd78957abaf426e7a5c2432a869381913f987da79df493"
+    "contentHash": "8c35471ded2b869d15dde453a80f84575ac434f4034bd3da80797e231ed64150"
   },
   "roborock-review.html": {
     "date": "2026-09-08",
@@ -613,6 +613,11 @@
     "date": "2026-09-14",
     "label": "Content updated",
     "contentHash": "5cbb0b51b3ef32196849148a4336f80322365d6fd2324f4507ccd95a34631633"
+  },
+  "product-guides/govee-neon-rope-light-2.html": {
+    "date": "2026-09-15",
+    "label": "Page last edited",
+    "contentHash": "95b501ca6b5d143a9c378a8acb3b647a9b108faf16f5331b7522316785892468"
   },
   "product-guides/govee-smart-led-light-bars.html": {
     "date": "2026-09-14",
