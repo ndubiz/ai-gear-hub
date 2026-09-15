@@ -72,7 +72,7 @@ jobs:
           for page in html_files:
               text = page.read_text(encoding='utf-8')
               parser = LinkParser(); parser.feed(text)
-              links_by_file[page.name] = parser.links
+              links_by_file[page] = parser.links
               ids = set()
               class IdParser(HTMLParser):
                   def handle_starttag(self, tag, attrs):
@@ -80,10 +80,10 @@ jobs:
                       if value:
                           ids.add(value)
               ip = IdParser(); ip.feed(text)
-              ids_by_file[page.name] = ids
+              ids_by_file[page] = ids
 
           for page in html_files:
-              for href in links_by_file[page.name]:
+              for href in links_by_file[page]:
                   if href.startswith(('http://','https://','mailto:','tel:','javascript:')):
                       continue
                   parts = urlsplit(href)
@@ -96,8 +96,12 @@ jobs:
                       errors.append(f'{page}: broken local link -> {href}')
                       continue
                   if fragment:
-                      target_name = target.name if target_path else page.name
-                      if target_name.endswith('.html') and fragment not in ids_by_file.get(target_name, set()):
+                      if target.suffix == '.html' and target not in ids_by_file:
+                          ids = set()
+                          ip = IdParser()
+                          ip.feed(target.read_text(encoding='utf-8'))
+                          ids_by_file[target] = ids
+                      if target.suffix == '.html' and fragment not in ids_by_file.get(target, set()):
                           errors.append(f'{page}: missing fragment -> {href}')
 
           if errors:
