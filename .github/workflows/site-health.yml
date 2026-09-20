@@ -29,6 +29,7 @@ jobs:
             eufy-picks.html
             eufy-security-camera-review.html
             guides.html
+            fitness-tech.html
             insta360-link-2-review.html
             plaud-notepin-review.html
             privacy.html
@@ -128,6 +129,7 @@ jobs:
             '/eufy-picks.html'
             '/eufy-security-camera-review.html'
             '/guides.html'
+            '/fitness-tech.html'
             '/insta360-link-2-review.html'
             '/plaud-notepin-review.html'
             '/privacy.html'
