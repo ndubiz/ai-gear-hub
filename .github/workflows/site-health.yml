@@ -30,6 +30,11 @@ jobs:
             eufy-security-camera-review.html
             guides.html
             fitness-tech.html
+            colmi-r02-smart-ring-review.html
+            amazfit-bip-5-smartwatch-review.html
+            shokz-openrun-pro-2-review.html
+            dji-osmo-action-4-review.html
+            renpho-smart-jump-rope-review.html
             insta360-link-2-review.html
             plaud-notepin-review.html
             privacy.html
@@ -130,6 +135,11 @@ jobs:
             '/eufy-security-camera-review.html'
             '/guides.html'
             '/fitness-tech.html'
+            '/colmi-r02-smart-ring-review.html'
+            '/amazfit-bip-5-smartwatch-review.html'
+            '/shokz-openrun-pro-2-review.html'
+            '/dji-osmo-action-4-review.html'
+            '/renpho-smart-jump-rope-review.html'
             '/insta360-link-2-review.html'
             '/plaud-notepin-review.html'
             '/privacy.html'
