@@ -60,12 +60,16 @@
 
   document.addEventListener("click", function (event) {
     const link = event.target.closest && event.target.closest("a[href]");
-    if (!link || !isAffiliateLink(link) || typeof window.gtag !== "function") return;
+    if (!link || typeof window.gtag !== "function") return;
+    let destination;
+    try { destination = new URL(link.href, location.href); } catch (_) { return; }
+    if (!/^https?:$/.test(destination.protocol) || destination.hostname === location.hostname) return;
+    const eventName = isAffiliateLink(link) ? "affiliate_click" : "outbound_click";
     // Do not queue pre-consent clicks and send them later after acceptance.
     if (!analyticsAllowed) return;
     const heading = document.querySelector('h1');
-    const productName = link.dataset.product || (heading && heading.textContent) || link.textContent || 'Affiliate product';
-    window.gtag("event", "affiliate_click", {
+    const productName = link.dataset.product || (heading && heading.textContent) || link.textContent || 'External link';
+    window.gtag("event", eventName, {
       product_name: productName.replace(/\s+/g, " ").trim().slice(0, 120),
       link_url: link.href,
       link_domain: new URL(link.href, location.href).hostname,
