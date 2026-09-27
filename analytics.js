@@ -52,10 +52,19 @@
   }
 
   function isAffiliateLink(link) {
-    const href = link.href || "";
-    const rel = (link.getAttribute("rel") || "").toLowerCase();
-    return link.hasAttribute("data-affiliate") || rel.includes("sponsored") ||
-      /amazon\.(com|de)|amzn\.to|tag=gearhub-20|tag=aigearhub2103-21|ref=jouwifmu/i.test(href);
+    const rel = (link.getAttribute("rel") || "").toLowerCase().split(/\s+/);
+    if (link.hasAttribute("data-affiliate") || rel.includes("sponsored")) return true;
+    let url;
+    try { url = new URL(link.href, location.href); } catch (_) { return false; }
+    const host = url.hostname.toLowerCase();
+    const isAmazon = /(^|\.)amazon\.(com|de)$/.test(host);
+    // Retailer reference links without an affiliate tag are ordinary outbound clicks.
+    return (isAmazon && Boolean(url.searchParams.get("tag"))) ||
+      host === "amzn.to" || host === "tidd.ly" ||
+      host === "awin1.com" || host.endsWith(".awin1.com") ||
+      ((host === "switch-bot.com" || host.endsWith(".switch-bot.com")) &&
+        Boolean(url.searchParams.get("sca_ref"))) ||
+      url.searchParams.get("ref") === "jouwifmu";
   }
 
   document.addEventListener("click", function (event) {
@@ -75,7 +84,11 @@
       link_domain: new URL(link.href, location.href).hostname,
       page_path: location.pathname,
       ...(testTraffic ? {debug_mode:true, traffic_type:'internal'} : {}),
-      ...(link.dataset.ctaPosition ? {cta_position:link.dataset.ctaPosition, campaign_source:link.dataset.campaignSource, campaign_medium:link.dataset.campaignMedium, campaign_name:link.dataset.campaignName} : {}),
+      ...(link.dataset.ctaPosition ? {cta_position:link.dataset.ctaPosition} : {}),
+      campaign_source: link.dataset.campaignSource || campaign.get("utm_source") || undefined,
+      campaign_medium: link.dataset.campaignMedium || campaign.get("utm_medium") || undefined,
+      campaign_name: link.dataset.campaignName || campaign.get("utm_campaign") || undefined,
+      campaign_content: campaign.get("utm_content") || undefined,
       transport_type: "beacon"
     });
   }, true);
