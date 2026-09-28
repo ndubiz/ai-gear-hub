@@ -4,7 +4,12 @@
   const MEASUREMENT_ID = "G-CSVVQ7F9EZ";
   const CONSENT_KEY = "ndubiz-analytics-consent";
   const campaign = new URLSearchParams(location.search);
-  const testTraffic = campaign.get('utm_source') === 'codex_test';
+  let testTraffic = campaign.get('utm_source') === 'codex_test';
+  // Keep a labelled test journey labelled after following internal links.
+  try {
+    if (testTraffic) sessionStorage.setItem('ndubiz-analytics-test', '1');
+    testTraffic = testTraffic || sessionStorage.getItem('ndubiz-analytics-test') === '1';
+  } catch (_) {}
   let analyticsAllowed = false;
 
   window.dataLayer = window.dataLayer || [];
@@ -74,7 +79,7 @@
     try { destination = new URL(link.href, location.href); } catch (_) { return; }
     if (!/^https?:$/.test(destination.protocol)) return;
     const internal = destination.origin === location.origin;
-    const reviewClick = internal && /-review\.html$/.test(destination.pathname) && destination.pathname !== location.pathname;
+    const reviewClick = internal && /-review(?:\.html)?$/.test(destination.pathname) && destination.pathname !== location.pathname;
     if (internal && !reviewClick) return;
     const eventName = reviewClick ? "review_click" : (isAffiliateLink(link) ? "affiliate_click" : "outbound_click");
     // Do not queue pre-consent clicks and send them later after acceptance.
@@ -98,10 +103,13 @@
     });
   }, true);
 
-  document.addEventListener("DOMContentLoaded", function () {
+  function initializeAnalytics() {
     let choice = null;
     try { choice = localStorage.getItem(CONSENT_KEY); } catch (_) {}
     if (choice === "accept") startAnalytics();
     else if (choice !== "decline") showConsentChoice();
-  });
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", initializeAnalytics, { once: true });
+  else initializeAnalytics();
 })();
+
