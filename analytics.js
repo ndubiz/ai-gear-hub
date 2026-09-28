@@ -72,12 +72,17 @@
     if (!link || typeof window.gtag !== "function") return;
     let destination;
     try { destination = new URL(link.href, location.href); } catch (_) { return; }
-    if (!/^https?:$/.test(destination.protocol) || destination.hostname === location.hostname) return;
-    const eventName = isAffiliateLink(link) ? "affiliate_click" : "outbound_click";
+    if (!/^https?:$/.test(destination.protocol)) return;
+    const internal = destination.origin === location.origin;
+    const reviewClick = internal && /-review\.html$/.test(destination.pathname) && destination.pathname !== location.pathname;
+    if (internal && !reviewClick) return;
+    const eventName = reviewClick ? "review_click" : (isAffiliateLink(link) ? "affiliate_click" : "outbound_click");
     // Do not queue pre-consent clicks and send them later after acceptance.
     if (!analyticsAllowed) return;
+    const card = link.closest('article, section, .card, [data-product]');
+    const cardHeading = card && card.querySelector('h3, h2');
     const heading = document.querySelector('h1');
-    const productName = link.dataset.product || (heading && heading.textContent) || link.textContent || 'External link';
+    const productName = link.dataset.product || (cardHeading && cardHeading.textContent) || (heading && heading.textContent) || link.textContent || 'External link';
     window.gtag("event", eventName, {
       product_name: productName.replace(/\s+/g, " ").trim().slice(0, 120),
       link_url: link.href,
