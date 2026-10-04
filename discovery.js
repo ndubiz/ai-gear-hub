@@ -78,7 +78,7 @@
     });
     const p = products.find(p => p.review === current || p.aliases?.includes(current));
     if (p) {
-      const words = text => new Set(text.toLowerCase().match(/[a-z0-9]+/g)?.filter(w => w.length > 3 && !['with','from','smart','home','switchbot','best','your','that','this'].includes(w)) || []);
+      const words = text => new Set(text.toLowerCase().match(/[a-z0-9]+/g)?.filter(w => w.length > 3 && !['with','from','smart','home','switchbot','best','your','that','this','guide','review','intended','purpose','full','suited','practical','product','research','buying','based','before','choose','features','worth','checking','upgrade','information'].includes(w)) || []);
       const terms = words(`${p.name} ${p.bestFor}`);
       const related = products.filter(q => q.id !== p.id && q.category === p.category && entries.some(e => e.path === q.review)).map(q => ({q, score:[...words(`${q.name} ${q.bestFor}`)].filter(w => terms.has(w)).length})).filter(x => x.score > 0).sort((a,b) => b.score-a.score).slice(0,3);
       if (related.length) { const section = make('section','','discovery-related'); section.setAttribute('aria-label','Related products'); section.append(make('h2','Explore similar options'),make('p','Related by category and purpose. Check each guide for compatibility and limitations.')); const ul=make('ul'); related.forEach(({q}) => { const li=make('li'), a=make('a',q.name); a.href=url(q.review); li.append(a,make('p',q.bestFor),saveButton(q.review)); ul.append(li); }); section.append(ul); const main=document.querySelector('main, .wrap'); if(main) main.append(section); }
