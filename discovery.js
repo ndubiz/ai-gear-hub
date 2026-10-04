@@ -72,7 +72,7 @@
       recent = [current,...recent.filter(p => p !== current)].slice(0,12); write(recentKey,recent);
       document.querySelector('h1')?.after(saveButton(current));
     }
-    document.querySelectorAll('article.card, article.product-card, article.feature-card').forEach(card => {
+    document.querySelectorAll('article.card, article.product-card, article.feature-card, article.drop-card').forEach(card => {
       const a = [...card.querySelectorAll('a[href]')].find(a => entries.some(p => url(p.path) === a.href));
       if (a) card.append(saveButton(entries.find(p => url(p.path) === a.href).path));
     });
