@@ -5,9 +5,9 @@
     "contentHash": "24b8cb96391f3706a96c7f60a196a49a9616c4585f8c8522c5a567803fa7d85c"
   },
   "affiliate-links.html": {
-    "date": "2026-09-11",
+    "date": "2026-10-08",
     "label": "Content updated",
-    "contentHash": "2881c37b34f2b06e44d302999bf7a6e76010a820accd7c219a3402905776ed46"
+    "contentHash": "f2f54e8a7bdf3a016dafb62c2568ce637de64b283d2807a629cb873420c874bd"
   },
   "amazon-ai-picks.html": {
     "date": "2026-09-04",
@@ -28,6 +28,11 @@
     "date": "2026-09-01",
     "label": "Page last edited",
     "contentHash": "50787ccf34606bba3a353fce2f761aa512225a79ccafd07804f4c196b3c50b29"
+  },
+  "approved-product-guides.html": {
+    "date": "2026-10-08",
+    "label": "Page last edited",
+    "contentHash": "3dad6b0d145dde915b8d9e66763ff9bb087c396ff2f5f3e04bcfc79102dea1e8"
   },
   "best-ai-tools-content-creators-2026.html": {
     "date": "2026-09-14",
@@ -94,6 +99,11 @@
     "label": "Page last edited",
     "contentHash": "ad80ad438ca410b5b4a4efa0be7540544831096fa232aeb46c654deb3da05d98"
   },
+  "gearhub/index.html": {
+    "date": "2026-09-01",
+    "label": "Page last edited",
+    "contentHash": "d069a436e70c4d1fdb44ded90b1d23962e3fe958898f0e8b6b14d2f47f359af2"
+  },
   "guides.html": {
     "date": "2026-09-08",
     "label": "Page last edited",
@@ -119,6 +129,11 @@
     "label": "Page last edited",
     "contentHash": "57f3541d1e85df99078b950151aae1d2ebab188922007680c135ebc5942fb845"
   },
+  "marketplace/index.html": {
+    "date": "2026-09-01",
+    "label": "Page last edited",
+    "contentHash": "57806dc843bbb936167abd8e357326800ddffb0c405228d256f98bd7ee2cb6f8"
+  },
   "meross-garage-door-opener-review.html": {
     "date": "2026-09-08",
     "label": "Page last edited",
@@ -143,251 +158,6 @@
     "date": "2026-09-14",
     "label": "Content updated",
     "contentHash": "8e8a0d0abc71b5bed5044090bd4c0cb87c9f1977f6e59b2dad2ead4af8490080"
-  },
-  "ray-ban-meta-gen-2-review.html": {
-    "date": "2026-09-14",
-    "label": "Content updated",
-    "contentHash": "68365b6408549d8296d25c2698d0f8a24970ae9d07f00635099b19d4191fc07c"
-  },
-  "reels.html": {
-    "date": "2026-09-15",
-    "label": "Content updated",
-    "contentHash": "8c35471ded2b869d15dde453a80f84575ac434f4034bd3da80797e231ed64150"
-  },
-  "roborock-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "6dcb7c0b673a30c03a3778f4b9eceb5c2e3eaf7c06c8af06bef92c0c33e5bbef"
-  },
-  "search-atlas-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "456acba6960b5e9f8aae4e117a256145dd764a66ead514df41e13ca90eff8930"
-  },
-  "switchbot-ai-art-frame-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "4045c0535b0a191c271f246dcd9c3faa06ddd154330714f01124b724dd8a4129"
-  },
-  "switchbot-ai-hub-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "c6699216af4261c9251480889c7f7ac1ae0066e95dab16dc86731296b0b283dc"
-  },
-  "switchbot-ai-mindclip-review.html": {
-    "date": "2026-09-06",
-    "label": "Content updated",
-    "contentHash": "8f0f5d0c23e0a787b944dcc1e039a62c4b486e53b538f0251a2ef9b60788f0aa"
-  },
-  "switchbot-air-purifier-table-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "61d8888b98c0b365e0d3a8ba698de47bd7f56a090184d3ee64233286daca9072"
-  },
-  "switchbot-battery-circulator-fan-2-pro-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "9f63e333354f670215c0b1d1d427a1ea0fbcdd155cbc8a0c69834d7455d8067a"
-  },
-  "switchbot-blind-tilt-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "f2ba6f0c5290118c699aa35b0687887c564d209792561388d32ee7b5e9c4860e"
-  },
-  "switchbot-bot-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "f408ee6e3f64e495c75b5a00c59bd9486ff91d6c86adbec569a4a32e7fc1fe83"
-  },
-  "switchbot-candle-warmer-lamp-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "ae67c5bf897221e633b7473cf4001e9ac011599b638469c960fe7e9ecf6c0cb8"
-  },
-  "switchbot-curtain-3-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "806952bc696366432faf825a6da9e537fb898f0a46a4b91d7a2c79b41a230cb9"
-  },
-  "switchbot-curtain-3-rod-type-1-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "547d10c3d991e40072051e06ad8a6580ab619bee86b194640f4aea450cfcf4b7"
-  },
-  "switchbot-curtain-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "51e0da0ceb00faf2a89aa46c4a14fbb146aae8922beb7e4b8794f667746f38e5"
-  },
-  "switchbot-evaporative-humidifier-auto-refill-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "a6161dd08cfa6cbb9363b5b3885940d84cf9e729249de664560e35e4c9474d7a"
-  },
-  "switchbot-floor-cleaning-robot-s20-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "f26b82216a226feef7d5a6877e6e16681f1891b005353f8452c58107abf2c4c4"
-  },
-  "switchbot-garage-door-opener-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "5ff238a632c10abdcf42e1f18dfd65215ff24df1133729b65d9ebb920d85c721"
-  },
-  "switchbot-hub-2-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "64962e847679ae60cff358b7949d79b2dc3f0c88f43e84677e394b87f846d03a"
-  },
-  "switchbot-hub-3-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "c6645007cf86d61bb7206411711306c570a1a4cedaa19e30f04f08db8b434f3a"
-  },
-  "switchbot-hub-mini-matter-enabled-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "bbadc340182c72206e7d4c67ec49f802bd7be50bc6e30b1b3170baf0c0222b74"
-  },
-  "switchbot-hub-mini-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "43494b9f95e0d10d0250e11855e9bc9bb52357e8c1421e3b7b69fb9026b76f2a"
-  },
-  "switchbot-hub.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "3b0672c671d7c1cab7e93b0e567a79a70bbd812266e72b8dba4ef7bc85ca7f37"
-  },
-  "switchbot-indoor-outdoor-thermo-hygrometer-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "464324e7c0ab0fa28a96d19d3dd47ea95a2d4bd907cd4ef6a74c070f2796f0f8"
-  },
-  "switchbot-lock-pro-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "6d20eb8fe067b30f3e58a74a1d1b9d705f2caf9db9d9e9afe26417592460be8b"
-  },
-  "switchbot-lock-ultra-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "e656a84291efecd097c805555c5b165fadd1b5cec9de7b76ee8d6cb903230300"
-  },
-  "switchbot-lock-vision-pro-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "f606d907a4ed51f33b5405965e0149c11628822c51f5fadb5b22971b1dd36b62"
-  },
-  "switchbot-lock-vision-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "24135bff9ac11e349ea5db89feb74f04dc8cd8abebe9eb7a1f4cd8c0a28714b6"
-  },
-  "switchbot-meter-pro-co2-monitor-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "070a0e951b707e0febeeb8ae6425946bf549e343fa87df480debb06d7926cc5d"
-  },
-  "switchbot-mini-robot-vacuum-k10-pro-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "fbb9cac2484378e74c411a4c2d4853eb6778b3d2fa921a0dcd312b445b06a309"
-  },
-  "switchbot-multitasking-household-robot-k20-pro-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "1040af1ed94a6bd5d44f066fe1c3876624dc767d0979fecdd488d7f939211ecd"
-  },
-  "switchbot-outdoor-spotlight-cam-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "2aae6431f747489ddacc532e72b44a9d59fc66daaeed0b3fac9f3175de37b081"
-  },
-  "switchbot-pan-tilt-cam-plus-3k-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "13fe6f2faec0ff4445775f22648b2571d404bfaa485f1d950dba9d73e7e4e307"
-  },
-  "switchbot-plug-mini-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "f4f371a128535210b3790e8f1a5a5b9024a1660b5f6e3b89cf12c6281ea062b2"
-  },
-  "switchbot-presence-sensor-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "df281eb27f5efe708f6281a93e4267337afee25ea2ebb920a7238c055ecaa90b"
-  },
-  "switchbot-rgbicww-floor-lamp-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "d8f40b1392465115b007262364b649bd0da9888143c9d0a4250f8f81cfd6ef72"
-  },
-  "switchbot-robot-vacuum-k11-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "dc97a5792691e8bd2c328b6c5a928590834abc13b624dd328e65705549ba01bd"
-  },
-  "switchbot-roller-shade-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "554a5ff1ba6486699f29d1f54a7391ad63a1d02e3b837dd812ec10be7c8c2bb5"
-  },
-  "switchbot-safety-alarm-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "6c61d4394faa238351b97401779b5bcfba954b9ce1d3b5f5f5bb4a1d445125c9"
-  },
-  "switchbot-smart-home-guide.html": {
-    "date": "2026-09-01",
-    "label": "Page last edited",
-    "contentHash": "a74b66ef06f47b35b112e19a01d8eff9d81d5ceb8779a62fa46028c2bcfb8056"
-  },
-  "switchbot-universal-remote-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "97ea16450e76f674daa49c9879e1681de8d1fbff82755534ff8e25b5bba309b0"
-  },
-  "switchbot-video-doorbell-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "58b388ae6eaab97df0a0a08f7034b4bb587631bf64f2fa2d89d594b6ab6a80e3"
-  },
-  "switchbot-wallet-finder-card-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "6f0c8ce5e0b0e6e42e1388dfb384cb31a202e42c5b68031c98ce7e877d15b0be"
-  },
-  "switchbot-water-leak-detector-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "fa50b3681b64e63670135d61dadad92d4e8689b2547dbe5ae751c2285a5ef360"
-  },
-  "switchbot-weather-station-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "c976568500dddc08376476d2e20e03ef7f291c0d56721263ef22858d81f21fce"
-  },
-  "terms.html": {
-    "date": "2026-08-15",
-    "label": "Content updated",
-    "contentHash": "81947c0bb946f1931e95c8bca8ea2eab478a769a662e07f244662658c923fec9"
-  },
-  "translation-earbuds-review.html": {
-    "date": "2026-09-08",
-    "label": "Page last edited",
-    "contentHash": "2cc4cf098ebc1c1da1e311abd6d3e5df448ccd26da03a017c277cf8144253432"
-  },
-  "gearhub/index.html": {
-    "date": "2026-09-01",
-    "label": "Page last edited",
-    "contentHash": "d069a436e70c4d1fdb44ded90b1d23962e3fe958898f0e8b6b14d2f47f359af2"
-  },
-  "marketplace/index.html": {
-    "date": "2026-09-01",
-    "label": "Page last edited",
-    "contentHash": "57806dc843bbb936167abd8e357326800ddffb0c405228d256f98bd7ee2cb6f8"
   },
   "product-guides/amazon-echo-dot-5th-gen.html": {
     "date": "2026-09-14",
@@ -898,5 +668,240 @@
     "date": "2026-09-14",
     "label": "Content updated",
     "contentHash": "da43ecbf72cee076a4bac94cf97b0d9b0794a65e028db4acf51e07172e1fda32"
+  },
+  "ray-ban-meta-gen-2-review.html": {
+    "date": "2026-09-14",
+    "label": "Content updated",
+    "contentHash": "68365b6408549d8296d25c2698d0f8a24970ae9d07f00635099b19d4191fc07c"
+  },
+  "reels.html": {
+    "date": "2026-10-08",
+    "label": "Content updated",
+    "contentHash": "d586a1ff3a0aeaa7ec8180a55fc429b98044c63e362ec703fd1daa54ab7cf71f"
+  },
+  "roborock-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "6dcb7c0b673a30c03a3778f4b9eceb5c2e3eaf7c06c8af06bef92c0c33e5bbef"
+  },
+  "search-atlas-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "456acba6960b5e9f8aae4e117a256145dd764a66ead514df41e13ca90eff8930"
+  },
+  "switchbot-ai-art-frame-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "4045c0535b0a191c271f246dcd9c3faa06ddd154330714f01124b724dd8a4129"
+  },
+  "switchbot-ai-hub-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "c6699216af4261c9251480889c7f7ac1ae0066e95dab16dc86731296b0b283dc"
+  },
+  "switchbot-ai-mindclip-review.html": {
+    "date": "2026-09-06",
+    "label": "Content updated",
+    "contentHash": "8f0f5d0c23e0a787b944dcc1e039a62c4b486e53b538f0251a2ef9b60788f0aa"
+  },
+  "switchbot-air-purifier-table-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "61d8888b98c0b365e0d3a8ba698de47bd7f56a090184d3ee64233286daca9072"
+  },
+  "switchbot-battery-circulator-fan-2-pro-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "9f63e333354f670215c0b1d1d427a1ea0fbcdd155cbc8a0c69834d7455d8067a"
+  },
+  "switchbot-blind-tilt-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "f2ba6f0c5290118c699aa35b0687887c564d209792561388d32ee7b5e9c4860e"
+  },
+  "switchbot-bot-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "f408ee6e3f64e495c75b5a00c59bd9486ff91d6c86adbec569a4a32e7fc1fe83"
+  },
+  "switchbot-candle-warmer-lamp-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "ae67c5bf897221e633b7473cf4001e9ac011599b638469c960fe7e9ecf6c0cb8"
+  },
+  "switchbot-curtain-3-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "806952bc696366432faf825a6da9e537fb898f0a46a4b91d7a2c79b41a230cb9"
+  },
+  "switchbot-curtain-3-rod-type-1-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "547d10c3d991e40072051e06ad8a6580ab619bee86b194640f4aea450cfcf4b7"
+  },
+  "switchbot-curtain-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "51e0da0ceb00faf2a89aa46c4a14fbb146aae8922beb7e4b8794f667746f38e5"
+  },
+  "switchbot-evaporative-humidifier-auto-refill-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "a6161dd08cfa6cbb9363b5b3885940d84cf9e729249de664560e35e4c9474d7a"
+  },
+  "switchbot-floor-cleaning-robot-s20-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "f26b82216a226feef7d5a6877e6e16681f1891b005353f8452c58107abf2c4c4"
+  },
+  "switchbot-garage-door-opener-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "5ff238a632c10abdcf42e1f18dfd65215ff24df1133729b65d9ebb920d85c721"
+  },
+  "switchbot-hub-2-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "64962e847679ae60cff358b7949d79b2dc3f0c88f43e84677e394b87f846d03a"
+  },
+  "switchbot-hub-3-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "c6645007cf86d61bb7206411711306c570a1a4cedaa19e30f04f08db8b434f3a"
+  },
+  "switchbot-hub-mini-matter-enabled-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "bbadc340182c72206e7d4c67ec49f802bd7be50bc6e30b1b3170baf0c0222b74"
+  },
+  "switchbot-hub-mini-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "43494b9f95e0d10d0250e11855e9bc9bb52357e8c1421e3b7b69fb9026b76f2a"
+  },
+  "switchbot-hub.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "3b0672c671d7c1cab7e93b0e567a79a70bbd812266e72b8dba4ef7bc85ca7f37"
+  },
+  "switchbot-indoor-outdoor-thermo-hygrometer-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "464324e7c0ab0fa28a96d19d3dd47ea95a2d4bd907cd4ef6a74c070f2796f0f8"
+  },
+  "switchbot-lock-pro-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "6d20eb8fe067b30f3e58a74a1d1b9d705f2caf9db9d9e9afe26417592460be8b"
+  },
+  "switchbot-lock-ultra-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "e656a84291efecd097c805555c5b165fadd1b5cec9de7b76ee8d6cb903230300"
+  },
+  "switchbot-lock-vision-pro-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "f606d907a4ed51f33b5405965e0149c11628822c51f5fadb5b22971b1dd36b62"
+  },
+  "switchbot-lock-vision-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "24135bff9ac11e349ea5db89feb74f04dc8cd8abebe9eb7a1f4cd8c0a28714b6"
+  },
+  "switchbot-meter-pro-co2-monitor-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "070a0e951b707e0febeeb8ae6425946bf549e343fa87df480debb06d7926cc5d"
+  },
+  "switchbot-mini-robot-vacuum-k10-pro-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "fbb9cac2484378e74c411a4c2d4853eb6778b3d2fa921a0dcd312b445b06a309"
+  },
+  "switchbot-multitasking-household-robot-k20-pro-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "1040af1ed94a6bd5d44f066fe1c3876624dc767d0979fecdd488d7f939211ecd"
+  },
+  "switchbot-outdoor-spotlight-cam-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "2aae6431f747489ddacc532e72b44a9d59fc66daaeed0b3fac9f3175de37b081"
+  },
+  "switchbot-pan-tilt-cam-plus-3k-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "13fe6f2faec0ff4445775f22648b2571d404bfaa485f1d950dba9d73e7e4e307"
+  },
+  "switchbot-plug-mini-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "f4f371a128535210b3790e8f1a5a5b9024a1660b5f6e3b89cf12c6281ea062b2"
+  },
+  "switchbot-presence-sensor-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "df281eb27f5efe708f6281a93e4267337afee25ea2ebb920a7238c055ecaa90b"
+  },
+  "switchbot-rgbicww-floor-lamp-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "d8f40b1392465115b007262364b649bd0da9888143c9d0a4250f8f81cfd6ef72"
+  },
+  "switchbot-robot-vacuum-k11-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "dc97a5792691e8bd2c328b6c5a928590834abc13b624dd328e65705549ba01bd"
+  },
+  "switchbot-roller-shade-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "554a5ff1ba6486699f29d1f54a7391ad63a1d02e3b837dd812ec10be7c8c2bb5"
+  },
+  "switchbot-safety-alarm-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "6c61d4394faa238351b97401779b5bcfba954b9ce1d3b5f5f5bb4a1d445125c9"
+  },
+  "switchbot-smart-home-guide.html": {
+    "date": "2026-09-01",
+    "label": "Page last edited",
+    "contentHash": "a74b66ef06f47b35b112e19a01d8eff9d81d5ceb8779a62fa46028c2bcfb8056"
+  },
+  "switchbot-universal-remote-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "97ea16450e76f674daa49c9879e1681de8d1fbff82755534ff8e25b5bba309b0"
+  },
+  "switchbot-video-doorbell-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "58b388ae6eaab97df0a0a08f7034b4bb587631bf64f2fa2d89d594b6ab6a80e3"
+  },
+  "switchbot-wallet-finder-card-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "6f0c8ce5e0b0e6e42e1388dfb384cb31a202e42c5b68031c98ce7e877d15b0be"
+  },
+  "switchbot-water-leak-detector-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "fa50b3681b64e63670135d61dadad92d4e8689b2547dbe5ae751c2285a5ef360"
+  },
+  "switchbot-weather-station-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "c976568500dddc08376476d2e20e03ef7f291c0d56721263ef22858d81f21fce"
+  },
+  "terms.html": {
+    "date": "2026-08-15",
+    "label": "Content updated",
+    "contentHash": "81947c0bb946f1931e95c8bca8ea2eab478a769a662e07f244662658c923fec9"
+  },
+  "translation-earbuds-review.html": {
+    "date": "2026-09-08",
+    "label": "Page last edited",
+    "contentHash": "2cc4cf098ebc1c1da1e311abd6d3e5df448ccd26da03a017c277cf8144253432"
   }
 }
