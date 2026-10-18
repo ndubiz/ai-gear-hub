@@ -12,9 +12,9 @@ permissions:
 
 jobs:
   verify-source-links:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Verify required site files
         shell: bash
         run: |
@@ -55,7 +55,7 @@ jobs:
   verify-live-pages:
     # Pages deployment is asynchronous; scheduled/manual runs check the live site.
     if: github.event_name != 'push'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Check published GitHub Pages URLs
         shell: bash
